@@ -611,7 +611,7 @@ nav.navbar.bg-body-tertiary.fixed-top {
 /* Default navbar styles */
 .navbar {
     transition: all 0.3s ease-in-out;
-    background-color: transparent;
+    background-color: transparent !important;
     /* Default background color */
     padding: 20px 30px;
     box-shadow: none;
@@ -651,12 +651,7 @@ a.dropdown-item:hover {
 }
 
 a.navbar-brand img {
-    width: 8%;
-    display: table;
-    margin: 0 auto 0px;
-    background: #fff;
-    border-radius: 0px 0px 20px 20px;
-    filter: drop-shadow(-2px 3px 12px #050cd6);
+    width: 25%;
 }
 a.navbar-brand {
     width: 100%;
