@@ -3105,6 +3105,7 @@ a.typewrite span {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    top: -120px;
 }
 
 #services-banner::before {
