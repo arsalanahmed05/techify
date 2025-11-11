@@ -2,13 +2,11 @@
     <div class="container">
         <div id="main-row" class="row">
             <div id="top-row" class="row">
-                <div class="col-sm-4">
+                <div class="col-md-6">
+                    <a href="#"><img src="/assets/images/techifys-logo-web-development-agency.png" alt=""></a>
                     <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
                 </div>
-                <div class="col-sm-4">
-                    <a href="#"><img src="/assets/images/Feminize-digital.png" alt=""></a>
-                </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <ul class="socials-menu">
                         <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -100,18 +98,17 @@
                                 Rd</a>
                         </li>
                         <li class="contact-item">
-                            <a href="#"><i class="fa-solid fa-headset"></i>+ 123 456
-                                7890</a>
+                            <a href="tel:+12014830259"><i class="fa-solid fa-headset"></i>+1 201-483-0259</a>
                         </li>
                         <li class="contact-item">
-                            <a href="#"><i class="fa-solid fa-envelope-open-text"></i>info@feminizedigitals.com</a>
+                            <a href="mailto:info@techifys.com"><i class="fa-solid fa-envelope-open-text"></i>info@techifys.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div id="bottom-row" class="row">
                 <div class="copright text-center">
-                    <p><i class="fa-regular fa-copyright"></i> Copyrights 2025 <strong>Feminize Digitals </strong> All
+                    <p><i class="fa-regular fa-copyright"></i> Copyrights 2025 <strong>Techifys </strong> All
                         Rights Reserved.</p>
                 </div>
             </div>
@@ -1022,7 +1019,7 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #111}";
     document.body.appendChild(css);
 };
 </script>

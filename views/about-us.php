@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Welcome Feminize Digital</h6>
+                    <h6 class="sub-heading">Welcome Techifys Digital</h6>
                     <h1>Generation <br><ruby>Digital Agency</ruby></h1>
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
                     <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
@@ -298,7 +298,7 @@
                     <div class="text-wrapper">
                         <h6 class="sub-heading">about</h6>
                         <h2><ruby>Optimize</ruby> Performance <br>& <ruby>Drive</ruby> Traffic</h2>
-                        <p>At Feminize Digitals, we empower businesses to thrive in the digital landscape with innovative and result-driven solutions. As a full-service digital agency, we specialize in web development, SEO, content creation, social media management, and everything in between.</p>
+                        <p>At Techifys, we empower businesses to thrive in the digital landscape with innovative and result-driven solutions. As a full-service digital agency, we specialize in web development, SEO, content creation, social media management, and everything in between.</p>
                         <p>Our mission is to craft impactful digital experiences that help brands stand out, grow, and connect with their audiences meaningfully. We believe in blending creativity, strategy, and technology to transform ideas into reality.</p>
                     </div>
                     <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>

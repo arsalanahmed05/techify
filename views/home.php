@@ -1881,7 +1881,7 @@
                     <div class="col-md-6">
                         <div class="text-wrapper">
                             <h2><ruby>Empowering Brands</ruby> with Impactful <ruby>Design</ruby></h2>
-                            <p>At Feminize Digitals, we believe that every brand deserves a digital identity that tells
+                            <p>At Techifys, we believe that every brand deserves a digital identity that tells
                                 its story. We don’t just design websites—we empower businesses to thrive online. By
                                 combining creativity, strategy, and technology, we create web experiences that not only
                                 look stunning but also drive engagement and growth.</p>

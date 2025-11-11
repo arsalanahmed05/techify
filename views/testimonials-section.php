@@ -24,7 +24,7 @@
                             <i class="fa-solid fa-star"></i>
                         </li>
                     </ul>
-                    <p>"The team at Feminize Digitals transformed our online presence. From the website redesign to the
+                    <p>"The team at Techifys transformed our online presence. From the website redesign to the
                         marketing strategy, they delivered results beyond our expectations. Our traffic and conversions
                         have never been better!"
                     </p>
@@ -50,7 +50,7 @@
                             <i class="fa-solid fa-star"></i>
                         </li>
                     </ul>
-                    <p>"Working with Feminize Digitals was a game-changer. Their creative and strategic approach helped
+                    <p>"Working with Techifys was a game-changer. Their creative and strategic approach helped
                         us reach new customers and increase our sales. Their attention to detail is unmatched!"
                     </p>
                     <h4><ruby>Sarah Smith</ruby></h4>
@@ -75,7 +75,7 @@
                             <i class="fa-solid fa-star"></i>
                         </li>
                     </ul>
-                    <p>"The expertise and support provided by Feminize Digitals exceeded all expectations. They took the
+                    <p>"The expertise and support provided by Techifys exceeded all expectations. They took the
                         time to understand our business, and their tailored marketing strategies drove measurable
                         growth."
                     </p>
@@ -101,7 +101,7 @@
                             <i class="fa-solid fa-star"></i>
                         </li>
                     </ul>
-                    <p>"We've seen a significant boost in our online engagement thanks to Feminize Digitals' innovative
+                    <p>"We've seen a significant boost in our online engagement thanks to Techifys' innovative
                         digital campaigns. Their team is not only skilled but also incredibly responsive and easy to
                         work with!"
                     </p>
@@ -127,7 +127,7 @@
                             <i class="fa-solid fa-star"></i>
                         </li>
                     </ul>
-                    <p>"I couldn't be happier with the results! Feminize Digitals took our website to the next level and
+                    <p>"I couldn't be happier with the results! Techifys took our website to the next level and
                         implemented marketing tactics that brought in quality leads. Truly a partner you can trust for
                         your digital success."
                     </p>

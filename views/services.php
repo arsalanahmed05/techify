@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Welcome Feminize Digital</h6>
+                    <h6 class="sub-heading">Welcome Techifys Digital</h6>
                     <h1>Generation <br><ruby>Digital Agency</ruby></h1>
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
                     <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
