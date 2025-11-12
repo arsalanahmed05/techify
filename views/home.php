@@ -19,8 +19,8 @@
                     <div id="slide-item-row" class="row">
                         <div class="col-lg-12">
                             <div class="text-wrapper text-center">
-                                <h6 class="sub-heading">Redefine Success</h6>
-                                <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
+                                <h6 class="sub-heading">evalute Business Websites</h6>
+                                <h1>create your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
                                 <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
