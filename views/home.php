@@ -10,29 +10,23 @@
 
 
     <section id="services-banner">
-        <video autoplay loop muted playsinline id="services-video">
-            <source src="/assets/images/service-banner-bg.mp4" type="video/mp4">
-        </video>
+        <div class="hero-with-particles">
+            <div id="particles-js"></div>
+        </div>
         <div class="container">
             <div class="service-banner-slider">
                 <div class="slide-item">
                     <div id="slide-item-row" class="row">
-                        <div class="col-lg-6">
-                            <div class="text-wrapper">
+                        <div class="col-lg-12">
+                            <div class="text-wrapper text-center">
                                 <h6 class="sub-heading">Redefine Success</h6>
                                 <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
                                 <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                                         quote</button></a>
-                                <a href="tel:+123456789"><button class="quote-btn bton"><i
-                                            class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="img-bg">
-                                <img src="/assets/images/home-idea4.webp" alt="" class="img-fluid">
-
+                                <a href="tel:+12014830259"><button class="quote-btn bton"><i
+                                            class="fa-solid fa-phone"></i>+(201)-483-0259</button></a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +205,7 @@
                 <div class="col-md-5 left-section">
                     <div class="left-sec-content-wrapper">
                         <h5><span>Our Steps</span></h5>
-                        <h2>Unlock <ruby>Growth</ruby> with<br> Expert <ruby>Digital Solutions</ruby>
+                        <h2>Unlock <ruby>Growth</ruby> with Expert <ruby>Digital Solutions</ruby>
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and improve customer engagement.</p>
                         <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View
@@ -224,7 +218,7 @@
                         <div class="col-lg-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps1.png" alt=""> 
+                                    <img class="img-fluid top" src="/assets/images/ps1.png" alt="">
                                     <h3><ruby>content </ruby><br>writing</h3>
                                     <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
                                     <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>
