@@ -947,14 +947,15 @@ OTENZA.goToTop();
 </script>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 <script>
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 90,
+      "value": 140,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 900
       }
     },
     "color": { "value": "#ffffff" },
@@ -963,23 +964,23 @@ particlesJS("particles-js", {
       "stroke": { "width": 0, "color": "#000000" }
     },
     "opacity": {
-      "value": 0.4,
+      "value": 0.6,
       "random": false
     },
     "size": {
-      "value": 3,
+      "value": 3.5,
       "random": true
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 160,
       "color": "#ffffff",
-      "opacity": 0.2,
+      "opacity": 0.25,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 2.2,
+      "speed": 1.6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -995,13 +996,14 @@ particlesJS("particles-js", {
       "resize": true
     },
     "modes": {
-      "grab": { "distance": 150, "line_linked": { "opacity": 0.4 } },
+      "grab": { "distance": 140, "line_linked": { "opacity": 0.4 } },
       "push": { "particles_nb": 4 }
     }
   },
   "retina_detect": true
 });
 </script>
+
 
 
 

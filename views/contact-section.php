@@ -4,12 +4,12 @@
             <h2>Contact Us</h2>
         </div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-5">
                 <div class="img-bg">
                     <img src="/assets/images/contact-us-left-col.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-7">
                 <div class="form">
                     <div class="text-warpper">
                         <h2>Book an  <span>Appointment</span></h2>

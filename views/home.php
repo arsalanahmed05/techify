@@ -3,6 +3,7 @@
 
 
 <body>
+    <div id="particles-js"></div>
 
     <div id="cursor">
         <div class="cursor__circle"></div>
@@ -10,9 +11,7 @@
 
 
     <section id="services-banner">
-        <div class="hero-with-particles">
-            <div id="particles-js"></div>
-        </div>
+
         <div class="container">
             <div class="service-banner-slider">
                 <div class="slide-item">

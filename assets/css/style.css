@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 html body {
-    color: #111;
-    background-color: #fff;
-
+    color: #fff !important;
+    background:#000 !important;
 }
 
+p {
+    color: #fff !important;
+}
 header#top {
     z-index: 99999999;
     position: relative;
@@ -30,7 +32,7 @@ h4,
 h5,
 h6 {
     font-family: "Orbitron" !important;
-    color: #111;
+    color: #fff !important;
     text-transform: capitalize;
     font-weight: bold !important;
 
@@ -63,7 +65,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, transparent, #3B9797, #087373, transparent);
+    background: linear-gradient(180deg, transparent, 1DCD9F, 169976, transparent);
     /* outline: 1px solid #ff910a;  */
 }
 
@@ -144,7 +146,7 @@ h6 span {
 .bton::before {
     content: "";
     position: absolute;
-    background: linear-gradient(45deg, #3B9797, #025151);
+    background: linear-gradient(45deg, 1DCD9F, #025151);
     width: 0%;
     height: 100%;
     left: 0;
@@ -166,8 +168,8 @@ ul.star-list {
 .bton i {
     font-size: 22px;
     transition: 0.5s;
-    background: #111;
-    color: #fff;
+    background: #fff;
+    color: #000;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -187,8 +189,8 @@ ul.footer-menu.service {
 
 .bton {
     background: transparent;
-    border: 2px solid #111;
-    color: #111;
+    border: 2px solid #fff;
+    color: #fff;
     padding: 10px 30px 10px 70px;
     font-size: 20px;
     text-transform: capitalize;
@@ -371,9 +373,9 @@ ul.footer-menu.service {
 .cursor__circle {
     width: 20px;
     height: 20px;
-    background-color: #3B9797;
+    background-color: 1DCD9F;
     border-radius: 50%;
-    box-shadow: 0 0 20px #3B9797;
+    box-shadow: 0 0 20px 1DCD9F;
     transform: scale(1);
     transition: transform 0.1s ease, box-shadow 0.2s ease;
 }
@@ -390,9 +392,9 @@ ul.footer-menu.service {
         margin-top: -50%;
         margin-left: -50%;
         border-radius: 50%;
-        border: 1px solid #3B9797;
+        border: 1px solid 1DCD9F;
         transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), width 0.3s cubic-bezier(0.25, 1, 0.5, 1), height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-        box-shadow: 0px 0px 5px 2px #3B9797;
+        box-shadow: 0px 0px 5px 2px 1DCD9F;
     }
 
     /* Cursor Text */
@@ -547,7 +549,7 @@ nav.navbar.bg-body-tertiary.fixed-top {
 
 /* When navbar gets the 'scrolled' class */
 .navbar.scrolled {
-    background-color: #3B9797;
+    background-color: 1DCD9F;
     /* New background after scrolling */
     padding: 10px 20px;
     /* Adjusted padding */
@@ -612,12 +614,12 @@ div#navbarNav {
     border-radius: 32px;
 }
 #particles-js {
-  position: absolute;
-  inset: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
-  pointer-events: none;
+  z-index: -1; /* taa ke content upar rahe */
 }
 /* #services-banner .hero-with-particles #particles-js {
  position: absolute;
@@ -690,7 +692,7 @@ span.navbar-toggler-icon {
 #banner-text h1 {
     font-size: 150px !important;
     line-height: 160px !important;
-    -webkit-text-stroke: 4px #111;
+    -webkit-text-stroke: 4px #fff;
     text-align: center;
 
 }
@@ -710,7 +712,7 @@ span.navbar-toggler-icon {
 
     25% {
         transform: rotate(90deg);
-        box-shadow: 10px 10px 20px 5px #3B9797;
+        box-shadow: 10px 10px 20px 5px 1DCD9F;
     }
 
     50% {
@@ -720,7 +722,7 @@ span.navbar-toggler-icon {
 
     75% {
         transform: rotate(270deg);
-        box-shadow: -10px -10px 20px 5px #3B9797;
+        box-shadow: -10px -10px 20px 5px 1DCD9F;
     }
 
     100% {
@@ -750,7 +752,7 @@ span.navbar-toggler-icon {
 /* #banner-text::after {
     content: "";
     position: absolute;
-    background: radial-gradient(#3B9797 -20%, #010204 70%);
+    background: radial-gradient(1DCD9F -20%, #010204 70%);
     width: 1950px;
     height: 1000px;
     right: -1460px;
@@ -785,7 +787,7 @@ span.navbar-toggler-icon {
 
 #about-us .row {
     align-items: center;
-    background: linear-gradient(45deg, #33ada1, #165d5d);
+    background: #08322e3d;
     padding: 50px 40px;
     margin: 0px 10px;
     border-radius: 24px;
@@ -793,8 +795,8 @@ span.navbar-toggler-icon {
 
 #about-us #inner-row-bottom {
     margin-top: 30px;
-    background: #fff;
-    color: #111;
+    background: #000;
+    color: #fff;
 }
 
 #about-us #inner-row-bottom .count {
@@ -955,7 +957,7 @@ span.navbar-toggler-icon {
     justify-content: center;
     transition: all 0.7s ease-in-out;
     opacity: 0;
-    background-color: #3B979760;
+    background-color: 1DCD9F60;
 } */
 
 .portfolio-box ul li .portfolio-item .hover-effect a {
@@ -990,7 +992,7 @@ span.navbar-toggler-icon {
     transition: all 0.7s ease-in-out;
     width: 100%;
     object-fit: cover;
-    height: 300px;
+    height: 220px;
 }
 
 .portfolio-box ul li.slick-slide video {
@@ -1035,7 +1037,7 @@ span.navbar-toggler-icon {
 #category-plan .tabcontent.active::before {
     content: "";
     position: absolute;
-    /* background: linear-gradient(365deg, #3B9797 20%, transparent 70%); */
+    /* background: linear-gradient(365deg, 1DCD9F 20%, transparent 70%); */
     background: #111;
     width: 70%;
     height: 550px;
@@ -1216,7 +1218,7 @@ span.navbar-toggler-icon {
 }
 
 .process-item i {
-    color: #3B9797;
+    color: 1DCD9F;
     background: #111;
     width: 60px;
     height: 60px;
@@ -1340,7 +1342,7 @@ span.navbar-toggler-icon {
 
 @keyframes Shadow-drop {
     0% {
-        filter: drop-shadow(0px 10px 40px #3B9797);
+        filter: drop-shadow(0px 10px 40px 1DCD9F);
     }
 
     50% {
@@ -1348,7 +1350,7 @@ span.navbar-toggler-icon {
     }
 
     100% {
-        filter: drop-shadow(0px 10px 40px #3B9797);
+        filter: drop-shadow(0px 10px 40px 1DCD9F);
     }
 }
 
@@ -1518,7 +1520,7 @@ span.navbar-toggler-icon {
     height: 90px;
     outline: 0 !important;
     margin: 15px 0 0;
-    resize: none
+    resize: none;
 }
 
 .btns_wrap i {
@@ -1533,7 +1535,7 @@ span.navbar-toggler-icon {
     border-radius: 3px 0 0 3px;
     box-shadow: 0 0 40px #00000026 !important;
     z-index: 9999;
-    background: #3B9797;
+    background: 1DCD9F !important;
     overflow: hidden;
     height: 50px;
     align-items: center;
@@ -1630,10 +1632,11 @@ span.navbar-toggler-icon {
     padding: 30px;
     margin: 30px 20px 50px 0px;
     border-radius: 12px !important;
-    background: linear-gradient(45deg, #3B9797 -100%, transparent 40%);
+    background: linear-gradient(45deg, 1DCD9F -100%, transparent 40%) !important;
     overflow: hidden;
     transition: 0.4s;
     z-index: 1 !important;
+    background-color: 169976;
 }
 
 /* Animated Border */
@@ -1646,22 +1649,20 @@ span.navbar-toggler-icon {
     /* Matches border radius */
     padding: 3px;
     /* Border thickness */
-    background: conic-gradient(from 0deg,
-            #111 0%,
-            #111 50%);
+    background: #000;
     z-index: -1;
     animation: rotate-border 4s linear infinite;
     transition: 0.5s;
 }
 
 .process-item:hover:before {
-    display: none;
+    animation-play-state: paused !important;
 }
 
 .process-item::after {
     content: "";
     position: absolute;
-    background: linear-gradient(45deg, #BADFDB, #3B9797);
+    background: linear-gradient(45deg, #BADFDB, 1DCD9F);
     width: 99%;
     height: 99%;
     top: 2px;
@@ -1696,8 +1697,9 @@ span.navbar-toggler-icon {
 }
 
 .process-item:hover {
-    background: #111;
+    background: #169976;
     transform: scale(1.02);
+    color: #000 !important;
 }
 
 .process-item img {
@@ -1718,7 +1720,7 @@ span.navbar-toggler-icon {
     border-radius: 12px;
     padding: 40px 40px;
     margin: 10px 20px;
-    background: linear-gradient(160deg, #111 -20%, #3B9797 80%);
+    background: linear-gradient(160deg, #111 -20%, 1DCD9F 80%);
     position: relative;
     overflow: hidden;
 }
@@ -1803,7 +1805,7 @@ span.navbar-toggler-icon {
 
 
 button.accordion-button {
-    background: #111 !important;
+    background: #000 !important;
     position: relative;
 }
 
@@ -1814,7 +1816,7 @@ button.accordion-button h4 {
 }
 
 .accordion-body {
-    background: linear-gradient(90deg, #111 -20%, #3B9797 80%);
+    background: linear-gradient(90deg, #111 -20%, 1DCD9F 80%);
     color: #111 !important;
 }
 
@@ -1822,11 +1824,10 @@ button.accordion-button h4 {
     color: #111 !important;
 }
 
-button.accordion-button,
-.accordion-body,
-.accordian {
+button.accordion-button, .accordion-body, .accordian {
     box-shadow: unset !important;
     border: unset !important;
+    background: #000;
 }
 
 #faqs .section-title {
@@ -1849,7 +1850,7 @@ button.accordion-button,
     font-weight: 900;
     /* Make sure the solid icons are used */
     font-size: 20px;
-    color: #111;
+    color: #fff;
     /* Change this to your desired color */
     right: 20px;
     top: 10px;
@@ -1863,7 +1864,7 @@ button.accordion-button,
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900;
     font-size: 20px;
-    color: #111;
+    color: #fff;
     /* Change this to your desired color */
     right: 20px;
     top: 10px;
@@ -1875,12 +1876,12 @@ button.accordion-button,
 }
 
 /* .accordion-item {
-    background: linear-gradient(90deg, #111 -20%, #3B9797 80%) !important;
+    background: linear-gradient(90deg, #111 -20%, 1DCD9F 80%) !important;
 } */
 
 .accordion-button:not(.collapsed) {
-    background: linear-gradient(90deg, #111 -20%, #3B9797 80%) !important;
-    color: #111;
+    background: #169976 !important;
+    color: #000;
 }
 
 #faqs {
@@ -1889,7 +1890,7 @@ button.accordion-button,
 }
 
 #faqs .row {
-    background: linear-gradient(160deg, #111 -20%, #3B9797 80%);
+    background: linear-gradient(160deg, #111 -20%, 1DCD9F 80%);
     padding: 20px 40px;
     margin: 0px 40px;
     position: relative;
@@ -1902,7 +1903,7 @@ button.accordion-button,
 #faqs .row::before {
     content: "";
     position: absolute;
-    background: linear-gradient(45deg, #3B9797, #fdc33c);
+    background: linear-gradient(45deg, 1DCD9F, #fdc33c);
     width: 600px;
     height: 600px;
     border-radius: 56% 44% 23% 77% / 59% 50% 50% 41%;
@@ -2002,7 +2003,7 @@ div#loom-companion-mv3 {
 }
 
 #pricing-plan .plan-item {
-    background: linear-gradient(160deg, #111 40%, #3B9797 100%);
+    background: linear-gradient(160deg, #111 40%, 1DCD9F 100%);
     margin: 0px 15px 20px;
     text-align: center;
     padding: 30px 20px 50px;
@@ -2114,9 +2115,9 @@ div#loom-companion-mv3 {
 }
 
 #pricing-plan .plan-item a {
-    color: #3B9797;
+    color: 1DCD9F;
     background: transparent;
-    border: 2px solid #3B9797;
+    border: 2px solid 1DCD9F;
     font-size: 18px;
     font-weight: 600;
     padding: 12px 24px;
@@ -2189,12 +2190,6 @@ div#loom-companion-mv3 {
     padding: 80px 0;
 }
 
-#contact .form {
-    background: #111;
-    padding: 70px 50px 20px;
-    border-radius: 24px;
-}
-
 #contact .contact-item.d-flex:hover a {
     color: #f24b04 !important;
 }
@@ -2263,29 +2258,25 @@ div#loom-companion-mv3 {
     padding: 50px;
     margin-top: 20px;
     border-radius: 64px;
-    background: #fff;
-    box-shadow: inset 0px 0px 40px #6e6666d6;
+    background: 1DCD9F17;
 }
 
-#contact input,
-#contact select,
-#contact textarea,
-#contact button {
+#contact input, #contact select, #contact textarea, #contact button {
     font-size: 16px;
     padding: 14px 20px;
     width: 100%;
     box-sizing: border-box;
-    background: #ccc;
+    background: #38919108;
     margin-top: 9px;
-    border: 2px solid #726c6c;
-    color: #111;
+    border: 2px solid #ffffff;
+    color: #fff !important;
     border-radius: 16px;
 }
 
 #contact input::placeholder,
 #contact textarea::placeholder,
 #contact select:required {
-    color: #4e4b4b;
+    color: #fff;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -2297,9 +2288,9 @@ div#loom-companion-mv3 {
 
 #contact a.bton.quote-button {
     background: transparent;
-    color: #000 !important;
+    color: #fff !important;
     text-transform: capitalize;
-    border: 2px solid #111;
+    border: 2px solid #fff;
     border-radius: 34px;
     padding: 12px 60px;
     font-size: 18px;
@@ -2315,7 +2306,7 @@ div#loom-companion-mv3 {
 }
 
 #contact .row {
-    background: linear-gradient(45deg, #033a3a, #3B9797);
+    background: transparent;
     padding: 40px 0px 40px;
 }
 
@@ -2354,7 +2345,6 @@ textarea::placeholder {
 footer.footer-section {
     padding: 60px 0 10px;
     position: relative;
-    background: linear-gradient(45deg, #000, #111);
     color: #fff;
 }
 
@@ -2627,7 +2617,7 @@ div#inner-row {
     border: 2px solid #111f;
     margin-top: 30px;
     padding: 30px 24px 10px 24px;
-    background: linear-gradient(45deg, #3B9797, transparent);
+    background: linear-gradient(45deg, 1DCD9F, transparent);
 }
 
 .m-v-main {
@@ -2695,7 +2685,7 @@ img.animateee-center {
     border-radius: 140px;
     margin: 20px 40px;
     text-align: center;
-    border: 4px solid #3B9797;
+    border: 4px solid 1DCD9F;
 }
 
 #steps .step-down {
@@ -2703,7 +2693,7 @@ img.animateee-center {
 }
 
 #steps {
-    background: linear-gradient(45deg, #3B9797, #111 240%);
+    background: linear-gradient(45deg, 1DCD9F, #111 240%);
     color: #111;
     padding: 80px 0 220px;
     position: relative;
@@ -2919,7 +2909,7 @@ img.animateee-center {
 a.typewrite span {
     -webkit-text-fill-color: #6c6c6c00;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #3B9797;
+    -webkit-text-stroke-color: 1DCD9F;
     text-transform: uppercase;
 }
 
@@ -2965,7 +2955,6 @@ a.typewrite span {
     overflow: hidden;
     z-index: 1;
     top: -120px;
-    background: linear-gradient(45deg, #111, #000);
 }
 
 section.howwedoit {
@@ -3161,7 +3150,7 @@ video#services-video {
 
 #trusted-sections {
     padding: 100px 0;
-    background: linear-gradient(45deg, #3B9797, #3B9797);
+    background: linear-gradient(45deg, 1DCD9F, 1DCD9F);
 }
 
 #trusted-sections img {
@@ -3195,7 +3184,7 @@ video#services-video {
     display: flex;
     gap: 30px;
     align-items: center;
-    background: #3B9797;
+    background: 1DCD9F;
     padding: 20px 20px;
     margin: 20px 10px;
     border-radius: 24px;
@@ -3290,7 +3279,7 @@ video#services-video {
     padding: 20px 20px;
     margin: 20px 40px;
     border-radius: 24px;
-    background: linear-gradient(45deg, #3B9797, #050cd5);
+    background: linear-gradient(45deg, 1DCD9F, #050cd5);
     color: #111;
     transition: 0.5s;
     position: relative;
@@ -3381,14 +3370,14 @@ video#services-video {
 .brand-goal:hover {
     opacity: 1;
     transform: scale(1.05);
-    background: #3B9797;
+    background: 1DCD9F;
 }
 
 .brand-goal {
     border-radius: 24px;
     transition: transform 0.6s;
     user-select: none;
-    border: 2px dashed #111;
+    border: 2px solid 1DCD9F2e;
     padding: 20px 20px;
     margin: 30px 0px;
     background: transparent;
@@ -3411,7 +3400,7 @@ video#services-video {
 
 .section-note {
     padding: 20px 30px;
-    border: 2px dashed #3B9797;
+    border: 2px dashed 1DCD9F;
     border-radius: 24px;
 }
 
@@ -3422,8 +3411,8 @@ video#services-video {
 
 .portfolio-section .tab button.tablinks {
     background: transparent;
-    color: #111;
-    border: 2px solid #111;
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 24px;
     font-size: 20px;
     margin: 0px 10px;
@@ -3435,13 +3424,14 @@ video#services-video {
 }
 
 .portfolio-section .tablinks.active {
-    background: linear-gradient(45deg, #056969, #3B9797) !important;
+    background: #169976 !important;
     color: #fff !important;
 }
 
 .portfolio-section .tab button.tablinks:hover {
-    background: linear-gradient(45deg, #056969, #3B9797) !important;
+    background: #169976;
     color: #fff;
+    border-color: #169976;
 }
 
 .testimonials-slider {
@@ -3458,7 +3448,7 @@ video#services-video {
     width: 40px;
     border-radius: 50px;
     height: 40px;
-    background: #3B9797;
+    background: 1DCD9F;
 }
 
 @keyframes bounce-left {
@@ -3516,7 +3506,7 @@ video#services-video {
 }
 
 #portfolio-herobanner .row {
-    background: linear-gradient(45deg, #3B9797, #3B9797);
+    background: linear-gradient(45deg, 1DCD9F, 1DCD9F);
     padding: 00px 40px;
     border-radius: 40px;
     position: relative;
@@ -3542,7 +3532,7 @@ video#services-video {
     left: -200px;
     top: 10px;
     z-index: -1;
-    border: 20px solid #3B9797;
+    border: 20px solid 1DCD9F;
 }
 
 
