@@ -639,7 +639,7 @@ div#navbarNav {
 
 #top nav ul li a.nav-link:hover,
 #top nav ul li a.nav-link.active {
-    color: #050cd5;
+    color: #33ada1;
 
 }
 
@@ -648,12 +648,14 @@ div#navbarNav {
 }
 
 ul.dropdown-menu.show {
-    background: #050cd5;
+    background: #33ada1;
     color: #111;
     transition: 0.5s;
 }
 
-
+span.navbar-toggler-icon {
+    filter: brightness(8);
+}
 
 /* home-banner css */
 
@@ -2253,7 +2255,10 @@ div#loom-companion-mv3 {
     gap: 10px;
     margin-bottom: 15px;
 }
-
+.offcanvas {
+  background-color: #000 !important;
+  color: #fff; /* optional – text white */
+}
 #contact .form {
     padding: 50px;
     margin-top: 20px;
@@ -2463,8 +2468,6 @@ footer.footer-section .footer-left-menu li a i {
 .footer-section .footer-left-menu li a:hover {
     color: #025151 !important;
 }
-
-
 
 
 
@@ -3807,6 +3810,26 @@ video#services-video {
 
 }
 
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute !important;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: #000 !important; /* optional – black background */
+    z-index: 999;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-collapse.show {
+    display: block !important;
+  }
+}
+
+
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 1240px) {}
 
@@ -3816,25 +3839,44 @@ video#services-video {
         font-size: 70px !important;
         line-height: 80px !important;
     }
-
-    a.navbar-brand img {
-        width: 16%;
-    }
+    div#navbarNav {
+    padding: 10px 0px 10px 40px !important;
+}
+    #top nav ul li a.nav-link {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    margin-right: 20px !important;
+}
+a.navbar-brand img {
+    width: 35% !important;
+}
+div#navbarNav {
+    padding: 10px 0px 10px 30px !important;
+}
 
     #about-us-section img {
         width: 50%;
     }
 
     h2 {
-        font-size: 36px !important;
-        line-height: 46px !important;
+        font-size: 32px !important;
+        line-height: 42px !important;
     }
-
+    h4 {
+        font-size: 22px !important;
+        line-height: 32px !important;
+    }
     #about-points .col-sm-4 img {
         width: 10%;
         margin-right: 0;
     }
-
+    #contact .section-title {
+    text-align: center;
+}
+    #contact .form {
+        padding: 40px 30px 10px;
+        margin: 0px 90px;
+    }
     #steps {
         padding: 80px 0 170px;
     }
@@ -3876,8 +3918,8 @@ video#services-video {
     }
 
     .count {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .solutions-content-main h3 {
@@ -3926,12 +3968,12 @@ video#services-video {
     }
 
     #services-banner {
-        padding: 160px 0px 0px;
+        padding: 160px 0px 80px;
     }
 
     #services-banner .text-wrapper h1 {
-        font-size: 44px !important;
-        line-height: 56px !important;
+        font-size: 36px !important;
+        line-height: 46px !important;
     }
 
     #services-banner .text-wrapper h1 br {
@@ -3996,12 +4038,9 @@ video#services-video {
         position: relative !important;
         top: unset;
     }
-
     .milestone h4 {
-        color: #111;
-        font-size: 28px !important;
-        line-height: 35px !important;
-        margin: 0;
+        font-size: 22px !important;
+        line-height: 32px !important;
     }
 
     #about-us .right-img img {
@@ -4048,13 +4087,14 @@ video#services-video {
     }
 
     .howwedoit .arrow-bg-clip {
-        height: 12.208vw;
+        height: 8.208vw;
+        width: 80%;
     }
 
-    .howwedoit img {
-        width: 39%;
+       .howwedoit img {
+        width: 30%;
         object-fit: contain;
-        height: 200px;
+        height: 160px;
     }
 
     #contact .section-title h2 {
@@ -4317,23 +4357,45 @@ video#services-video {
 
 }
 
+
+
 /*-----------------------------------------------------------------------------------------------------*/
-@media (max-width: 480px) {
+@media (max-width: 580px) {
 
     .col-lg-6,
     .col-md-6,
     .col-md-5,
     .col-sm-4 {
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
         margin-bottom: 20px;
     }
-
+    #quality-section .col-md-6 {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+}
+        .process-item p {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+        a.navbar-brand img {
+        width: 25% !important;
+    }
+       #services-banner {
+        padding: 220px 0px 80px !important;
+    }
+        #process-section .col-md-6 {
+        transform: unset;
+        width: 100% !important;
+    }
     .process-item p {
         font-size: 24px;
         line-height: 34px;
     }
-
+    .process-item {
+        margin: 40px 60px !important;
+        text-align: center !important;
+    }
     #process-section #inner-row-right-col .col-lg-6 {
         width: 100% !important;
     }

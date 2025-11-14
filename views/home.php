@@ -253,7 +253,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="outer-layer">
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps5.png" alt="">
@@ -321,7 +321,7 @@
                         <span class="sub-title"><img class="img-fluid" src="images/subtitle-icon.png" alt=""> Our Steps</span>
                         <h2 class="title"> Digital marketing services that help you grow.</h2>
                       </div>
-                      <div class="ps-xxl-5 ms-0 ms-md-5">
+                      <div class="ps-xxl-5 ms-0 ms-lg-5">
                         <p>We all know that nothing moves until someone makes a decision. The first action is always in making the decision to proceed. which most people overlook, we don’t do it intentionally or with malice.</p>
                       </div>
                     </div>
