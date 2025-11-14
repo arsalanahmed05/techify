@@ -136,23 +136,40 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
+<!-- GSAP trigger scroller animation -->
 
-<script>
-    // Register GSAP plugin
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+  <script>
     gsap.registerPlugin(ScrollTrigger);
 
-    // GSAP animation for marquee
-    gsap.to(".marquee-content", {
-        xPercent: -100, // Move text from right to left
-        ease: "linear",
-        scrollTrigger: {
-            trigger: "#marquee-text",
-            start: "top bottom", // Start when marquee enters the viewport
-            end: "bottom top", // End when it leaves the viewport
-            scrub: true // Smooth scrolling linked to mouse scroll
-        }
+    gsap.to(".img-fluid", {
+      scrollTrigger: {
+        trigger: ".box",
+        start: "top 80%",
+        end: "bottom 20%",
+        scrub: true,
+      },
+      x: -50,      // left se move
+      rotation: 15 // rotate
     });
-</script>
+  </script>
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+
 
 
 <script>

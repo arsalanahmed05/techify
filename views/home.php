@@ -19,7 +19,7 @@
                         <div class="col-lg-12">
                             <div class="text-wrapper text-center">
                                 <h6 class="sub-heading">Developed Business Websites</h6>
-                                <h1>create your <br><ruby>digital presence</ruby></h1>
+                                <h1>Evulate your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
                                 <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
@@ -84,12 +84,12 @@
 
 
     <section class=" howwedoit">
+        <div class="box"><img class="img-fluid" src="/assets/images/tech-bg-shape.png" alt=""></div>
         <div class="container">
             <h2 style="text-align:center;">How We <ruby>Do It</ruby></h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-odd">
-                        <img src="/assets/images/planning.png">
+                    <div class="item-hwdi hwdi-odd"> <img src="/assets/images/planning.png">
                         <div class="arrow-bg-clip">
                             <h4>Planning</h4>
                         </div>
@@ -98,8 +98,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-even">
-                        <img src="/assets/images/research.png">
+                    <div class="item-hwdi hwdi-even"> <img src="/assets/images/research.png">
                         <div class="arrow-bg-clip bg-black">
                             <h4>Research</h4>
                         </div>
@@ -108,8 +107,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-odd">
-                        <img src="/assets/images/optimization.png">
+                    <div class="item-hwdi hwdi-odd"> <img src="/assets/images/optimization.png">
                         <div class="arrow-bg-clip arrow-spark">
                             <h4>Optimization</h4>
                         </div>
@@ -118,8 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-even">
-                        <img src="/assets/images/results.png">
+                    <div class="item-hwdi hwdi-even"> <img src="/assets/images/results.png">
                         <div class="arrow-bg-clip bg-black">
                             <h4>Results</h4>
                         </div>
@@ -130,6 +127,7 @@
             </div>
         </div>
     </section>
+
 
 
     <section id="about-us">
@@ -206,7 +204,8 @@
                         <h5><span>Our Steps</span></h5>
                         <h2>Unlock <ruby>Growth</ruby> with Expert <ruby>Digital Solutions</ruby>
                         </h2>
-                        <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and improve customer engagement.</p>
+                        <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
+                            improve customer engagement.</p>
                         <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View
                                 Packages</button></a>
                     </div>
@@ -219,7 +218,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps1.png" alt="">
                                     <h3><ruby>content </ruby><br>writing</h3>
-                                    <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
+                                    <p>Crafting compelling content that resonates with your audience, boosts engagement,
+                                        and drives results for your brand’s success.</p>
                                     <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps1.png" alt="">
                                 </div>
@@ -228,7 +228,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps2.png" alt="">
                                     <h3><ruby>Email </ruby><br>Marketing</h3>
-                                    <p>Unlock the power of email marketing with tailored campaigns that build relationships and drive conversions straight to your inbox.</p>
+                                    <p>Unlock the power of email marketing with tailored campaigns that build
+                                        relationships and drive conversions straight to your inbox.</p>
                                     <a href="/email-marketing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps2.png" alt="">
                                 </div>
@@ -237,7 +238,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps3.png" alt="">
                                     <h3><ruby>Graphic </ruby><br>Designing</h3>
-                                    <p>Bringing your vision to life with innovative graphic designs that capture attention and communicate your brand’s unique story.</p>
+                                    <p>Bringing your vision to life with innovative graphic designs that capture
+                                        attention and communicate your brand’s unique story.</p>
                                     <a href="/graphic-designing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps3.png" alt="">
                                 </div>
@@ -246,7 +248,9 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps4.png" alt="">
                                     <h3><ruby>PPC </ruby><br>Marketing</h3>
-                                    <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing campaigns that drive instant traffic and deliver measurable results for your business.</p>
+                                    <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing
+                                        campaigns that drive instant traffic and deliver measurable results for your
+                                        business.</p>
                                     <a href="/pay-per-click/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps4.png" alt="">
                                 </div>
@@ -257,7 +261,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps5.png" alt="">
                                     <h3><ruby>Search Engine </ruby><br>Optimization</h3>
-                                    <p>Boost your online presence with strategic SEO, driving organic traffic and improving your website’s visibility on search engines.</p>
+                                    <p>Boost your online presence with strategic SEO, driving organic traffic and
+                                        improving your website’s visibility on search engines.</p>
                                     <a href="/search-engine/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps5.png" alt="">
                                 </div>
@@ -266,7 +271,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps6.png" alt="">
                                     <h3><ruby>Social Media </ruby><br>Marketing</h3>
-                                    <p>Elevate your brand with targeted social media marketing that engages your audience and builds lasting connections across platforms.</p>
+                                    <p>Elevate your brand with targeted social media marketing that engages your
+                                        audience and builds lasting connections across platforms.</p>
                                     <a href="/social-media/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps6.png" alt="">
                                 </div>
@@ -275,7 +281,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps7.png" alt="">
                                     <h3><ruby>Web </ruby><br>Designing</h3>
-                                    <p>Create a seamless online experience with stunning web design that reflects your brand and captivates visitors from the start.</p>
+                                    <p>Create a seamless online experience with stunning web design that reflects your
+                                        brand and captivates visitors from the start.</p>
                                     <a href="/web-designing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps7.png" alt="">
                                 </div>
@@ -284,7 +291,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps8.png" alt="">
                                     <h3><ruby>Web </ruby><br>Development</h3>
-                                    <p>Transform your ideas into stunning websites with our expert web development services, designed to engage and convert visitors.</p>
+                                    <p>Transform your ideas into stunning websites with our expert web development
+                                        services, designed to engage and convert visitors.</p>
                                     <a href="/web-development/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps8.png" alt="">
                                 </div>
@@ -1195,7 +1203,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap1.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap1.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
@@ -1207,7 +1216,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap2.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap2.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
@@ -1219,7 +1229,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap3.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap3.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
@@ -1231,7 +1242,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap4.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap4.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
@@ -1243,7 +1255,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -1257,7 +1270,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap6.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap6.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
@@ -1269,7 +1283,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap7.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap7.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
@@ -1281,7 +1296,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap8.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap8.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
@@ -1293,7 +1309,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap9.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap9.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
@@ -1305,7 +1322,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -2070,11 +2088,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script>
-        $(function() {
+        $(function () {
             var e = "";
 
             // Filtering functionality
-            $(".fil-cat").click(function() {
+            $(".fil-cat").click(function () {
                 $(".portfolio_list ul li").removeClass("active");
                 $(this).addClass("active");
 
@@ -2083,7 +2101,7 @@
 
                 $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $("." + e).fadeIn().addClass("scale-anm");
                     $("#portfolio").fadeTo(800, 1);
                 }, 300);

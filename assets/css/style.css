@@ -603,13 +603,29 @@ div#offcanvasNavbar {
     color: #111;
 }
 
+
+
+
+
+
+
+
+.box {
+  position: absolute;
+      top: -220px;
+      left: -80px;
+      z-index: -9;
+}
+.box img {
+    width: 80% !important;
+}
 button.btn-close {
     opacity: 1;
     filter: invert(1) !important;
 
 }
 div#navbarNav {
-    background: #5da1981a;
+    background: #1cc39821;
     padding: 10px 60px;
     border-radius: 32px;
 }
@@ -1969,7 +1985,7 @@ div#loom-companion-mv3 {
     background: linear-gradient(96.05deg, #231f20 10.78%, #a1adb3 93.1%);
 }
 
-.howwedoit img {
+.howwedoit .item-hwdi img {
     display: table;
     margin: 30px auto -20px;
     z-index: 999999;
@@ -3002,7 +3018,7 @@ video#services-video {
 
 #services-banner img,
 #about-us img,
-.howwedoit img,
+.howwedoit .item-hwdi img,
 #faqs .img-bg img {
     animation: float-up-down 7s infinite ease-in-out;
 }
