@@ -1,19 +1,24 @@
-name: Auto Deploy to Hostinger
+name: Deploy to Hostinger
 
 on:
   push:
     branches:
-      - main  # Change if your branch name is different
+      - main   # or master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Deploy to Hostinger via SSH
-        uses: appleboy/ssh-action@master
-        with:
-          host: techifys.com
-          key: ${{ secrets.HOSTINGER_SSH_KEY }}
-          script: |
-            cd public_html
-            git pull origin main
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH
+        uses: easingthemes/ssh-deploy@v4
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
+          REMOTE_HOST: us-imm-web652.main-hosting.eu
+          REMOTE_USER: u169576704
+          REMOTE_PORT: 65002   # Hostinger SSH default for shared hosting
+          SOURCE: "./"
+          TARGET: "/home/u169576704/public_html"
