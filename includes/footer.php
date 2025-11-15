@@ -112,23 +112,23 @@
 <!-- OTHER PAGE CONTENT -->
 
 <!-- POPUP MODAL -->
-<div id="servicesModal" class="modal">
-  <div class="modal-content">
-    <h2>Services</h2>
-    <p>Grap our services and get a wonderful services that grow your business ordinary to extraordinary</p>
-    <div class="services-grid">
-      <div class="column">
-        <a href="#">Service 1</a>
-        <!-- baki links -->
-      </div>
-      <div class="column">
-        <a href="#">Service 10</a>
-        <!-- baki links -->
-      </div>
+<!-- <div id="servicesModal" class="modal">
+    <div class="modal-content">
+        <h2>Services</h2>
+        <p>Grap our services and get a wonderful services that grow your business ordinary to extraordinary</p>
+        <div class="services-grid">
+            <div class="column">
+                
+            </div>
+            <div class="column">
+                <ul class="services-navigation">
+                    
+                </ul>
+            </div>
+        </div>
+        <span class="close">&times;</span>
     </div>
-    <span class="close">&times;</span>
-  </div>
-</div>
+</div> -->
 
 </body>
 
@@ -168,33 +168,33 @@
 
 
 <script>
-$(document).ready(function(){
-    $('.gallery-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: false,        // ⬅️ No arrows
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 0,     // ⬅️ No stopping delay
-        speed: 4000,          // ⬅️ Controls rotation speed (lower = faster)
-        cssEase: 'linear',    // ⬅️ Perfect continuous movement
-        pauseOnHover: false,  
-        pauseOnFocus: false,
-        swipe: false,         // ⬅️ Disable dragging, pure auto movement
-        touchMove: false,
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: { slidesToShow: 2 }
-            },
-            {
-                breakpoint: 576,
-                settings: { slidesToShow: 1 }
-            }
-        ]
+    $(document).ready(function () {
+        $('.gallery-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,        // ⬅️ No arrows
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 0,     // ⬅️ No stopping delay
+            speed: 4000,          // ⬅️ Controls rotation speed (lower = faster)
+            cssEase: 'linear',    // ⬅️ Perfect continuous movement
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            swipe: false,         // ⬅️ Disable dragging, pure auto movement
+            touchMove: false,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: { slidesToShow: 2 }
+                },
+                {
+                    breakpoint: 576,
+                    settings: { slidesToShow: 1 }
+                }
+            ]
+        });
     });
-});
 </script>
 
 
@@ -1196,22 +1196,22 @@ OTENZA.goToTop();
 
 
 <script>
-const modal = document.getElementById("servicesModal");
-const btn = document.getElementById("servicesLink");
-const span = document.querySelector(".close");
+    const modal = document.getElementById("servicesModal");
+    const btn = document.getElementById("servicesLink");
+    const span = document.querySelector(".close");
 
-btn.onclick = function(e) {
-  e.preventDefault();
-  modal.style.display = "block";
-}
+    btn.onclick = function (e) {
+        e.preventDefault();
+        modal.style.display = "block";
+    }
 
-span.onclick = function() {
-  modal.style.display = "none";
-}
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
 
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 </script>

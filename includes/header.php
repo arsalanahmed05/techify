@@ -12,13 +12,31 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/views/about-us.php">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" id="servicesLink">Services</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="servicesLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="servicesLink">
+                                    <li><a class="dropdown-item" href="/web-development/">App Development</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Business Processing Outsourcing</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Business Website Service</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Content Writing</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Cybersecurity & IT Support</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Cloud & Hosting Solutions</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">E-commerce Automation</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Graphic Designing</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Marketing</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Motion Graphics</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Search Engine Optimization (SEO)</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="/web-development/">Web Designing</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/views/contact-us.php">Contact</a>
