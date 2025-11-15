@@ -11,7 +11,6 @@
 
 
     <section id="services-banner">
-
         <div class="container">
             <div class="service-banner-slider">
                 <div class="slide-item">
@@ -82,46 +81,157 @@
         </div>
     </section>
 
-
-    <section class=" howwedoit">
-        <div class="box"><img class="img-fluid" src="/assets/images/tech-bg-shape.png" alt=""></div>
-        <div class="container">
-            <h2 style="text-align:center;">How We <ruby>Do It</ruby></h2>
+    <section id="support-partners" style="position: relative !important;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-odd"> <img src="/assets/images/planning.png">
-                        <div class="arrow-bg-clip">
-                            <h4>Planning</h4>
-                        </div>
-                        <p>Our problem-solvers plan and implement logical components in a coherent e-commerce solution.
-                        </p>
+                <div class="partner-slider top d-flex">
+                    <div class="partner top">
+                        <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-7.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-8.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-even"> <img src="/assets/images/research.png">
-                        <div class="arrow-bg-clip bg-black">
-                            <h4>Research</h4>
-                        </div>
-                        <p>Identifying profitable and in-demand products through research for exceptional results and
-                            increased sales.</p>
+                <div class="partner-slider middle d-flex">
+                    <div class="partner">
+                        <img src="/assets/images/Partner-4.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-7.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-odd"> <img src="/assets/images/optimization.png">
-                        <div class="arrow-bg-clip arrow-spark">
-                            <h4>Optimization</h4>
-                        </div>
-                        <p>We will optimize your marketplace for conversions and maximize product visibility to drive
-                            sales.</p>
+                <div class="partner-slider last d-flex">
+                    <div class="partner">
+                        <img src="/assets/images/Partner-7.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="partner">
+                        <img src="/assets/images/Partner-8.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="item-hwdi hwdi-even"> <img src="/assets/images/results.png">
-                        <div class="arrow-bg-clip bg-black">
-                            <h4>Results</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="process-workflow">
+        <div class="container-fluid">
+            <div class="section-title text-center">
+                <h2>Founders Who Ignore Their <br>Website Get Left Behind</h2>
+                <p>If You’re A Startup Founder Doing Under $250K in Sales...</p>
+            </div>
+            <div class="bottom-title text-center">
+                <h4>The Cost of Being Invisible</h4>
+            </div>
+            <div class="row" style="align-items: baseline !important;">
+                <div class="col-lg-12">
+                    <div id="inner-row-top" class="row">
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/missed.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Missed Sales Revenue</h3>
+                                    <p>Because your website fails to convert interested visitors into paying customers
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <p>We are committed to delivering measurable results that drive maximum sales for your business.
-                        </p>
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/waste.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Wasted Ad Spend</h3>
+                                    <p>Driving traffic to a website that can’t close deals means money down the drain
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/lose.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Losing Opportunities</h3>
+                                    <p>Investors, partners and clients judge your credibility based entirely on your
+                                        website</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="inner-row-bottom" class="row">
+                        <div class="col-lg-12">
+                            <div class="gallery-slider">
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample1.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample2.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample3.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample4.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample5.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample6.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample7.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,28 +242,10 @@
 
     <section id="about-us">
         <div class="container-fluid">
-            <div id="main-row" class="row">
-                <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h5><span data-aos="fade-up">About us</span></h5>
-                        <h2>Your <ruby>experience</ruby><br> is <ruby>everything</ruby></h2>
-                        <p>We are committed to ensuring every interaction leaves a lasting impression. From start to
-                            finish, our focus is on delivering excellence tailored to your needs, making every moment
-                            seamless and memorable.</p>
-                        <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing
-                            guidance, or simply being there when you need us, we're here to make your journey
-                            exceptional.</p>
-                        <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing
-                            guidance, or simply being there when you need us, we're here to make your journey
-                            exceptional.</p>
-                    </div>
-                    <!-- <div class="link-btns d-flex">
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                                quote</button></a>
-                    </div> -->
-
-                    <div id="inner-row-bottom" class="row">
-                        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <div id="inner-row-top" class="row">
+                        <div class="col-md-3">
                             <div class="milestone">
                                 <ruby>
                                     <div class="count" data-count="+240"><span>+</span>0</div>
@@ -162,7 +254,12 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="milestone">
+                            <div class="img-bg right-img">
+                                <img class="img-fluid" src="/assets/images/about-us-tech.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="milestone text-end">
                                 <ruby>
                                     <div class="count" data-count="+650"><span>+</span>0</div>
                                 </ruby>
@@ -170,11 +267,25 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <div class="col-md-6">
-                    <div class="img-bg right-img">
-                        <img class="img-fluid" src="/assets/images/bb.webp" alt="">
+                    <div id="inner-row-bottom" class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-md-3">
+                            <div class="milestone text-center">
+                                <ruby>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                </ruby>
+                                <h4>Project<br> Completed</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="milestone text-center">
+                                <ruby>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                </ruby>
+                                <h4>Project<br> Completed</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
                 </div>
             </div>

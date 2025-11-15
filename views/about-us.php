@@ -1,9 +1,9 @@
-<?php include_once("includes/head.php") ?>
-<?php include_once("includes/header.php") ?>
+<?php include_once(__DIR__ . "/../includes/head.php"); ?>
+<?php include_once(__DIR__ . "/../includes/header.php"); ?>
 
 
 <body>
-
+    <div id="particles-js"></div>
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
@@ -18,13 +18,6 @@
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
                     <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
                 </div>
-                <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
-                <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">
-                <img id="bn3" src="/assets/images/bn3.webp" alt="" class="img-fluid abs">
-                <img id="bn4" src="/assets/images/bn4.webp" alt="" class="img-fluid abs">
-                <img id="bn5" src="/assets/images/bn5.webp" alt="" class="img-fluid abs">
-                <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
             </div>
         </div>
     </section>
@@ -306,7 +299,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/about-img-with-text.png" alt="" class="img-fluid">
+                        <img src="/assets/images/hand-tech.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -315,23 +308,9 @@
 
 
 
+<?php include_once(__DIR__ . "/testimonials-section.php"); ?>
+<?php include_once(__DIR__ . "/contact-section.php"); ?>
+<?php include_once(__DIR__ . "/../includes/footer.php"); ?>
 
 
-    <?php include_once("views/testimonials-section.php"); ?>
-
-
-
-
-
-
-    <?php include_once("views/contact-section.php"); ?>
-
-
-
-
-
-
-
-
-    <?php include_once("includes/footer.php") ?>
 </body>

@@ -4,12 +4,13 @@
 
 html body {
     color: #fff !important;
-    background:#000 !important;
+    background: #000 !important;
 }
 
 p {
     color: #fff !important;
 }
+
 header#top {
     z-index: 99999999;
     position: relative;
@@ -179,13 +180,18 @@ ul.star-list {
     top: 0px;
     left: 0;
 }
+
 ul.footer-menu.service {
     column-count: 2;
 }
+
 #about-us h2,
 #about-us p {
     color: #fff !important;
 }
+
+
+
 
 .bton {
     background: transparent;
@@ -605,38 +611,39 @@ div#offcanvasNavbar {
 
 
 
-
-
-
-
-
 .box {
-  position: absolute;
-      top: -220px;
-      left: -80px;
-      z-index: -9;
+    position: absolute;
+    top: -220px;
+    left: -80px;
+    z-index: -9;
 }
+
 .box img {
     width: 80% !important;
 }
+
 button.btn-close {
     opacity: 1;
     filter: invert(1) !important;
 
 }
+
 div#navbarNav {
     background: #1cc39821;
     padding: 10px 60px;
     border-radius: 32px;
 }
+
 #particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* taa ke content upar rahe */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 100%;
+    z-index: -1;
+    /* taa ke content upar rahe */
 }
+
 /* #services-banner .hero-with-particles #particles-js {
  position: absolute;
     width: 100% !important;
@@ -645,7 +652,7 @@ div#navbarNav {
     top: 0;
 } */
 #top nav ul li a.nav-link {
-    color: #fff !important; 
+    color: #fff !important;
     transition: 0.5s;
     font-family: "Orbitron" !important;
     font-size: 18px;
@@ -798,21 +805,21 @@ span.navbar-toggler-icon {
 
 #about-us .right-img img {
     width: 85%;
-    float: right;
+    filter: hue-rotate(325deg);
+    display: table;
+    margin: auto;
 }
 
 #about-us .row {
     align-items: center;
-    background: #08322e3d;
-    padding: 50px 40px;
+    padding: 50px 20px;
     margin: 0px 10px;
     border-radius: 24px;
 }
 
-#about-us #inner-row-bottom {
-    margin-top: 30px;
-    background: #000;
-    color: #fff;
+.milestone h4 {
+    font-size: 22px !important;
+    line-height: 30px !important;
 }
 
 #about-us #inner-row-bottom .count {
@@ -1044,7 +1051,87 @@ span.navbar-toggler-icon {
     height: auto !important;
 }
 
+#process-workflow .workflow-item img {
+    transform: unset !important;
+    filter: invert(1);
+    width: 20%;
+    margin-bottom: 20px;
+}
 
+#process-workflow h3 {
+    font-size: 22px !important;
+    line-height: 32px !important;
+}
+
+#process-workflow .workflow-item {
+    background: linear-gradient(0deg, #000 20%, #1dcd9f 160%);
+    padding: 40px 20px;
+    border-radius: 22px;
+    margin: 0px 10px;
+    margin-top: 40px;
+}
+
+#process-workflow .row {
+    align-items: baseline !important;
+}
+
+#process-workflow p {
+    min-height: 100px;
+}
+
+.partner {
+    margin: 10px 10px;
+    background: #ffffff1c;
+    padding: 20px 30px;
+    border-radius: 22px;
+}
+
+section#support-partners img {
+    width: 130px;
+    object-fit: cover;
+    height: 50px;
+}
+
+.partner-slider.middle {
+    margin-left: -170px;
+}
+
+.partner-slider.last {
+    margin-left: 170px;
+}
+
+.partner-slider.top {
+    margin-left: 170px;
+}
+
+section#support-partners::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/images/follow-lines.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -9;
+    filter: blur(5px);
+    opacity: 0.5;
+
+}
+
+section#support-partners {
+    position: relative;
+    z-index: 9;
+}
+
+.milestone {
+    background: #16997629;
+    padding: 30px 30px !important;
+    text-align: center !important;
+    border: 2px solid #1ccd9f2e;
+    border-radius: 22px;
+}
 
 #category-plan .tabcontent {
     display: none;
@@ -1577,7 +1664,24 @@ span.navbar-toggler-icon {
     -o-transition: .3s;
     transition: .3s
 }
+section#about-banner::before {
+    content: "";
+    position: absolute;
+    background: #1aba90;
+    width: 580px;
+    height: 420px;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -1;
+    top: 80px;
+    left: 290px;
+    opacity: 0.6;
+}
 
+section#about-banner {
+    position: relative;
+    z-index: 1;
+}
 .btns_wrap .call_wrap span {
     color: #111;
     font-size: 20px;
@@ -1840,7 +1944,9 @@ button.accordion-button h4 {
     color: #111 !important;
 }
 
-button.accordion-button, .accordion-body, .accordian {
+button.accordion-button,
+.accordion-body,
+.accordian {
     box-shadow: unset !important;
     border: unset !important;
     background: #000;
@@ -1978,44 +2084,6 @@ button.accordion-button, .accordion-body, .accordian {
 
 div#loom-companion-mv3 {
     display: none;
-}
-
-.howwedoit .arrow-bg-clip.bg-black {
-    background: -webkit-linear-gradient(353.95deg, #231f20 10.78%, #a1adb3 93.1%);
-    background: linear-gradient(96.05deg, #231f20 10.78%, #a1adb3 93.1%);
-}
-
-.howwedoit .item-hwdi img {
-    display: table;
-    margin: 30px auto -20px;
-    z-index: 999999;
-    position: relative;
-}
-
-.howwedoit .arrow-bg-clip {
-    width: 100%;
-    height: 5.208vw;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background: -webkit-linear-gradient(top, #33ada1 0%, #165d5d 100%);
-    background: linear-gradient(45deg, #33ada1, #165d5d);
-    color: #111;
-    -webkit-clip-path: polygon(84% 0,
-            100% 50%,
-            84% 100%,
-            0% 100%,
-            12% 51%,
-            0% 0%);
-    clip-path: polygon(84% 0, 100% 50%, 84% 100%, 0% 100%, 12% 51%, 0% 0%);
-    margin-bottom: 1.563vw;
 }
 
 #pricing-plan .plan-item {
@@ -2266,10 +2334,13 @@ div#loom-companion-mv3 {
     gap: 10px;
     margin-bottom: 15px;
 }
+
 .offcanvas {
-  background-color: #000 !important;
-  color: #fff; /* optional – text white */
+    background-color: #000 !important;
+    color: #fff;
+    /* optional – text white */
 }
+
 #contact .form {
     padding: 50px;
     margin-top: 20px;
@@ -2277,7 +2348,10 @@ div#loom-companion-mv3 {
     background: 1DCD9F17;
 }
 
-#contact input, #contact select, #contact textarea, #contact button {
+#contact input,
+#contact select,
+#contact textarea,
+#contact button {
     font-size: 16px;
     padding: 14px 20px;
     width: 100%;
@@ -2462,9 +2536,11 @@ footer.footer-section .footer-left-menu li a i {
     color: #111;
     text-align: center;
 }
+
 .contact-item.email a {
     text-transform: unset;
 }
+
 .footer-section .footer-menu li a i {
     margin-right: 10px;
     font-size: 14px;
@@ -2619,7 +2695,7 @@ div#inner-row {
 
 .solutions-content-main .icon i {
     font-size: 30px;
-    background: linear-gradient(180deg, #050CD5 -150%, #111 70%);
+    background: linear-gradient(180deg, #1ccd9f, #169976);
     width: 80px;
     height: 80px;
     text-align: center;
@@ -2630,7 +2706,7 @@ div#inner-row {
 
 .main-about {
     border-radius: 12px;
-    border: 2px solid #111f;
+    border: 2px solid #fff;
     margin-top: 30px;
     padding: 30px 24px 10px 24px;
     background: linear-gradient(45deg, 1DCD9F, transparent);
@@ -2655,18 +2731,22 @@ div#inner-row {
 
 .m-v-main:nth-child(1) {
     border: 2px solid #111;
+    background: #fff !important;
+}
+.m-v-main:nth-child(1) h3, .m-v-main:nth-child(1) p {
+    color: #111 !important;
 }
 
 .m-v-main:nth-child(2) {
-    background: #111;
+    background: linear-gradient(180deg, #1ccd9f, #169976);
 }
 
 .m-v-main:nth-child(2) p {
-    color: #111;
+    color: #000 !important;
 }
 
 .m-v-main:nth-child(2) h3 {
-    color: #111;
+    color: #000 !important;
 }
 
 img.animateee-center {
@@ -2696,12 +2776,12 @@ img.animateee-center {
 
 
 #steps .step-main {
-    background: linear-gradient(180deg, #050CD5 -150%, #111 70%);
+    background: linear-gradient(180deg, #1ccd9f, #169976);
     padding: 60px 40px;
     border-radius: 140px;
     margin: 20px 40px;
     text-align: center;
-    border: 4px solid 1DCD9F;
+    border: 4px solid #1DCD9F;
 }
 
 #steps .step-down {
@@ -2757,20 +2837,81 @@ img.animateee-center {
 #img-with-text img {
     width: 90%;
     float: right;
+    transform: scale(1.2px);
     animation: moveDiagonal 6s infinite alternate ease-in-out;
 }
 
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Sit on top of everything */
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.8); /* Dark background */
+}
+
+.modal-content {
+  background-color: #1a1a1a; /* Dark bg */
+  color: #f0f0f0; /* Light text */
+  margin: 10% auto; /* Center vertically */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+.modal-content a {
+    color: #fff !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition:0.3s;
+}
+
+.column a:hover {
+  background-color: #333;
+}
+
+.close {
+  color: #f0f0f0;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 
 
 
 /* Pop UP CSS */
 
-.modal-content {
-    background: linear-gradient(45deg, #050cd5, #111);
-    border-radius: 10px;
-    overflow: hidden;
-}
 
 .modal-content img {
     width: 20%;
@@ -2891,9 +3032,9 @@ img.animateee-center {
 
 #about-points .key-points-parent img {
     width: 25%;
-    filter: invert(1) drop-shadow(2px 4px 6px #050CD5);
+    filter: invert(1) drop-shadow(2px 4px 6px #1ccd9f);
     margin-left: -40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .key-points-parent {
@@ -2936,8 +3077,8 @@ a.typewrite span {
 }
 
 .count {
-    font-size: 120px;
-    line-height: 130px;
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 600;
     font-family: "Poppins";
 }
@@ -2966,18 +3107,48 @@ a.typewrite span {
 }
 
 #services-banner {
-    padding: 200px 0px 120px;
+    padding: 160px 0px 60px;
     position: relative;
     overflow: hidden;
     z-index: 1;
-    top: -120px;
 }
 
-section.howwedoit {
-    padding: 40px 0;
-    top: -90px;
+#process-workflow #inner-row-bottom {
+    margin-top: 60px !important;
+}
+
+#process-workflow #inner-row-bottom::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 19%;
+    height: 390px;
+    top: -30px;
+    left: -220px;
+    z-index: 9;
+    filter: blur(10px);
+}
+
+#process-workflow #inner-row-bottom::after {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 19%;
+    height: 390px;
+    top: -30px;
+    right: -213px;
+    z-index: 9;
+    filter: blur(10px);
+}
+
+#process-workflow #inner-row-bottom {
     position: relative;
 }
+
+#process-workflow .gallery-box {
+    margin: 0px 6px;
+}
+
 
 #services-banner h1,
 #services-banner p,
@@ -3018,7 +3189,7 @@ video#services-video {
 
 #services-banner img,
 #about-us img,
-.howwedoit .item-hwdi img,
+.item-hwdi img,
 #faqs .img-bg img {
     animation: float-up-down 7s infinite ease-in-out;
 }
@@ -3044,6 +3215,7 @@ video#services-video {
 #slide-item-row {
     padding: 0px 10px;
 }
+
 #services-banner button.quote-btn.bton i {
     color: #111;
 }
@@ -3063,7 +3235,7 @@ video#services-video {
 }
 
 #services-banner .slick-arrow:hover {
-    background: #000dff;
+    background: #025151;
 }
 
 #services-banner .slick-arrow::before {
@@ -3563,8 +3735,12 @@ video#services-video {
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 1366px) {
     .count {
-        font-size: 90px;
-        line-height: 100px;
+        font-size: 60px !important;
+        line-height: 70px !important;
+    }
+
+    #particles-js {
+        width: 1920px;
     }
 
     .key-points-parent {
@@ -3793,7 +3969,7 @@ video#services-video {
     }
 
     #about-banner {
-        padding: 320px 0px 200px;
+        padding: 100px 0px 100px;
     }
 
     #contact .form h2 {
@@ -3817,22 +3993,23 @@ video#services-video {
 }
 
 @media (max-width: 991px) {
-  .navbar-collapse {
-    position: absolute !important;
-    top: 100%;
-    right: 0;
-    width: 100%;
-    background: #000 !important; /* optional – black background */
-    z-index: 999;
-  }
+    .navbar-collapse {
+        position: absolute !important;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background: #000 !important;
+        /* optional – black background */
+        z-index: 999;
+    }
 
-  .navbar-nav {
-    flex-direction: column;
-  }
+    .navbar-nav {
+        flex-direction: column;
+    }
 
-  .navbar-collapse.show {
-    display: block !important;
-  }
+    .navbar-collapse.show {
+        display: block !important;
+    }
 }
 
 
@@ -3845,20 +4022,24 @@ video#services-video {
         font-size: 70px !important;
         line-height: 80px !important;
     }
+
     div#navbarNav {
-    padding: 10px 0px 10px 40px !important;
-}
+        padding: 10px 0px 10px 40px !important;
+    }
+
     #top nav ul li a.nav-link {
-    font-size: 16px !important;
-    line-height: 26px !important;
-    margin-right: 20px !important;
-}
-a.navbar-brand img {
-    width: 35% !important;
-}
-div#navbarNav {
-    padding: 10px 0px 10px 30px !important;
-}
+        font-size: 16px !important;
+        line-height: 26px !important;
+        margin-right: 20px !important;
+    }
+
+    a.navbar-brand img {
+        width: 35% !important;
+    }
+
+    div#navbarNav {
+        padding: 10px 0px 10px 30px !important;
+    }
 
     #about-us-section img {
         width: 50%;
@@ -3868,21 +4049,26 @@ div#navbarNav {
         font-size: 32px !important;
         line-height: 42px !important;
     }
+
     h4 {
         font-size: 22px !important;
         line-height: 32px !important;
     }
+
     #about-points .col-sm-4 img {
         width: 10%;
         margin-right: 0;
     }
+
     #contact .section-title {
-    text-align: center;
-}
+        text-align: center;
+    }
+
     #contact .form {
         padding: 40px 30px 10px;
         margin: 0px 90px;
     }
+
     #steps {
         padding: 80px 0 170px;
     }
@@ -3973,8 +4159,11 @@ div#navbarNav {
         line-height: 34px !important;
     }
 
+
+
+
     #services-banner {
-        padding: 160px 0px 80px;
+        padding: 160px 0px 40px;
     }
 
     #services-banner .text-wrapper h1 {
@@ -4044,6 +4233,7 @@ div#navbarNav {
         position: relative !important;
         top: unset;
     }
+
     .milestone h4 {
         font-size: 22px !important;
         line-height: 32px !important;
@@ -4088,20 +4278,7 @@ div#navbarNav {
         width: 100%;
     }
 
-    section.howwedoit .col-lg-3 {
-        width: 50%;
-    }
 
-    .howwedoit .arrow-bg-clip {
-        height: 8.208vw;
-        width: 80%;
-    }
-
-       .howwedoit img {
-        width: 30%;
-        object-fit: contain;
-        height: 160px;
-    }
 
     #contact .section-title h2 {
         font-size: 142px !important;
@@ -4376,32 +4553,40 @@ div#navbarNav {
         text-align: center !important;
         margin-bottom: 20px;
     }
+
     #quality-section .col-md-6 {
-    width: 100% !important;
-    margin-bottom: 30px !important;
-}
-        .process-item p {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+
+    .process-item p {
         font-size: 20px !important;
         line-height: 30px !important;
     }
-        a.navbar-brand img {
+
+    a.navbar-brand img {
         width: 25% !important;
     }
-       #services-banner {
+
+    #services-banner {
         padding: 220px 0px 80px !important;
     }
-        #process-section .col-md-6 {
+
+    #process-section .col-md-6 {
         transform: unset;
         width: 100% !important;
     }
+
     .process-item p {
         font-size: 24px;
         line-height: 34px;
     }
+
     .process-item {
         margin: 40px 60px !important;
         text-align: center !important;
     }
+
     #process-section #inner-row-right-col .col-lg-6 {
         width: 100% !important;
     }
