@@ -153,7 +153,19 @@ section#business-carousel {
     background: #111;
     color: #fff !important;
 }
-p {
+
+section#business-suite-offer .row {
+    background: linear-gradient(45deg, #E54972, #4a0542);
+    padding: 30px 30px;
+    border-radius: 32px;
+    align-items: baseline !important;
+}
+section#business-suite-offer h4, section#business-suite-offer h5, section#business-suite-offer li {
+    color: #fff !important;
+}
+
+
+p, li {
     font-family: "Poppins" !important;
     font-size: 16px;
     line-height: 26px;
