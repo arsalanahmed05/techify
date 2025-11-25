@@ -2,23 +2,75 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body>
+<body id="business-website-service">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
-    <section id="home-banner">
-        <div class="container-fluid">
+    <section id="business-carousel">
+        <div class="container">
             <div class="row">
-                <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Web Development</h6>
-                    <h1>Transforming <ruby>Ideas</ruby> into <br> Stunning <ruby>Websites</ruby></h1>
-                    <p>We design cutting-edge websites that don’t just look great but also help your<br> business grow by engaging your audience effectively.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                            quote</button></a>
+                <div id="carouselExample" class="carousel slide flash-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div id="inner-slide-row" class="row">
+                                <div class="col-md-6">
+                                    <div class="text-wrapper">
+                                        <h1>Business Website Development in USA</h1>
+                                        <p>We provide business website development services in the USA that help you get
+                                            more leads and build trust. Your site will be fast, responsive, and built to
+                                            support your business growth.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-bg">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="inner-slide-row" class="row">
+                                <div class="col-md-6">
+                                    <div class="text-wrapper">
+                                        <h1>Small and Large Businesses Website Development</h1>
+                                        <p>Our WordPress website design and development services fit both small and large businesses. We create clean, modern, and easy-to-use WordPress sites that match your brand and goals.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-bg">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="inner-slide-row" class="row">
+                                <div class="col-md-6">
+                                    <div class="text-wrapper">
+                                        <h1>Scalable Websites for Growing US Companies</h1>
+                                        <p>We build fast, secure, and SEO-ready websites for US companies that want better rankings and conversions. Every site is optimized for speed, safety, and search visibility.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-bg">
+                                        <img src="" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
                 </div>
-                <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
+
             </div>
         </div>
     </section>
@@ -58,65 +110,62 @@
         </div>
     </section>
 
-    <section id="business-feature">
+
+    <section id="business-suite-offer">
         <div class="container">
-            <div class="section-title text-center mb20">
-                <h6 class="sub-heading">Feature</h6>
-                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            <div class="headline d-flex">
+                <h2>Business Suite Offer - Premium</h2>
+                <span class="offerbadge">Get 40%<br> OFF</span>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="feature-row left">
-                        <div class="feature-parent">
-                            <img src="/assets/images/responsive.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>Responsive <br>Design</h4>
-                            </div>
-                        </div>
-                        <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>Customizable <br>Templates</h4>
-                            </div>
-                        </div>
-                        <div class="feature-parent">
-                            <img src="/assets/images/gear.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>Optimized <br>Development</h4>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="offer-bullets">
+                        <h5>Brand Identity</h5>
+                        <ul>
+                            <li>Create 3 custom logo concepts for the client.</li>
+                            <li>Icon Design for Your Brand</li>
+                            <li>Delivered in All Common Formats</li>
+                        </ul>
+                    </div>
+                    <div class="offer-bullets">
+                        <h5>Professional WordPress Website</h5>
+                        <ul>
+                            <li>Unlimited Pages</li>
+                            <li>Interactive Unique Figma Design</li>
+                            <li>8 Custom Banner Designs</li>
+                            <li>20+ Stock Images Included</li>
+                            <li>CMS/Admin Panel for Easy Updates</li>
+                            <li>Online Appointment or Booking System</li>
+                            <li>Contact Forms</li>
+                            <li>Newsletter Signup</li>
+                            <li>Fully Responsive</li>
+                            <li>Unlimited Revisions</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="img-bg">
-                        <img id="center-col" src="/assets/images/business-feature-img.jpg" alt="" class="img-fluid">
+                <div class="col-md-6">
+                    <div class="offer-bullets">
+                        <h5>Hosting & Support</h5>
+                        <ul>
+                            <li>FREE Domain for 1 Years</li>
+                            <li>FREE Hosting for 1 Years</li>
+                            <li>Dedicated Account Manager</li>
+                            <li>Full Ownership Rights</li>
+                            <li>Satisfaction Guarantee</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="feature-row right">
-                        <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>E-Commerce <br>Integration</h4>
-                            </div>
-                        </div>
-                        <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>User Experience <br>Focus</h4>
-                            </div>
-                        </div>
-                        <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.png" alt="" class="img-fluid">
-                            <div class="feature-content">
-                                <h4>Fast Loading <br>Speeds</h4>
-                            </div>
-                        </div>
+                    <div class="offer-bullets">
+                        <h5>Social Media Presence</h5>
+                        <ul>
+                            <li>Social Media Accounts Handling</li>
+                            <li>Ready-to-Use Files</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section id="rgt-img">
@@ -125,7 +174,11 @@
                 <div class="col-md-6">
                     <div class="text-wrapper">
                         <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a corporate website, our designs are tailored to captivate your audience and deliver measurable results. Every website we build is responsive, fast, and aligned with your business goals.</p>
+                        <p>We create dynamic websites that are not only visually stunning but also optimized for
+                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
+                            corporate website, our designs are tailored to captivate your audience and deliver
+                            measurable results. Every website we build is responsive, fast, and aligned with your
+                            business goals.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -148,7 +201,10 @@
                 <div class="col-md-6">
                     <div class="text-wrapper">
                         <h2>Scalable & Secure <br><ruby>Development</ruby></h2>
-                        <p>We focus on building scalable, secure, and high-performing websites that grow with your business. Leveraging the latest technologies and coding standards, our web development services ensure seamless performance, robust security, and easy maintenance. Let us transform your vision into a digital reality.</p>
+                        <p>We focus on building scalable, secure, and high-performing websites that grow with your
+                            business. Leveraging the latest technologies and coding standards, our web development
+                            services ensure seamless performance, robust security, and easy maintenance. Let us
+                            transform your vision into a digital reality.</p>
                     </div>
                 </div>
             </div>
@@ -161,7 +217,11 @@
                 <div class="col-md-6">
                     <div class="text-wrapper">
                         <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a corporate website, our designs are tailored to captivate your audience and deliver measurable results. Every website we build is responsive, fast, and aligned with your business goals.</p>
+                        <p>We create dynamic websites that are not only visually stunning but also optimized for
+                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
+                            corporate website, our designs are tailored to captivate your audience and deliver
+                            measurable results. Every website we build is responsive, fast, and aligned with your
+                            business goals.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -909,7 +969,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap1.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap1.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
@@ -921,7 +982,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap2.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap2.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
@@ -933,7 +995,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap3.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap3.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
@@ -945,7 +1008,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap4.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap4.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
@@ -957,7 +1021,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -971,7 +1036,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap6.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap6.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
@@ -983,7 +1049,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap7.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap7.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
@@ -995,7 +1062,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap8.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap8.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
@@ -1007,7 +1075,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap9.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap9.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
@@ -1019,7 +1088,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -1039,69 +1109,50 @@
 
 
 
-    <section id="service-features">
+    <section id="service-feature">
         <div class="container-fluid">
+            <div class="section-title text-center">
+                <h2>Business Website Solutions</h2>
+                <p>Our USA business website development services deliver fast, secure, and WordPress websites that are fully mobile-responsive<br> and optimized for SEO and lead generation.</p>
+            </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="text-wrapper">
-                        <h6 class="sub-heading">Features</h6>
-                        <h2>Web Development <br><ruby>Solutions Hub</ruby></h2>
-                        <p>We offer a full range of web development features, from custom designs to robust security, ensuring a seamless user experience.</p>
+                <div id="inner-feature-row" class="row">
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>WordPress<br> Design</h4>
+                            <p>We create modern WordPress designs that match your brand and give your business a strong online presence.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider left">
-                        <div class="slide-item">
-                            <h4>Custom Development</h4>
-                            <p>We build tailored websites and applications that perfectly match your business needs, offering full customization to fit your goals.</p>
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>Mobile<br> Responsive</h4>
+                            <p>Your website adjusts to all screen sizes, giving customers a smooth experience on phones, tablets, and desktops.</p>
                         </div>
-                        <div class="slide-item">
-                            <h4>Responsive Design</h4>
-                            <p>Our websites are designed to be fully responsive, ensuring they look great and function flawlessly across all devices and screen sizes.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>E-commerce Solutions</h4>
-                            <p>We create seamless e-commerce platforms that offer secure payment integrations, inventory management, and a smooth user experience.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>UX/UI Design</h4>
-                            <p>We focus on creating user-friendly designs with a smooth and intuitive interface to keep your audience engaged and improve conversion rates.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Analytics Tracking</h4>
-                            <p>We integrate analytics tools to help you track your website’s performance, user behavior, and make data-driven decisions for improvements.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>SEO Optimization</h4>
-                            <p>Our web development includes integrated SEO practices, ensuring your website ranks higher in search engines and attracts more traffic.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>Fast<br> Performance</h4>
+                            <p>We optimize loading speed to improve user engagement and support better search engine rankings.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider right">
-                        <div class="slide-item">
-                            <h4>API Integrations</h4>
-                            <p>We integrate third-party APIs and services, ensuring your website can easily communicate and sync with external systems for enhanced functionality.</p>
+                <div id="inner-feature-row" class="row">
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>SEO<br> Optimization</h4>
+                            <p>Your site is built with SEO-friendly structure, helping you reach more customers across the USA.</p>
                         </div>
-                        <div class="slide-item">
-                            <h4>Maintenance Services</h4>
-                            <p>Our team provides ongoing website maintenance to ensure your site remains up-to-date, secure, and runs smoothly at all times.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>Secure<br> Development</h4>
+                            <p>We follow strong security standards, keeping your website safe with SSL and updated WordPress tools.</p>
                         </div>
-                        <div class="slide-item">
-                            <h4>Web Hosting</h4>
-                            <p>We offer reliable web hosting solutions that ensure your site is fast, secure, and always online with minimal downtime.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Security Features</h4>
-                            <p>We prioritize website security, implementing SSL encryption, firewalls, and other essential features to protect your data and users.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Fast Load Times</h4>
-                            <p>We optimize your website for speed, ensuring faster load times to enhance user experience and improve search engine rankings.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Content Management</h4>
-                            <p>We offer powerful content management systems (CMS) that allow you to easily update and manage your website content without technical expertise.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature-wrapper text-center">
+                            <h4>Lead<br> Conversion</h4>
+                            <p>Every page is designed to drive calls, messages, and sales, helping your business grow faster.</p>
                         </div>
                     </div>
                 </div>

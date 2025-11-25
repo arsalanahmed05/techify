@@ -88,7 +88,71 @@ h5 {
     color: #111;
     text-transform: capitalize;
 }
-
+section#business-carousel div#carouselExample
+ {
+    height: 480px;
+    align-items: center !important;
+    display: flex;
+    align-items: center !important;
+}
+section#business-carousel div#carouselExample img {
+    height: 480px;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-control-prev {
+    left: 20px;
+    bottom: 50px;
+    top: unset;
+}
+button.carousel-control-next {
+    left: 80px;
+    bottom: 50px;
+    top: unset;
+}
+button.carousel-control-next, .carousel-control-prev {
+    background: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+}
+body#business-website-service #top nav ul li a.nav-link {
+    color: #111 !important;
+}
+body#business-website-service div#navbarNav {
+    padding: unset;
+    border-radius: unset;
+    background: unset;
+}
+body#business-website-service #particles-js {
+    display: none !important;
+}
+body#business-website-service header#top img {
+    filter: invert(1);
+}
+body#business-website-service br {
+    display: block !important;
+}
+body#business-website-service {
+    background: #fff !important;
+    color: #111 !important;
+}
+body#business-website-service section#business-carousel p {
+ color: #fff !important;
+}
+body#business-website-service p, body#business-website-service h1, body#business-website-service h2, body#business-website-service h3, body#business-website-service h4, body#business-website-service h5, body#business-website-service h6, body#business-website-service a {
+    color: #111 !important;
+}
+section#business-carousel h1 {
+    color: #fff !important;
+    font-size: 36px !important;
+    line-height: 46px !important;
+}
+section#business-carousel {
+    background: #111;
+    color: #fff !important;
+}
 p {
     font-family: "Poppins" !important;
     font-size: 16px;
@@ -1287,7 +1351,7 @@ section#support-partners {
 #process-section::before {
     content: "";
     position: absolute;
-    background-image: url('/assets/images/fem-emb.png');
+    background-image: url('/assets/images/asset-embed.png');
     top: 50%;
     left: -210px;
     background-repeat: no-repeat;
@@ -2168,7 +2232,18 @@ div#loom-companion-mv3 {
     margin-bottom: 30px;
     display: flex;
 }
-
+section#service-feature .row  {
+    align-items: baseline !important;
+}
+section#service-feature .feature-wrapper {
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 2px solid #19b089;
+    margin-top: 20px;
+}
+section#service-feature .feature-wrapper p {
+    min-height: 100px;
+}
 #contact .section-title h2 {
     font-size: 172px !important;
     line-height: 78px !important;
@@ -2354,7 +2429,7 @@ footer.footer-section .socials-menu li a i {
 }
 
 footer.footer-section .socials-menu li a:hover i {
-    color: linear-gradient(180deg, #050CD5 -150%, #111 70%);
+    color: linear-gradient(180deg, #025151 -150%, #111 70%);
 }
 
 footer.footer-section p {
