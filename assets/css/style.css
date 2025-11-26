@@ -222,6 +222,7 @@ body#business-website-service #contact .form h2, body#business-website-service #
 
 section#business-suite-offer h4, section#business-suite-offer h5, section#business-suite-offer li, section#business-suite-offer p {
     color: #fff !important;
+    font-family: 'Poppins' !important;
 }
 body#business-website-service #contact .section-title h2 {
     text-shadow: 10px 10px 0px #e54972;

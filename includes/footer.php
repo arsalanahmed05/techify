@@ -11,7 +11,7 @@
                 <div class="col-sm-6">
                     <ul class="socials-menu">
                         <li class="socials-items">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61584247924057"><i class="fa-brands fa-facebook-f"></i></a>
                         </li>
                         <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -20,7 +20,7 @@
                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         </li>
                         <li class="socials-items">
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/techifysofficial/"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
