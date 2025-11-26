@@ -5,7 +5,7 @@
         <div id="main-row" class="row">
             <div id="top-row" class="row">
                 <div class="col-md-6">
-                    <a href="#"><img src="/assets/images/techifys-logo-web-development-agency.png" alt=""></a>
+                    <a href="#"><img src="/assets/images/techifys-logo.png" alt=""></a>
                     <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
                 </div>
                 <div class="col-sm-6">
@@ -77,7 +77,7 @@
                             <a href="#"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
                         </li>
                         <li>
-                            <a href="#" i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
+                            <a href="#"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
                         </li>
                     </ul>
                 </div>

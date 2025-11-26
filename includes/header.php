@@ -3,7 +3,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="/assets/images/techifys-logo-web-development-agency.png"
+                    <a class="navbar-brand" href="#"><img src="/assets/images/techifys-logo.png"
                             alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="servicesLink">
                                     <li><a class="dropdown-item" href="/web-development/">App Development</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Business Processing Outsourcing</a></li>
-                                    <li><a class="dropdown-item" href="/web-development/">Business Website Service</a></li>
+                                    <li><a class="dropdown-item" href="/business-website-service/">Business Website Service</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Content Writing</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Cybersecurity & IT Support</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Cloud & Hosting Solutions</a></li>
