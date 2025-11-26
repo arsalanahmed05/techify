@@ -1,11 +1,15 @@
-<?php include_once("includes/head.php") ?>
+<?php
+$meta_title = "Business Website Development in USA | Techifys";
+$meta_description = "Techifys provides professional business website development in USA, including WordPress, landing pages, e-commerce, and lead-generation websites for all industries.";
+include_once("includes/head.php");
+?>
 <?php include_once("includes/header.php") ?>
 
 
 <body id="business-website-service">
-    <div id="cursor">
+    <!-- <div id="cursor">
         <div class="cursor__circle"></div>
-    </div>
+    </div> -->
 
     <section id="business-carousel">
         <div class="container">
@@ -16,11 +20,15 @@
                         <p>We provide business website development services in the USA that help you get
                             more leads and build trust. Your site will be fast, responsive, and built to
                             support your business growth.</p>
+                        <a href="#" tabindex="0"><button class="quote-btn bton" tabindex="0"><i
+                                    class="fa-brands fa-rocketchat"></i>get a
+                                quote</button></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="" alt="" class="img-fluid">
+                        <img src="/assets/images/webdesigns/banni-des.png" alt="" class="img-fluid">
+                        <!-- <img src="/assets/images/webdesigns/wd11.png" alt="" class="img-fluid"> -->
                     </div>
                 </div>
             </div>
@@ -67,7 +75,7 @@
         <div class="container">
             <div class="headline d-flex">
                 <h2>Business Suite Offer - Premium</h2>
-                <span class="offerbadge">Get 40%<br> OFF</span>
+                <img src="/assets/images/forty-percent.png" alt="" class="img-fluid offer-badge">
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -95,10 +103,6 @@
                             <li>CMS/Admin Panel for Easy Updates</li>
                         </ul>
                     </div>
-                    <div class="offer-text d-flex gap-2 align-items-center">
-                        <h4>$499</h4>
-                        <h5><s>$750</s></h5>
-                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="offer-bullets">
@@ -121,6 +125,100 @@
                             <li>Fulfil the aggreement sections before delivering you</li>
                         </ul>
                     </div>
+                    <div class="offer-text d-flex gap-2 align-items-center">
+                        <p>Only in</p>
+                        <h4>$499</h4>
+                        <h5><s>$750</s></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process-workflow">
+        <div class="container-fluid">
+            <div class="section-title text-center">
+                <h2>Founders Who Ignore Their <br>Website Get Left Behind</h2>
+                <p>If You’re A Startup Founder Doing Under $250K in Sales...</p>
+            </div>
+            <div class="bottom-title text-center">
+                <h4>The Cost of Being Invisible</h4>
+            </div>
+            <div class="row" style="align-items: baseline !important;">
+                <div class="col-lg-12">
+                    <div id="inner-row-top" class="row">
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/missed.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Missed Sales Revenue</h3>
+                                    <p>Because your website fails to convert interested visitors into paying customers
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/waste.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Wasted Ad Spend</h3>
+                                    <p>Driving traffic to a website that can’t close deals means money down the drain
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="workflow-item text-center">
+                                <img src="/assets/images/lose.png" alt="" class="img-fluid">
+                                <div class="inner-layer-work">
+                                    <h3>Losing Opportunities</h3>
+                                    <p>Investors, partners and clients judge your credibility based entirely on your
+                                        website</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="inner-row-bottom" class="row">
+                        <div class="col-lg-12">
+                            <div class="gallery-slider">
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample1.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample2.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample3.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample4.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample5.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample6.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <a href="#">
+                                        <img src="/assets/images/web-sample7.webp" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,12 +231,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for
-                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
-                            corporate website, our designs are tailored to captivate your audience and deliver
-                            measurable results. Every website we build is responsive, fast, and aligned with your
-                            business goals.</p>
+                        <h2>Business Website<br> in USA</h2>
+                        <p>Techifys offers Business Website Development in Texas, Business Website Development in
+                            California, Business Website Development in New York, Business Website Development in
+                            Florida, Business Website Development in Los Angeles, Business Website Development in
+                            Chicago, Business Website Development in Arizona, Business Website Development in
+                            Washington, Business Website Development in Georgia, Business Website Development in
+                            Virginia, and all other major regions across the USA. Our service is fully dedicated to
+                            helping businesses in every state build a strong, modern, and professional online presence.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -160,11 +261,15 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Scalable & Secure <br><ruby>Development</ruby></h2>
-                        <p>We focus on building scalable, secure, and high-performing websites that grow with your
-                            business. Leveraging the latest technologies and coding standards, our web development
-                            services ensure seamless performance, robust security, and easy maintenance. Let us
-                            transform your vision into a digital reality.</p>
+                        <h2>Business Website for<br> Every Niche</h2>
+                        <p>Techifys builds professional business websites for every major niche across the USA,
+                            including real estate websites, restaurant websites, medical and healthcare websites, law
+                            firm websites, e-commerce websites, consulting websites, construction company websites,
+                            fitness and gym websites, beauty and salon websites, education and coaching websites, travel
+                            and tourism websites, cleaning service websites, automotive service websites, and financial
+                            or accounting websites. No matter the industry, we create fast, modern, and
+                            conversion-focused WordPress business websites that help clients grow and build a stronger
+                            presence in the US market.</p>
                     </div>
                 </div>
             </div>
@@ -176,17 +281,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for
-                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
-                            corporate website, our designs are tailored to captivate your audience and deliver
-                            measurable results. Every website we build is responsive, fast, and aligned with your
-                            business goals.</p>
+                        <h2>Scalable Website Variations</h2>
+                        <p>Techifys develops a wide range of WordPress website types for businesses across the USA,
+                            including landing page websites, eCommerce stores, booking and appointment websites,
+                            lead-generation websites, portfolio and showcase sites, service-based business websites, and
+                            custom interactive WordPress platforms. Every site is designed to be scalable, fast, and
+                            conversion-focused, ensuring that your business can grow online, capture leads efficiently,
+                            and deliver a professional experience to US citizens.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/responsive-vector.png" alt="" class="img-fluid">
+                        <img src="/assets/images/webdesigns/banni-screens.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

@@ -74,7 +74,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, transparent, 1DCD9F, 169976, transparent);
+    background: linear-gradient(180deg, transparent, #1DCD9F, #169976, transparent);
     /* outline: 1px solid #ff910a;  */
 }
 
@@ -88,13 +88,7 @@ h5 {
     color: #111;
     text-transform: capitalize;
 }
-section#business-carousel div#carouselExample
- {
-    height: 480px;
-    align-items: center !important;
-    display: flex;
-    align-items: center !important;
-}
+
 section#business-carousel div#carouselExample img {
     height: 480px;
     object-fit: cover;
@@ -117,13 +111,37 @@ button.carousel-control-next, .carousel-control-prev {
     border-radius: 50%;
     opacity: 1;
 }
+
+body#business-website-servic::-webkit-scrollbar {
+    width: 2px;
+}
+
+body#business-website-service::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+body#business-website-service::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg,#E54B74, #510844);
+    /* outline: 1px solid #ff910a;  */
+}
+
+
+body#business-website-service #trusted-sections img {
+    filter: unset !important;
+} 
 body#business-website-service #top nav ul li a.nav-link {
     color: #111 !important;
+}
+#business-website-service a.navbar-brand img {
+    width: 20%;
+    display: table;
+    margin: auto;
 }
 body#business-website-service div#navbarNav {
     padding: unset;
     border-radius: unset;
     background: unset;
+    display: none !important;
 }
 body#business-website-service #particles-js {
     display: none !important;
@@ -149,21 +167,84 @@ section#business-carousel h1 {
     font-size: 36px !important;
     line-height: 46px !important;
 }
-section#business-carousel {
+#business-carousel {
+    background: linear-gradient(45deg, #E54972, #4a0542);
+    color: #fff !important;
+    overflow: hidden !important;
+} 
+.offer-text.d-flex.gap-2.align-items-center {
+    background: #000;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 22px;
+}
+.offer-text p, .offer-text h4, .offer-text h5 {
+    margin-bottom: 0px !important;
+}
+section#business-suite-offer h4 {
+    font-size: 72px !important;
+    line-height: 82px !important;
+}
+body#business-website-service #testimonials .slide-item {
+    background: linear-gradient(160deg, #111 -20%, #E54972 80%) !important;
+}
+body#business-website-service footer.footer-section {
     background: #111;
+}
+body#business-website-service footer.footer-section img {
+    filter: hue-rotate(165deg);
+    margin-bottom: 20px;
+}
+body#business-website-service footer.footer-section h3, body#business-website-service footer.footer-section p, body#business-website-service footer.footer-section li, body#business-website-service footer.footer-section a {
     color: #fff !important;
 }
-
+#business-suite-offer img.offer-badge {
+    width: 20%;
+    position: absolute;
+    right: 0px;
+    animation: bounce 2s infinite;
+}
+#business-suite-offer {
+    position: relative;
+}
 section#business-suite-offer .row {
     background: linear-gradient(45deg, #E54972, #4a0542);
     padding: 30px 30px;
     border-radius: 32px;
     align-items: baseline !important;
 }
-section#business-suite-offer h4, section#business-suite-offer h5, section#business-suite-offer li {
+body#business-website-service #contact .form {
+    background: linear-gradient(45deg, #E54972, #4a0542);
+}
+body#business-website-service #contact .form h2, body#business-website-service #contact .form p {
     color: #fff !important;
 }
 
+section#business-suite-offer h4, section#business-suite-offer h5, section#business-suite-offer li, section#business-suite-offer p {
+    color: #fff !important;
+}
+body#business-website-service #contact .section-title h2 {
+    text-shadow: 10px 10px 0px #e54972;
+}
+body#business-website-service #process-workflow .workflow-item {
+    background: linear-gradient(45deg, #E54972, #4a0542);
+}
+body#business-website-service #process-workflow .workflow-item h3, body#business-website-service #process-workflow .workflow-item p {
+    color: #fff !important;
+}
+body#business-website-service #process-workflow #inner-row-bottom::after, body#business-website-service #process-workflow #inner-row-bottom::before {
+    background: #fff !important;
+}
+.headline {
+    padding: 0px 40px;
+}
+#business-carousel .img-bg img {
+    width: 80%;
+    float: right !important;
+    transform: scale(1.2);
+    bottom: -20px;
+    position: relative;
+}
 
 p, li {
     font-family: "Poppins" !important;
@@ -2250,8 +2331,10 @@ section#service-feature .row  {
 section#service-feature .feature-wrapper {
     padding: 30px 20px;
     border-radius: 12px;
-    border: 2px solid #19b089;
+    border: 2px solid #E54972;
     margin-top: 20px;
+    box-shadow: inset 5px -5px 0px #e54972;
+    cursor: pointer;
 }
 section#service-feature .feature-wrapper p {
     min-height: 100px;
