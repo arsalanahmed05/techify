@@ -4,11 +4,13 @@
     <div class="container">
         <div id="main-row" class="row">
             <div id="top-row" class="row">
-                <div class="col-md-6">
-                    <a href="#"><img src="/assets/images/techifys-logo.png" alt=""></a>
-                    <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <a href="#"><img src="/assets/images/techifys-logo.png" alt=""></a>
+                        <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
+                    </div>
                 </div>
-                <div class="col-sm-6">
+                <!-- <div class="col-sm-6">
                     <ul class="socials-menu">
                         <li class="socials-items">
                             <a href="https://www.facebook.com/profile.php?id=61584247924057"><i class="fa-brands fa-facebook-f"></i></a>
@@ -23,7 +25,7 @@
                             <a href="https://www.instagram.com/techifysofficial/"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div id="middle-row" class="row">
                 <div class="col-sm-3">
@@ -168,29 +170,32 @@
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.gallery-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            arrows: false,        // ⬅️ No arrows
+            arrows: false, // ⬅️ No arrows
             dots: false,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 0,     // ⬅️ No stopping delay
-            speed: 4000,          // ⬅️ Controls rotation speed (lower = faster)
-            cssEase: 'linear',    // ⬅️ Perfect continuous movement
+            autoplaySpeed: 0, // ⬅️ No stopping delay
+            speed: 4000, // ⬅️ Controls rotation speed (lower = faster)
+            cssEase: 'linear', // ⬅️ Perfect continuous movement
             pauseOnHover: false,
             pauseOnFocus: false,
-            swipe: false,         // ⬅️ Disable dragging, pure auto movement
+            swipe: false, // ⬅️ Disable dragging, pure auto movement
             touchMove: false,
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 992,
-                    settings: { slidesToShow: 2 }
+                    settings: {
+                        slidesToShow: 2
+                    }
                 },
                 {
                     breakpoint: 576,
-                    settings: { slidesToShow: 1 }
+                    settings: {
+                        slidesToShow: 1
+                    }
                 }
             ]
         });
@@ -203,8 +208,8 @@
 
 
 <script>
-    jQuery(document).ready(function ($) {
-        $('.count').each(function () {
+    jQuery(document).ready(function($) {
+        $('.count').each(function() {
             var $this = $(this);
             var countTo = $this.attr('data-count'); // Read the data-count attribute
 
@@ -221,11 +226,11 @@
             }, {
                 duration: 4000,
                 easing: 'swing',
-                step: function () {
+                step: function() {
                     // Update the text with the animated number and the `+` sign if required
                     $this.text((isPlus ? '+' : '') + Math.ceil(this.countNum).toLocaleString());
                 },
-                complete: function () {
+                complete: function() {
                     // On complete, ensure the final number is shown
                     $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
                 },
@@ -239,7 +244,7 @@
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.testimonials-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -247,21 +252,21 @@
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                breakpoint: 1030,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
+                    breakpoint: 1030,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -299,7 +304,7 @@
 </script> -->
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.service-banner-slider').slick({
             infinite: true,
             slidesToShow: 1,
@@ -307,21 +312,21 @@
             autoplay: true,
             autoplaySpeed: 1500,
             responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -331,11 +336,11 @@
 
 
 <script>
-    $(function () {
+    $(function() {
         var e = "";
 
         // Filtering functionality
-        $(".fil-cat").click(function () {
+        $(".fil-cat").click(function() {
             $(".portfolio_list ul li").removeClass("active");
             $(this).addClass("active");
 
@@ -344,7 +349,7 @@
 
             $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-            setTimeout(function () {
+            setTimeout(function() {
                 $("." + e).fadeIn().addClass("scale-anm");
                 $("#portfolio").fadeTo(800, 1);
             }, 300);
@@ -469,7 +474,7 @@
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.brand-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -478,21 +483,21 @@
             autoplaySpeed: 2000,
             arrows: false,
             responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -571,7 +576,7 @@
     const cursorLinks = document.querySelectorAll('a:not(.cursor-style)');
 
     cursorModifiers.forEach((cursorModifier) => {
-        cursorModifier.addEventListener('mouseenter', function () {
+        cursorModifier.addEventListener('mouseenter', function() {
             const className = this.getAttribute('data-cursor-type');
             cursor.classList.add(className);
             const cursorText = this.getAttribute('data-custom-text');
@@ -582,7 +587,7 @@
             }
         });
 
-        cursorModifier.addEventListener('mouseleave', function () {
+        cursorModifier.addEventListener('mouseleave', function() {
             const className = this.getAttribute('data-cursor-type');
             cursor.classList.remove(className);
             cursor.removeAttribute('data-cursor-text');
@@ -590,11 +595,11 @@
     });
 
     cursorLinks.forEach((cursorLink) => {
-        cursorLink.addEventListener('mouseenter', function () {
+        cursorLink.addEventListener('mouseenter', function() {
             cursor.classList.add('cursor-link');
         });
 
-        cursorLink.addEventListener('mouseleave', function () {
+        cursorLink.addEventListener('mouseleave', function() {
             cursor.classList.remove('cursor-link');
         });
     });
@@ -705,7 +710,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.portfolio-slider').slick({
             slidesToShow: 4, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -721,30 +726,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                breakpoint: 1025, // Tablet size and above
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for tablets
+                    breakpoint: 1025, // Tablet size and above
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable center mode for small screens
+                    }
                 }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable center mode for small screens
-                }
-            }
             ]
         });
     });
@@ -753,7 +758,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.portfolio-slider-reverse').slick({
             slidesToShow: 4, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -769,30 +774,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                breakpoint: 1025, // Tablet size and above
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for tablets
+                    breakpoint: 1025, // Tablet size and above
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable center mode for small screens
+                    }
                 }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable center mode for small screens
-                }
-            }
             ]
         });
     });
@@ -803,7 +808,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.trusted-slider').slick({
             slidesToShow: 6, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -819,30 +824,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                breakpoint: 1025, // Tablet size and above
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for tablets
+                    breakpoint: 1025, // Tablet size and above
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable center mode for small screens
+                    }
                 }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable center mode for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable center mode for small screens
-                }
-            }
             ]
         });
     });
@@ -869,13 +874,13 @@ OTENZA.goToTop();
     }
 
     // Set the default active tab on page load
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         document.querySelector(".tablinks.active").click();
     });
 </script>
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('.service-feature-slider.left').slick({
             slidesToShow: 3, // Show 4 slides on desktop
             slidesToScroll: 1,
@@ -893,30 +898,30 @@ OTENZA.goToTop();
             swipe: true, // Enable swipe functionality
             touchMove: true, // Allow touch movement
             responsive: [{
-                breakpoint: 1025, // Tablet size
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for tablets
+                    breakpoint: 1025, // Tablet size
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable centering for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable centering for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable centering for small screens
+                    }
                 }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable centering for small screens
-                }
-            }
             ]
         });
     });
@@ -925,7 +930,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         // Bottom to top scrolling for service-feature-slider-right
         $('.service-feature-slider.right').slick({
             slidesToShow: 3, // Show 4 slides on desktop
@@ -944,30 +949,30 @@ OTENZA.goToTop();
             swipe: true, // Enable swipe functionality
             touchMove: true, // Allow touch movement
             responsive: [{
-                breakpoint: 1025, // Tablet size
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for tablets
+                    breakpoint: 1025, // Tablet size
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable centering for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable centering for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable centering for small screens
+                    }
                 }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable centering for small screens
-                }
-            }
             ]
         });
 
@@ -986,10 +991,15 @@ OTENZA.goToTop();
                     "value_area": 900
                 }
             },
-            "color": { "value": "#ffffff" },
+            "color": {
+                "value": "#ffffff"
+            },
             "shape": {
                 "type": "circle",
-                "stroke": { "width": 0, "color": "#000000" }
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                }
             },
             "opacity": {
                 "value": 0.6,
@@ -1013,19 +1023,34 @@ OTENZA.goToTop();
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
-                "attract": { "enable": false }
+                "attract": {
+                    "enable": false
+                }
             }
         },
         "interactivity": {
             "detect_on": "canvas",
             "events": {
-                "onhover": { "enable": true, "mode": "grab" },
-                "onclick": { "enable": true, "mode": "push" },
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
                 "resize": true
             },
             "modes": {
-                "grab": { "distance": 140, "line_linked": { "opacity": 0.4 } },
-                "push": { "particles_nb": 4 }
+                "grab": {
+                    "distance": 140,
+                    "line_linked": {
+                        "opacity": 0.4
+                    }
+                },
+                "push": {
+                    "particles_nb": 4
+                }
             }
         },
         "retina_detect": true
@@ -1038,7 +1063,7 @@ OTENZA.goToTop();
 
 
 <script>
-    var TxtType = function (el, toRotate, period) {
+    var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -1048,7 +1073,7 @@ OTENZA.goToTop();
         this.isDeleting = false;
     };
 
-    TxtType.prototype.tick = function () {
+    TxtType.prototype.tick = function() {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
 
@@ -1076,12 +1101,12 @@ OTENZA.goToTop();
             delta = 500;
         }
 
-        setTimeout(function () {
+        setTimeout(function() {
             that.tick();
         }, delta);
     };
 
-    window.onload = function () {
+    window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -1100,7 +1125,7 @@ OTENZA.goToTop();
 
 
 <script>
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', function() {
         const video = document.querySelector('.video-background video');
         const section = document.querySelector('.parallax-section');
         const scrollPosition = window.pageYOffset;
@@ -1139,28 +1164,51 @@ OTENZA.goToTop();
     particlesJS("particles-js", {
         "particles": {
             "number": {
-                "value": 250,  /* increased from 120 → 250 */
-                "density": { "enable": true, "value_area": 1000 }
+                "value": 250,
+                /* increased from 120 → 250 */
+                "density": {
+                    "enable": true,
+                    "value_area": 1000
+                }
             },
-            "color": { "value": ["#00E5FF", "#00FFA3", "#FFB86B"] },
+            "color": {
+                "value": ["#00E5FF", "#00FFA3", "#FFB86B"]
+            },
             "shape": {
                 "type": "circle",
-                "stroke": { "width": 0, "color": "#000000" },
-                "polygon": { "nb_sides": 6 }
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 6
+                }
             },
             "opacity": {
                 "value": 0.55,
                 "random": true,
-                "anim": { "enable": true, "speed": 0.6, "opacity_min": 0.15, "sync": false }
+                "anim": {
+                    "enable": true,
+                    "speed": 0.6,
+                    "opacity_min": 0.15,
+                    "sync": false
+                }
             },
             "size": {
-                "value": 2.5, /* slightly smaller to balance density */
+                "value": 2.5,
+                /* slightly smaller to balance density */
                 "random": true,
-                "anim": { "enable": true, "speed": 6, "size_min": 0.8, "sync": false }
+                "anim": {
+                    "enable": true,
+                    "speed": 6,
+                    "size_min": 0.8,
+                    "sync": false
+                }
             },
             "line_linked": {
                 "enable": true,
-                "distance": 140,  /* tighter mesh */
+                "distance": 140,
+                /* tighter mesh */
                 "color": "#00B3CC",
                 "opacity": 0.15,
                 "width": 1
@@ -1173,21 +1221,43 @@ OTENZA.goToTop();
                 "straight": false,
                 "out_mode": "out",
                 "bounce": false,
-                "attract": { "enable": true, "rotateX": 800, "rotateY": 1600 }
+                "attract": {
+                    "enable": true,
+                    "rotateX": 800,
+                    "rotateY": 1600
+                }
             }
         },
         "interactivity": {
             "detect_on": "canvas",
             "events": {
-                "onhover": { "enable": true, "mode": ["grab", "repulse"] },
-                "onclick": { "enable": true, "mode": ["push", "remove"] },
+                "onhover": {
+                    "enable": true,
+                    "mode": ["grab", "repulse"]
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": ["push", "remove"]
+                },
                 "resize": true
             },
             "modes": {
-                "grab": { "distance": 240, "line_linked": { "opacity": 0.45 } },
-                "repulse": { "distance": 180, "duration": 0.4 },
-                "push": { "particles_nb": 4 },
-                "remove": { "particles_nb": 2 }
+                "grab": {
+                    "distance": 240,
+                    "line_linked": {
+                        "opacity": 0.45
+                    }
+                },
+                "repulse": {
+                    "distance": 180,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
             }
         },
         "retina_detect": true
@@ -1200,16 +1270,16 @@ OTENZA.goToTop();
     const btn = document.getElementById("servicesLink");
     const span = document.querySelector(".close");
 
-    btn.onclick = function (e) {
+    btn.onclick = function(e) {
         e.preventDefault();
         modal.style.display = "block";
     }
 
-    span.onclick = function () {
+    span.onclick = function() {
         modal.style.display = "none";
     }
 
-    window.onclick = function (event) {
+    window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
