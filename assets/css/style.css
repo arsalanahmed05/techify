@@ -124,14 +124,13 @@ body#business-website-service::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg,#E54B74, #510844);
     /* outline: 1px solid #ff910a;  */
 }
-
-
 body#business-website-service #trusted-sections img {
     filter: unset !important;
 } 
 body#business-website-service #top nav ul li a.nav-link {
     color: #111 !important;
 }
+
 #business-website-service a.navbar-brand img {
     width: 20%;
     display: table;
@@ -222,7 +221,6 @@ body#business-website-service #contact .form h2, body#business-website-service #
 
 section#business-suite-offer h4, section#business-suite-offer h5, section#business-suite-offer li, section#business-suite-offer p {
     color: #fff !important;
-    font-family: 'Poppins' !important;
 }
 body#business-website-service #contact .section-title h2 {
     text-shadow: 10px 10px 0px #e54972;
@@ -261,8 +259,8 @@ h1 {
 }
 
 h2 {
-    font-size: 42px !important;
-    line-height: 52px !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
 }
 
 h3 {
