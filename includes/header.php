@@ -26,7 +26,7 @@
                                     <li><a class="dropdown-item" href="/web-development/">App Development</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Business Processing Outsourcing</a></li>
                                     <li><a class="dropdown-item" href="/business-website-service/">Business Website Service</a></li>
-                                    <li><a class="dropdown-item" href="/web-development/">Content Writing</a></li>
+                                    <li><a class="dropdown-item" href="/web-designing/">Content Writing</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Cybersecurity & IT Support</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">Cloud & Hosting Solutions</a></li>
                                     <li><a class="dropdown-item" href="/web-development/">E-commerce Automation</a></li>
