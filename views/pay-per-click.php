@@ -27,7 +27,7 @@
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">PPC Marketing</h6>
                     <h1>Transforming <ruby>Ideas</ruby> into <br> Stunning <ruby>Websites</ruby></h1>
                     <p>We design cutting-edge websites that don’t just look great but also help your<br> business grow by engaging your audience effectively.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"> get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">

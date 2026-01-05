@@ -21,10 +21,8 @@
                                 <h1>Grow your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                                <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                                <a href="#"><button class="quote-btn bton"> get a
                                         quote</button></a>
-                                <a href="tel:+12014830259"><button class="quote-btn bton"><i
-                                            class="fa-solid fa-phone"></i>+(201)-483-0259</button></a>
                             </div>
                         </div>
                     </div>
@@ -317,7 +315,7 @@
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
                             improve customer engagement.</p>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View
+                        <a href="#"><button class="quote-btn bton"> View
                                 Packages</button></a>
                     </div>
 
@@ -2178,9 +2176,9 @@
 
     <div class="floatbutton">
         <div class="btns_wrap">
-            <a href="javascript:;" class="chat_wrap chat"><i class="fa-brands fa-rocketchat"></i><span>Chat With
+            <a href="javascript:;" class="chat_wrap chat"> <span>Chat With
                     Us</span></a>
-            <a href="tel:+11234568790" class="call_wrap"><i class="fa-solid fa-phone"></i><span>+1
+            <a href="tel:+11234568790" class="call_wrap"> <span>+1
                     (234)-456-7890</span></a>
         </div>
     </div>

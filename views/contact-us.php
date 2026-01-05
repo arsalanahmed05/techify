@@ -11,7 +11,7 @@
                     <h6 class="sub-heading">Contact Us</h6>
                     <h1>Your Next Step<br> <ruby>Starts Here</ruby></h1>
                     <p>Take your first step towards innovation and success, redefining<br> what's possible for your business.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>Get Quote</button></a>
+                    <a href="#"><button class="quote-btn bton"> Get Quote</button></a>
                 </div>
             </div>
         </div>

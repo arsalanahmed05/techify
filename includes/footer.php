@@ -102,7 +102,7 @@
             </div>
             <div id="bottom-row" class="row">
                 <div class="copright text-center">
-                    <p><i class="fa-regular fa-copyright"></i> Copyrights 2025 <strong>Techifys </strong> All
+                    <p><i class="fa-regular fa-copyright"></i> Copyrights 2026 <strong>Techifys </strong> All
                         Rights Reserved.</p>
                 </div>
             </div>

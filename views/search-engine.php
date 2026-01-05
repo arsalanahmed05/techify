@@ -27,7 +27,7 @@
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">search engine optimization</h6>
                     <h1>SEO <ruby>Strategies</ruby> That <br>Deliver <ruby>Results</ruby></h1>
                     <p>We use proven SEO techniques to ensure your website ranks higher and attracts<br> the right audience, leading to increased sales.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"> get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">

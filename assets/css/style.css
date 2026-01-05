@@ -13,6 +13,7 @@
 html body {
     color: #fff !important;
     background: #000 !important;
+    overflow-x: hidden !important;
 }
 
 p {
@@ -303,23 +304,6 @@ h6 span {
     font-family: "Jost" !important;
 }
 
-.bton:hover:before {
-    width: 100%;
-    z-index: -1;
-}
-
-.bton::before {
-    content: "";
-    position: absolute;
-    background: linear-gradient(45deg, 1DCD9F, #025151);
-    width: 0%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    transition: 0.5s;
-    z-index: -1;
-    border-radius: 32px;
-}
 
 ul.star-list li {
     display: inline-block;
@@ -328,21 +312,6 @@ ul.star-list li {
 ul.star-list {
     padding: 0;
     list-style: none;
-}
-
-.bton i {
-    font-size: 22px;
-    transition: 0.5s;
-    background: #fff;
-    color: #000;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    position: absolute;
-    top: 0px;
-    left: 0;
 }
 
 ul.footer-menu.service {
@@ -355,27 +324,6 @@ ul.footer-menu.service {
 }
 
 
-
-
-.bton {
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px 30px 10px 70px;
-    font-size: 20px;
-    text-transform: capitalize;
-    font-family: 'Jost';
-    font-weight: 500;
-    transition: 0.5s ease-in-out;
-    border-radius: 32px;
-    position: relative;
-    overflow: hidden;
-}
-
-.bton:hover {
-    transform: scale(1.05);
-    color: #fff;
-}
 
 html, body {
     overflow-x: hidden !important;
@@ -701,13 +649,14 @@ nav.navbar.bg-body-tertiary.fixed-top {
     padding: 0 20px;
     transition: all 0.3s ease-in-out;
     box-shadow: unset !important;
-    width: 100vw;
+
     padding: 0 !important;
 }
 
 
-
-
+.navbar ul.navbar-nav {
+    margin: auto;
+}
 /* Default navbar styles */
 .navbar {
     transition: all 0.3s ease-in-out;
@@ -746,11 +695,12 @@ a.dropdown-item:hover {
 }
 
 a.navbar-brand img {
-    width: 35%;
+    width: 45%;
 }
 
-a.navbar-brand {
-    width: 100%;
+a.navbar-brand
+ {
+    max-width: 420px;
     z-index: 999;
     padding: 0;
 }
@@ -821,8 +771,8 @@ div#navbarNav {
     font-family: "Orbitron" !important;
     font-size: 18px;
     line-height: 28px;
-    margin-right: 40px;
     font-weight: bold;
+        margin: 0px 20px;
     letter-spacing: 2px;
 }
 
@@ -922,6 +872,25 @@ span.navbar-toggler-icon {
     font-size: 112px;
     line-height: 122px;
 } */
+
+
+.bton {
+
+border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all .15s ease;
+  letter-spacing: 1px;
+  border-radius: 6px;
+}
+
 
 #home-banner h1 {
     font-size: 56px !important;
@@ -1427,7 +1396,7 @@ section#support-partners {
 #banner-text::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/fem-emb.png);
+    background-image: url(/assets/images/asset-embed.png);
     top: 50%;
     left: 50%;
     background-repeat: no-repeat;
@@ -1436,8 +1405,7 @@ section#support-partners {
     height: 400px;
     z-index: -1;
     transform: translate(-50%, -50%);
-    filter: invert(1) brightness(0.1) !important;
-    opacity: 0.1;
+    opacity: 0.3;
 }
 
 #process-section::before {
@@ -2404,20 +2372,6 @@ section#service-feature .feature-wrapper p {
     color: #111;
 }
 
-#contact a.bton.quote-button {
-    background: transparent;
-    color: #fff !important;
-    text-transform: capitalize;
-    border: 2px solid #fff;
-    border-radius: 34px;
-    padding: 12px 60px;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    display: table;
-    margin: auto;
-    transition: 0.5s;
-}
 
 #contact .form-group textarea {
     height: 170px;
@@ -2438,20 +2392,6 @@ textarea::placeholder {
     font-family: 'Poppins';
 }
 
-
-
-#contact button.bton.bton-primary {
-    background: transparent !important;
-    border: 2px solid #111;
-    border-radius: 5px !important;
-    padding: 12px 34px;
-    font-size: 18px;
-    color: #111;
-    font-weight: 600;
-    transition: 0.5s;
-    margin-top: 20px;
-    width: 100%;
-}
 
 
 
@@ -3213,14 +3153,8 @@ a.typewrite span {
     color: #fff !important;
 }
 
-#services-banner .bton i {
-    background-color: #fff !important;
-    background: #fff !important;
-}
 
-#services-banner .bton a {
-    color: #fff !important;
-}
+
 
 /* #services-banner::before {
     content: "";
@@ -3273,15 +3207,7 @@ video#services-video {
     padding: 0px 10px;
 }
 
-#services-banner button.quote-btn.bton i {
-    color: #111;
-}
 
-#services-banner button.quote-btn.bton {
-    margin-right: 10px;
-    color: #fff;
-    border-color: #fff;
-}
 
 #services-banner .slick-arrow {
     background: #111;
@@ -3957,10 +3883,7 @@ section.deliverables .row {
         margin-bottom: 4px;
     }
 
-    #contact a.bton.quote-button {
-        margin: 10px auto;
-    }
-
+    
     #contact .form h2 {
         font-size: 36px !important;
         line-height: 46px !important;
@@ -4202,21 +4125,13 @@ section.deliverables .row {
         text-align: center;
     }
 
-    .bton i {
-        font-size: 18px;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-    }
+    
 
     section#banner-text {
         padding: 120px 0px 0px 0px;
     }
 
-    button.quote-btn.bton {
-        margin-right: 10px;
-        font-size: 15px;
-    }
+    
 
     html body p {
         font-size: 14px !important;
