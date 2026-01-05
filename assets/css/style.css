@@ -377,9 +377,9 @@ ul.footer-menu.service {
     color: #fff;
 }
 
-/* html, body {
+html, body {
     overflow-x: hidden !important;
-} */
+}
 
 .text-wrapper {
     margin-bottom: 30px;
