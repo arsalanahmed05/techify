@@ -18,7 +18,7 @@
                         <div class="col-lg-12">
                             <div class="text-wrapper text-center">
                                 <h6 class="sub-heading">Developed Business Websites</h6>
-                                <h1>Evulate your <br><ruby>digital presence</ruby></h1>
+                                <h1>Grow your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
                                 <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
