@@ -11,7 +11,7 @@
 
 
     <section id="services-banner">
-        <div class="container">
+        <div class="container"> 
             <div class="service-banner-slider">
                 <div class="slide-item">
                     <div id="slide-item-row" class="row">
@@ -21,52 +21,12 @@
                                 <h1>Grow your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                                <a href="#"><button class="quote-btn bton"> get a
-                                        quote</button></a>
+                                <button id="openQuotePopup" class="quote-btn">Get a Quote</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="slide-item">
-                        <div id="slide-item-row" class="row">
-                            <div class="col-lg-6">
-                                <div class="text-wrapper">
-                                    <h6 class="sub-heading">Innovate Digitally</h6>
-                                    <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
-                                    <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
-                                        on your brand.</p>
-                                    <a href="#"><button class="quote-btn bton"><i
-                                                class="fa-brands fa-rocketchat"></i>get a quote</button></a>
-                                </div>
-                                </div>
-                                <div class="col-lg-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-2.png" alt="" class="img-fluid">
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div id="slide-item-row" class="row">
-                            <div class="col-lg-6">
-                            <div class="text-wrapper">
-                                    <h6 class="sub-heading">Your Growth Partner</h6>
-                                    <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
-                                    <p>Turn innovative ideas into powerful success stories that drive growth and create
-                                        lasting impact.</p>
-                                    <a href="/about-us/"><button class="quote-btn bton"><i
-                                                class="fa-brands fa-rocketchat"></i>view more</button></a>
-                                </div>
-                                </div>
-                                <div class="col-lg-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-3.png" alt="" class="img-fluid">
-                                </div>  
-                                
-                            </div>
-                        </div>
-                    </div> -->
+    
             </div>
             <div class="motion-img">
                 <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">

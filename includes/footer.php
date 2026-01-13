@@ -111,61 +111,60 @@
 </footer>
 
 
-<!-- OTHER PAGE CONTENT -->
+<div id="quotePopup" class="popup-overlay">
+    <div class="popup-box">
 
-<!-- POPUP MODAL -->
-<!-- <div id="servicesModal" class="modal">
-    <div class="modal-content">
-        <h2>Services</h2>
-        <p>Grap our services and get a wonderful services that grow your business ordinary to extraordinary</p>
-        <div class="services-grid">
-            <div class="column">
-                
-            </div>
-            <div class="column">
-                <ul class="services-navigation">
-                    
-                </ul>
-            </div>
-        </div>
-        <span class="close">&times;</span>
+        <button class="close-popup" id="closeQuotePopup">&times;</button>
+
+        <h4>Get a Free Quote</h4>
+        <p>Fill out the form and our team will provide a fast, personalized quote for your project.</p>
+
+        <form id="quoteForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone">
+            <textarea placeholder="Describe your requirement"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
     </div>
-</div> -->
+</div>
+
 
 </body>
 
 
 
 
-<div id="planPopup" class="popup">
-    <div class="popup-content">
-        <div class="popup-header">
-            <a href="#" class="popup-logo">
-                <img src="logo.png" alt="Popup Logo" />
-            </a>
-            <button class="popup-close"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="popup-body">
-            <div class="row">
-                <!-- Left Column -->
-                <div class="col-md-6 popup-left">
-                    <h4 id="popup-title"></h4>
-                    <ul id="popup-list"></ul>
-                </div>
-                <!-- Right Column -->
-                <div class="col-md-6 popup-right">
-                    <img src="placeholder.png" alt="Plan Image" id="popup-image" />
-                    <button class="btn btn-primary">Get Service</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+    const openBtn = document.getElementById("openQuotePopup");
+    const popup = document.getElementById("quotePopup");
+    const closeBtn = document.getElementById("closeQuotePopup");
+
+    openBtn.addEventListener("click", function(){
+        popup.style.display = "flex";
+    });
+
+    closeBtn.addEventListener("click", function(){
+        popup.style.display = "none";
+    });
+
+    popup.addEventListener("click", function(e){
+        if(e.target === popup){
+            popup.style.display = "none";
+        }
+    });
+
+});
+</script>
 
 
 
