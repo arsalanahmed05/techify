@@ -1,4 +1,3 @@
-
 <footer class="footer-section">
     <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1911"
             height="1044"></canvas></div>
@@ -95,36 +94,42 @@
     </div>
 
 
-<div id="tcf-popup-wrapper" class="tcf-overlay">
-    <div class="tcf-content-box">
-        <span id="tcf-close-btn" class="tcf-close-x">&times;</span>
-        
-        <div class="tcf-header">
-            <h3>Get a Quote</h3>
-            <p>Let’s discuss your project and requirements.</p>
-        </div>
+    <div id="tcf-popup-wrapper" class="tcf-overlay">
+        <div class="tcf-content-box">
+            <span id="tcf-close-btn" class="tcf-close-x">&times;</span>
 
-        <form class="tcf-form-body">
-            <div class="tcf-input-group">
-                <input type="text" placeholder="Your Name" required>
+            <div class="tcf-header">
+                <h3>Get a Quote</h3>
+                <p>Let’s discuss your project and requirements.</p>
             </div>
-            <div class="tcf-input-group">
-                <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="tcf-input-group">
-                <input type="tel" placeholder="Your Phone Number" required>
-            </div>
-            <div class="tcf-input-group">
-                <textarea placeholder="Your Message" rows="4"></textarea>
-            </div>
-            <button type="submit" class="tcf-submit-btn">Send Message</button>
-        </form>
+
+            <form class="tcf-form-body">
+                <div class="tcf-input-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="tcf-input-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="tcf-input-group">
+                    <input type="tel" placeholder="Your Phone Number" required>
+                </div>
+                <div class="tcf-input-group">
+                    <textarea placeholder="Your Message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="tcf-submit-btn">Send Message</button>
+            </form>
+        </div>
     </div>
-</div>
 
 
 </footer>
 
+
+<a href="mailto:hello@techifys.com?subject=Website%20Chat%20Inquiry"
+   class="chat-email-btn"
+   title="Chat with us">
+   💬
+</a>
 
 <button id="backToTop" title="Back to Top"> <i class="fa fa-arrow-up"></i>
 </button>
@@ -138,66 +143,66 @@
 
 
 
-  <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const backToTopBtn = document.getElementById("backToTop");
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const backToTopBtn = document.getElementById("backToTop");
 
-    // Show button after scrolling down 200px
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 200) {
-            backToTopBtn.style.display = "block";
-        } else {
-            backToTopBtn.style.display = "none";
-        }
-    });
+        // Show button after scrolling down 200px
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 200) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        });
 
-    // Smooth scroll to top on click
-    backToTopBtn.addEventListener("click", function() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
+        // Smooth scroll to top on click
+        backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
         });
     });
-});
 </script>
 
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    const tcfOpen = document.getElementById("tcf-open-btn");
-    const tcfClose = document.getElementById("tcf-close-btn");
-    const tcfWrapper = document.getElementById("tcf-popup-wrapper");
+    document.addEventListener("DOMContentLoaded", function () {
+        const tcfOpen = document.getElementById("tcf-open-btn");
+        const tcfClose = document.getElementById("tcf-close-btn");
+        const tcfWrapper = document.getElementById("tcf-popup-wrapper");
 
-    // Safety Check: Agar element milay tabhi event lagao
-    if (tcfOpen && tcfWrapper && tcfClose) {
-        
-        tcfOpen.onclick = function(e) {
-            e.preventDefault();
-            tcfWrapper.style.display = "flex";
-        };
+        // Safety Check: Agar element milay tabhi event lagao
+        if (tcfOpen && tcfWrapper && tcfClose) {
 
-        tcfClose.onclick = function() {
-            tcfWrapper.style.display = "none";
-        };
+            tcfOpen.onclick = function (e) {
+                e.preventDefault();
+                tcfWrapper.style.display = "flex";
+            };
 
-        // Bahar click karne se band ho jaye
-        window.onclick = function(event) {
-            if (event.target == tcfWrapper) {
+            tcfClose.onclick = function () {
                 tcfWrapper.style.display = "none";
-            }
-        };
-    } else {
-        console.log("TCF Popup elements not found yet.");
-    }
-});
+            };
+
+            // Bahar click karne se band ho jaye
+            window.onclick = function (event) {
+                if (event.target == tcfWrapper) {
+                    tcfWrapper.style.display = "none";
+                }
+            };
+        } else {
+            console.log("TCF Popup elements not found yet.");
+        }
+    });
 </script>
 
 
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.gallery-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -213,17 +218,17 @@ document.addEventListener("DOMContentLoaded", function() {
             swipe: false, // ⬅️ Disable dragging, pure auto movement
             touchMove: false,
             responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 1
-                    }
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
                 }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
             ]
         });
     });
@@ -235,8 +240,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script>
-    jQuery(document).ready(function($) {
-        $('.count').each(function() {
+    jQuery(document).ready(function ($) {
+        $('.count').each(function () {
             var $this = $(this);
             var countTo = $this.attr('data-count'); // Read the data-count attribute
 
@@ -253,11 +258,11 @@ document.addEventListener("DOMContentLoaded", function() {
             }, {
                 duration: 4000,
                 easing: 'swing',
-                step: function() {
+                step: function () {
                     // Update the text with the animated number and the `+` sign if required
                     $this.text((isPlus ? '+' : '') + Math.ceil(this.countNum).toLocaleString());
                 },
-                complete: function() {
+                complete: function () {
                     // On complete, ensure the final number is shown
                     $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
                 },
@@ -271,7 +276,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.testimonials-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -279,21 +284,21 @@ document.addEventListener("DOMContentLoaded", function() {
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                    breakpoint: 1030,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+                breakpoint: 1030,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -331,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script> -->
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.service-banner-slider').slick({
             infinite: true,
             slidesToShow: 1,
@@ -339,21 +344,21 @@ document.addEventListener("DOMContentLoaded", function() {
             autoplay: true,
             autoplaySpeed: 1500,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -363,11 +368,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script>
-    $(function() {
+    $(function () {
         var e = "";
 
         // Filtering functionality
-        $(".fil-cat").click(function() {
+        $(".fil-cat").click(function () {
             $(".portfolio_list ul li").removeClass("active");
             $(this).addClass("active");
 
@@ -376,7 +381,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-            setTimeout(function() {
+            setTimeout(function () {
                 $("." + e).fadeIn().addClass("scale-anm");
                 $("#portfolio").fadeTo(800, 1);
             }, 300);
@@ -501,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.brand-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -510,21 +515,21 @@ document.addEventListener("DOMContentLoaded", function() {
             autoplaySpeed: 2000,
             arrows: false,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
                 // Add more breakpoints and settings as needed
             ]
         });
@@ -603,7 +608,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const cursorLinks = document.querySelectorAll('a:not(.cursor-style)');
 
     cursorModifiers.forEach((cursorModifier) => {
-        cursorModifier.addEventListener('mouseenter', function() {
+        cursorModifier.addEventListener('mouseenter', function () {
             const className = this.getAttribute('data-cursor-type');
             cursor.classList.add(className);
             const cursorText = this.getAttribute('data-custom-text');
@@ -614,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        cursorModifier.addEventListener('mouseleave', function() {
+        cursorModifier.addEventListener('mouseleave', function () {
             const className = this.getAttribute('data-cursor-type');
             cursor.classList.remove(className);
             cursor.removeAttribute('data-cursor-text');
@@ -622,11 +627,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     cursorLinks.forEach((cursorLink) => {
-        cursorLink.addEventListener('mouseenter', function() {
+        cursorLink.addEventListener('mouseenter', function () {
             cursor.classList.add('cursor-link');
         });
 
-        cursorLink.addEventListener('mouseleave', function() {
+        cursorLink.addEventListener('mouseleave', function () {
             cursor.classList.remove('cursor-link');
         });
     });
@@ -737,7 +742,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.portfolio-slider').slick({
             slidesToShow: 4, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -753,30 +758,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                    breakpoint: 1025, // Tablet size and above
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable center mode for small screens
-                    }
+                breakpoint: 1025, // Tablet size and above
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for tablets
                 }
+            },
+            {
+                breakpoint: 768, // Mobile size
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for mobile
+                }
+            },
+            {
+                breakpoint: 480, // Extra small mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    centerMode: false, // Disable center mode for small screens
+                }
+            }
             ]
         });
     });
@@ -785,7 +790,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.portfolio-slider-reverse').slick({
             slidesToShow: 4, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -801,30 +806,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                    breakpoint: 1025, // Tablet size and above
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable center mode for small screens
-                    }
+                breakpoint: 1025, // Tablet size and above
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for tablets
                 }
+            },
+            {
+                breakpoint: 768, // Mobile size
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for mobile
+                }
+            },
+            {
+                breakpoint: 480, // Extra small mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    centerMode: false, // Disable center mode for small screens
+                }
+            }
             ]
         });
     });
@@ -835,7 +840,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.trusted-slider').slick({
             slidesToShow: 6, // Show 3 slides on desktop
             slidesToScroll: 1,
@@ -851,30 +856,30 @@ OTENZA.goToTop();
             prevArrow: '<button type="button" class="slick-prev">❮</button>',
             nextArrow: '<button type="button" class="slick-next">❯</button>',
             responsive: [{
-                    breakpoint: 1025, // Tablet size and above
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable center mode for small screens
-                    }
+                breakpoint: 1025, // Tablet size and above
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for tablets
                 }
+            },
+            {
+                breakpoint: 768, // Mobile size
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable center mode for mobile
+                }
+            },
+            {
+                breakpoint: 480, // Extra small mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    centerMode: false, // Disable center mode for small screens
+                }
+            }
             ]
         });
     });
@@ -901,13 +906,13 @@ OTENZA.goToTop();
     }
 
     // Set the default active tab on page load
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".tablinks.active").click();
     });
 </script>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.service-feature-slider.left').slick({
             slidesToShow: 3, // Show 4 slides on desktop
             slidesToScroll: 1,
@@ -925,30 +930,30 @@ OTENZA.goToTop();
             swipe: true, // Enable swipe functionality
             touchMove: true, // Allow touch movement
             responsive: [{
-                    breakpoint: 1025, // Tablet size
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable centering for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable centering for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable centering for small screens
-                    }
+                breakpoint: 1025, // Tablet size
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable centering for tablets
                 }
+            },
+            {
+                breakpoint: 768, // Mobile size
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable centering for mobile
+                }
+            },
+            {
+                breakpoint: 480, // Extra small mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    centerMode: false, // Disable centering for small screens
+                }
+            }
             ]
         });
     });
@@ -957,7 +962,7 @@ OTENZA.goToTop();
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         // Bottom to top scrolling for service-feature-slider-right
         $('.service-feature-slider.right').slick({
             slidesToShow: 3, // Show 4 slides on desktop
@@ -976,30 +981,30 @@ OTENZA.goToTop();
             swipe: true, // Enable swipe functionality
             touchMove: true, // Allow touch movement
             responsive: [{
-                    breakpoint: 1025, // Tablet size
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable centering for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable centering for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable centering for small screens
-                    }
+                breakpoint: 1025, // Tablet size
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable centering for tablets
                 }
+            },
+            {
+                breakpoint: 768, // Mobile size
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false, // Disable centering for mobile
+                }
+            },
+            {
+                breakpoint: 480, // Extra small mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    centerMode: false, // Disable centering for small screens
+                }
+            }
             ]
         });
 
@@ -1090,7 +1095,7 @@ OTENZA.goToTop();
 
 
 <script>
-    var TxtType = function(el, toRotate, period) {
+    var TxtType = function (el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -1100,7 +1105,7 @@ OTENZA.goToTop();
         this.isDeleting = false;
     };
 
-    TxtType.prototype.tick = function() {
+    TxtType.prototype.tick = function () {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
 
@@ -1128,12 +1133,12 @@ OTENZA.goToTop();
             delta = 500;
         }
 
-        setTimeout(function() {
+        setTimeout(function () {
             that.tick();
         }, delta);
     };
 
-    window.onload = function() {
+    window.onload = function () {
         var elements = document.getElementsByClassName('typewrite');
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -1152,7 +1157,7 @@ OTENZA.goToTop();
 
 
 <script>
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         const video = document.querySelector('.video-background video');
         const section = document.querySelector('.parallax-section');
         const scrollPosition = window.pageYOffset;
@@ -1297,16 +1302,16 @@ OTENZA.goToTop();
     const btn = document.getElementById("servicesLink");
     const span = document.querySelector(".close");
 
-    btn.onclick = function(e) {
+    btn.onclick = function (e) {
         e.preventDefault();
         modal.style.display = "block";
     }
 
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
     }
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
