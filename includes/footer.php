@@ -122,7 +122,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Aapka sara popup aur scroll ka code yahan aana chahiye
+    const myButton = document.querySelector('.your-button-class');
+    if(myButton) {
+        myButton.onclick = function() {
+            // popup logic
+        };
+    }
+});
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function(){
