@@ -113,7 +113,6 @@
 
 
 
-</body>
 
 <div id="quotePopup" class="popup-overlay">
     <div class="popup-box">
