@@ -39,7 +39,41 @@
         </div>
     </section>
 
-    <section id="support-partners" style="position: relative !important;">
+
+    <section id="trusted-sections">
+        <div class="container-fluid">
+            <div class="section-title text-center">
+                <h2>Trusted By</h2>
+            </div>
+            <div class="row">
+                <div class="trusted-slider">
+                    <div class="slide-item">
+                        <img src="/assets/images/wordpress-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/squarespace.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/wix.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/shopify.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/walmart.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/figma.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="slide-item">
+                        <img src="/assets/images/social.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="support-partners" style="position: relative !important;">
         <div class="container-fluid">
             <div class="row">
                 <div class="partner-slider top d-flex">
@@ -104,7 +138,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section id="process-workflow">
