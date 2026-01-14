@@ -1,4 +1,4 @@
-<?php include_once("includes/head.php") ?>
+
 <footer class="footer-section">
     <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1911"
             height="1044"></canvas></div>
@@ -95,21 +95,28 @@
     </div>
 
 
-    <div id="quotePopup" class="popup-overlay">
-  <div class="popup-box">
-    <button id="closeQuotePopup" class="close-popup">×</button>
+<div id="tcf-popup-wrapper" class="tcf-overlay">
+    <div class="tcf-content-box">
+        <span id="tcf-close-btn" class="tcf-close-x">&times;</span>
+        
+        <div class="tcf-header">
+            <h3>Get a Quote</h3>
+            <p>Let’s discuss your project and requirements.</p>
+        </div>
 
-    <h4>Get a Quote</h4>
-    <p>Let’s discuss your project and requirements.</p>
-
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-
-  </div>
+        <form class="tcf-form-body">
+            <div class="tcf-input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="tcf-input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="tcf-input-group">
+                <textarea placeholder="Your Message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="tcf-submit-btn">Send Message</button>
+        </form>
+    </div>
 </div>
 
 </footer>
@@ -123,36 +130,34 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-    // Aapka sara popup aur scroll ka code yahan aana chahiye
-    const myButton = document.querySelector('.your-button-class');
-    if(myButton) {
-        myButton.onclick = function() {
-            // popup logic
+    const tcfOpen = document.getElementById("tcf-open-btn");
+    const tcfClose = document.getElementById("tcf-close-btn");
+    const tcfWrapper = document.getElementById("tcf-popup-wrapper");
+
+    // Safety Check: Agar element milay tabhi event lagao
+    if (tcfOpen && tcfWrapper && tcfClose) {
+        
+        tcfOpen.onclick = function(e) {
+            e.preventDefault();
+            tcfWrapper.style.display = "flex";
         };
+
+        tcfClose.onclick = function() {
+            tcfWrapper.style.display = "none";
+        };
+
+        // Bahar click karne se band ho jaye
+        window.onclick = function(event) {
+            if (event.target == tcfWrapper) {
+                tcfWrapper.style.display = "none";
+            }
+        };
+    } else {
+        console.log("TCF Popup elements not found yet.");
     }
-});
-</script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function(){
-
-  const openBtn  = document.getElementById("openQuotePopup");
-  const popup    = document.getElementById("quotePopup");
-  const closeBtn = document.getElementById("closeQuotePopup");
-
-  if(!openBtn || !popup || !closeBtn) return;
-
-  openBtn.onclick = () => popup.style.display = "flex";
-  closeBtn.onclick = () => popup.style.display = "none";
-
-  popup.onclick = (e) => {
-    if(e.target === popup){
-      popup.style.display = "none";
-    }
-  };
-
 });
 </script>
 
