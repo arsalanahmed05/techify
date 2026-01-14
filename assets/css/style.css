@@ -48,6 +48,7 @@ h6 {
     font-weight: bold !important;
 
 }
+
 /* Button */
 a.quote-btn{
   padding:12px 24px !important;
@@ -128,17 +129,6 @@ a.quote-btn{
   cursor:pointer;
   border-radius:6px;
 }
-
-/* #services-banner #slide-item-row img {
-    width: 100%;
-    object-fit: cover;
-    height: 730px;
-    display: table;
-    margin: 0px auto -30px;
-    object-position: top;
-} */
-
-
 .dropdown-logo {
     width: 30%;
 }
