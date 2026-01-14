@@ -92,10 +92,9 @@
             </div>
         </div>
     </div>
-</footer>
 
 
-<div id="quotePopup" class="popup-overlay">
+    <div id="quotePopup" class="popup-overlay">
   <div class="popup-box">
     <button id="closeQuotePopup" class="close-popup">×</button>
 
@@ -111,6 +110,10 @@
 
   </div>
 </div>
+
+</footer>
+
+
 
 
 

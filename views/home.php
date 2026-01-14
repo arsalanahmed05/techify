@@ -21,7 +21,7 @@
                                 <h1>Grow your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                               <a id="openQuotePopup" class="quote-btn">Get a Quote</a>
+                                    <a id="openQuotePopup" class="quote-btn">Get a Quote</a>
                             </div>
                         </div>
                     </div>
