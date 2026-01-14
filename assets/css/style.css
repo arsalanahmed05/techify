@@ -20,6 +20,82 @@ p {
     color: #fff !important;
 }
 
+/* Button */
+button.quote-btn{
+    padding:12px 24px;
+    background:#000;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    border: 2px solid #fff !important;
+    margin-top: 20px !important;
+    border-radius: 6px !important;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize;
+}
+/* Popup Overlay */
+div#quotePopup{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    z-index:99999999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.popup-overlay h4 {
+    color: #111 !important;
+    font-size: 26px !important;
+    line-height: 36px !important;
+}
+.popup-overlay p {
+    color: #111 !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+}
+/* Popup Box */
+.popup-box{
+    background:#fff;
+    padding:25px;
+    width:90%;
+    max-width:420px;
+    border-radius:8px;
+    position:relative;
+}
+
+/* Close Button */
+.close-popup{
+    position:absolute;
+    top:10px;
+    right:12px;
+    background:none;
+    border:none;
+    font-size:22px;
+    cursor:pointer;
+}
+
+/* Form */
+.popup-box input,
+.popup-box textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+}
+
+.popup-box button[type="submit"]{
+    width:100%;
+    background:#000;
+    color:#fff;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
 header#top {
     z-index: 99999999;
     position: relative;
@@ -2929,82 +3005,6 @@ ul.services-navigation {
 }
 
 
-
-/* Button */
-button.quote-btn{
-    padding:12px 24px;
-    background:#000;
-    color:#fff;
-    border:none;
-    cursor:pointer;
-    font-size:16px;
-    border: 2px solid #fff !important;
-    margin-top: 20px !important;
-    border-radius: 6px !important;
-    letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif !important;
-    text-transform: capitalize;
-}
-/* Popup Overlay */
-div#quotePopup{
-    display:none;
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,0.6);
-    z-index:99999999;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.popup-overlay h4 {
-    color: #111 !important;
-    font-size: 26px !important;
-    line-height: 36px !important;
-}
-.popup-overlay p {
-    color: #111 !important;
-    font-size: 15px !important;
-    line-height: 25px !important;
-}
-/* Popup Box */
-.popup-box{
-    background:#fff;
-    padding:25px;
-    width:90%;
-    max-width:420px;
-    border-radius:8px;
-    position:relative;
-}
-
-/* Close Button */
-.close-popup{
-    position:absolute;
-    top:10px;
-    right:12px;
-    background:none;
-    border:none;
-    font-size:22px;
-    cursor:pointer;
-}
-
-/* Form */
-.popup-box input,
-.popup-box textarea{
-    width:100%;
-    padding:10px;
-    margin-bottom:10px;
-    border:1px solid #ccc;
-    border-radius: 6px;
-}
-
-.popup-box button[type="submit"]{
-    width:100%;
-    background:#000;
-    color:#fff;
-    border:none;
-    padding:10px;
-    cursor:pointer;
-}
 
 
 /* Keyframes for entrance (fade and scale) */
