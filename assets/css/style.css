@@ -4827,6 +4827,9 @@ section.deliverables .row {
     #quality-section::before {
         display: none;
     }
+    #trusted-sections img {
+    width: 20% !important;
+   }
 
 }
 
@@ -4836,9 +4839,9 @@ section.deliverables .row {
 @media (max-width: 580px) {
 
 
-    #trusted-sections img {
-        width: 20%;
-    }
+   #trusted-sections img {
+    width: 20% !important;
+   }
 
     .col-lg-6,
     .col-md-6,
