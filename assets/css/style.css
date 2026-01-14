@@ -765,11 +765,11 @@ nav.navbar.bg-body-tertiary.fixed-top {
 
     padding: 0 !important;
 }
-
-
-.navbar ul.navbar-nav {
-    margin: auto;
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
 }
+
+
 /* Default navbar styles */
 .navbar {
     transition: all 0.3s ease-in-out;
@@ -817,11 +817,31 @@ a.navbar-brand
     z-index: 999;
     padding: 0;
 }
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+    transition: 0.3s, transform 0.3s;
+    background: linear-gradient(45deg, #1AB78E, #02553f);
+}
+
+#backToTop:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
 
 button.navbar-toggler {
     position: absolute;
     right: 10px;
-    top: 30px;
+    top: 20px;
     z-index: 9999999;
 }
 
@@ -836,8 +856,20 @@ div#offcanvasNavbar {
     color: #111;
 }
 
-
-
+.submit-btn {
+    margin-top: 30px;
+}
+.submit-btn a.bton.quote-button:hover {
+    background: #fff;
+    color: #111 !important;
+}
+.submit-btn a.bton.quote-button {
+    color: #fff !important;
+    padding: 8px 44px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
 .box {
     position: absolute;
     top: -220px;
@@ -853,12 +885,6 @@ button.btn-close {
     opacity: 1;
     filter: invert(1) !important;
 
-}
-
-div#navbarNav {
-    background: #1cc39821;
-    padding: 10px 60px;
-    border-radius: 32px;
 }
 
 #particles-js {
@@ -4007,6 +4033,13 @@ section.deliverables .row {
     section#faqs h2 br {
         display: none;
     }
+    #services-banner .text-wrapper h1 {
+    font-size: 46px !important;
+    line-height: 56px !important;
+}
+a.nav-link {
+    font-size: 16px !important;
+}
 
     #about-banner #bn2 {
         bottom: 68px;
@@ -4100,10 +4133,6 @@ section.deliverables .row {
         line-height: 80px !important;
     }
 
-    div#navbarNav {
-        padding: 10px 0px 10px 40px !important;
-    }
-
     #top nav ul li a.nav-link {
         font-size: 16px !important;
         line-height: 26px !important;
@@ -4114,9 +4143,7 @@ section.deliverables .row {
         width: 35% !important;
     }
 
-    div#navbarNav {
-        padding: 10px 0px 10px 30px !important;
-    }
+
 
     #about-us-section img {
         width: 50%;

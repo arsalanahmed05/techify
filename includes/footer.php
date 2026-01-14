@@ -112,6 +112,9 @@
                 <input type="email" placeholder="Your Email" required>
             </div>
             <div class="tcf-input-group">
+                <input type="tel" placeholder="Your Phone Number" required>
+            </div>
+            <div class="tcf-input-group">
                 <textarea placeholder="Your Message" rows="4"></textarea>
             </div>
             <button type="submit" class="tcf-submit-btn">Send Message</button>
@@ -119,16 +122,45 @@
     </div>
 </div>
 
+
 </footer>
 
 
-
+<button id="backToTop" title="Back to Top"> <i class="fa fa-arrow-up"></i>
+</button>
 
 
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+
+
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const backToTopBtn = document.getElementById("backToTop");
+
+    // Show button after scrolling down 200px
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 200) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+    });
+
+    // Smooth scroll to top on click
+    backToTopBtn.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
+</script>
+
 
 
 <script>

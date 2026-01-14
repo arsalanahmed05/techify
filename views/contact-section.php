@@ -37,7 +37,9 @@
                         <div class="form-group">
                             <textarea name="message" placeholder="Your Message" rows="4" required=""></textarea>
                         </div>
-                        <a href="#" class="bton quote-button">submit</a>
+                        <div class="submit-btn">
+                            <a href="#" class="bton quote-button">submit</a>
+                        </div>
                     </form>
                 </div>
             </div>
