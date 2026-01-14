@@ -110,6 +110,11 @@
     </div>
 </footer>
 
+
+
+
+</body>
+
 <div id="quotePopup" class="popup-overlay">
     <div class="popup-box">
 
@@ -128,11 +133,6 @@
 
     </div>
 </div>
-
-
-</body>
-
-
 
 
 
