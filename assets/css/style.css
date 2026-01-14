@@ -65,7 +65,7 @@ a.quote-btn{
   display:inline-block;
 }
 div#quotePopup {
-    display: none;
+    display: none !important;
 }
 /* Popup Overlay */
 #quotePopup{

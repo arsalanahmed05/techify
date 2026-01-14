@@ -1,3 +1,4 @@
+<?php include_once("includes/head.php") ?>
 <footer class="footer-section">
     <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1911"
             height="1044"></canvas></div>
