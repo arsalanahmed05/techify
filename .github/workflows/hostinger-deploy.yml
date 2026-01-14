@@ -1,24 +1,21 @@
 name: Deploy to Hostinger
-
 on:
   push:
     branches:
-      - main   # or master
-
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
+        
       - name: Deploy via SSH
         uses: easingthemes/ssh-deploy@v4
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
-          REMOTE_HOST: us-imm-web652.main-hosting.eu
-          REMOTE_USER: u169576704
-          REMOTE_PORT: 65002   # Hostinger SSH default for shared hosting
-          SOURCE: "./"
-          TARGET: "/home/u169576704/public_html"
+        with:
+          ssh-private-key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          remote-host: us-imm-web652.main-hosting.eu
+          remote-user: u169576704
+          remote-port: 65002
+          source: "./"
+          target: "/home/u169576704/public_html"
