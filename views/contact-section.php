@@ -26,15 +26,6 @@
                             <input type="tel" placeholder="Phone Number" name="phone" required="">
                         </div>
                         <div class="form-group">
-                            <select name="country" required="">
-                                <option value="United States">United States</option>
-                                <option value="United Kingdom">United Kingdom</option>
-                                <option value="Canada">Canada</option>
-                                <option value="United Arab Emirates">United Arab Emirates</option>
-                                <!-- Add more countries if needed -->
-                            </select>
-                        </div>
-                        <div class="form-group">
                             <textarea name="message" placeholder="Your Message" rows="4" required=""></textarea>
                         </div>
                         <div class="submit-btn">

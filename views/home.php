@@ -11,7 +11,7 @@
 
 
     <section id="services-banner">
-        <div class="container"> 
+        <div class="container">
             <div class="service-banner-slider">
                 <div class="slide-item">
                     <div id="slide-item-row" class="row">
@@ -21,12 +21,12 @@
                                 <h1>Grow your <br><ruby>digital presence</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                                 <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
+                                <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
-    
+
             </div>
             <div class="motion-img">
                 <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">
@@ -206,9 +206,9 @@
                         <div class="col-md-3">
                             <div class="milestone">
                                 <ruby>
-                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                    <div class="count" data-count="+40"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Project<br> Completed</h4>
+                                <h4>Projects<br> Completed</h4>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -219,7 +219,7 @@
                         <div class="col-md-3">
                             <div class="milestone text-end">
                                 <ruby>
-                                    <div class="count" data-count="+650"><span>+</span>0</div>
+                                    <div class="count" data-count="+40"><span>+</span>0</div>
                                 </ruby>
                                 <h4>Client <br>Satisfaction</h4>
                             </div>
@@ -230,17 +230,17 @@
                         <div class="col-md-3">
                             <div class="milestone text-center">
                                 <ruby>
-                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                    <div class="count" data-count="+25"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Project<br> Completed</h4>
+                                <h4>Happy <br>Clients</h4>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="milestone text-center">
                                 <ruby>
-                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                    <div class="count" data-count="+5"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Project<br> Completed</h4>
+                                <h4>Creative <br>Experts</h4>
                             </div>
                         </div>
                         <div class="col-sm-3"></div>
@@ -275,8 +275,8 @@
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
                             improve customer engagement.</p>
-                        <a href="#"><button class="quote-btn bton"> View
-                                Packages</button></a>
+                        <a id="tcf-open-btn" class="tcf-quote-buttontcf-quote-button">Get a Quote</a>
+
                     </div>
 
                 </div>
@@ -2149,11 +2149,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script>
-        $(function () {
+        $(function() {
             var e = "";
 
             // Filtering functionality
-            $(".fil-cat").click(function () {
+            $(".fil-cat").click(function() {
                 $(".portfolio_list ul li").removeClass("active");
                 $(this).addClass("active");
 
@@ -2162,7 +2162,7 @@
 
                 $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-                setTimeout(function () {
+                setTimeout(function() {
                     $("." + e).fadeIn().addClass("scale-anm");
                     $("#portfolio").fadeTo(800, 1);
                 }, 300);

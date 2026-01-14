@@ -125,11 +125,15 @@
 </footer>
 
 
-<a href="mailto:hello@techifys.com?subject=Website%20Chat%20Inquiry"
+<a href="mailto:info@techifys.com?subject=Website%20Chat%20Inquiry"
    class="chat-email-btn"
-   title="Chat with us">
-   💬
+   title="Chat with us"><i class="fa-solid fa-envelope"></i>
 </a>
+<a href="tel:+923001234567"
+   class="call-btn"
+   title="Call Us"><i class="fa-solid fa-phone"></i>
+</a>
+
 
 <button id="backToTop" title="Back to Top"> <i class="fa fa-arrow-up"></i>
 </button>
