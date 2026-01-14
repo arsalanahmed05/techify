@@ -2931,7 +2931,7 @@ ul.services-navigation {
 
 
 /* Button */
-.quote-btn{
+button .quote-btn{
     padding:12px 24px;
     background:#000;
     color:#fff;
