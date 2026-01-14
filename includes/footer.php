@@ -10,22 +10,6 @@
                         <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
                     </div>
                 </div>
-                <!-- <div class="col-sm-6">
-                    <ul class="socials-menu">
-                        <li class="socials-items">
-                            <a href="https://www.facebook.com/profile.php?id=61584247924057"><i class="fa-brands fa-facebook-f"></i></a>
-                        </li>
-                        <li class="socials-items">
-                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        </li>
-                        <li class="socials-items">
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        </li>
-                        <li class="socials-items">
-                            <a href="https://www.instagram.com/techifysofficial/"><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div> -->
             </div>
             <div id="middle-row" class="row">
                 <div class="col-sm-3">
@@ -111,27 +95,23 @@
 </footer>
 
 
-
-
-
 <div id="quotePopup" class="popup-overlay">
-    <div class="popup-box">
+  <div class="popup-box">
+    <button id="closeQuotePopup" class="close-popup">×</button>
 
-        <button class="close-popup" id="closeQuotePopup">&times;</button>
+    <h4>Get a Quote</h4>
+    <p>Let’s discuss your project and requirements.</p>
 
-        <h4>Get a Free Quote</h4>
-        <p>Fill out the form and our team will provide a fast, personalized quote for your project.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
 
-        <form id="quoteForm">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="tel" placeholder="Your Phone">
-            <textarea placeholder="Describe your requirement"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-
-    </div>
+  </div>
 </div>
+
 
 
 
@@ -141,30 +121,27 @@
 
 
 
-
 <script>
 document.addEventListener("DOMContentLoaded", function(){
 
-    const openBtn = document.getElementById("openQuotePopup");
-    const popup = document.getElementById("quotePopup");
-    const closeBtn = document.getElementById("closeQuotePopup");
+  const openBtn  = document.getElementById("openQuotePopup");
+  const popup    = document.getElementById("quotePopup");
+  const closeBtn = document.getElementById("closeQuotePopup");
 
-    openBtn.addEventListener("click", function(){
-        popup.style.display = "flex";
-    });
+  if(!openBtn || !popup || !closeBtn) return;
 
-    closeBtn.addEventListener("click", function(){
-        popup.style.display = "none";
-    });
+  openBtn.onclick = () => popup.style.display = "flex";
+  closeBtn.onclick = () => popup.style.display = "none";
 
-    popup.addEventListener("click", function(e){
-        if(e.target === popup){
-            popup.style.display = "none";
-        }
-    });
+  popup.onclick = (e) => {
+    if(e.target === popup){
+      popup.style.display = "none";
+    }
+  };
 
 });
 </script>
+
 
 
 
