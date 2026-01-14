@@ -2134,23 +2134,15 @@
     <?php include_once("includes/footer.php") ?>
 
 
-    <div class="floatbutton">
+    <!-- <div class="floatbutton">
         <div class="btns_wrap">
             <a href="javascript:;" class="chat_wrap chat"> <span>Chat With
                     Us</span></a>
             <a href="tel:+11234568790" class="call_wrap"> <span>+1
                     (234)-456-7890</span></a>
         </div>
-    </div>
+    </div> -->
 
-    <div class="back-to-top">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-            </path>
-        </svg>
-    </div>
-    <!-- JAVASCRIPT -->
 
 
 
