@@ -2931,7 +2931,7 @@ ul.services-navigation {
 
 
 /* Button */
-button .quote-btn{
+button.quote-btn{
     padding:12px 24px;
     background:#000;
     color:#fff;
@@ -2943,9 +2943,10 @@ button .quote-btn{
     border-radius: 6px !important;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize;
 }
 /* Popup Overlay */
-.popup-overlay{
+div#quotePopup{
     display:none;
     position:fixed;
     inset:0;
@@ -2993,6 +2994,7 @@ button .quote-btn{
     padding:10px;
     margin-bottom:10px;
     border:1px solid #ccc;
+    border-radius: 6px;
 }
 
 .popup-box button[type="submit"]{
