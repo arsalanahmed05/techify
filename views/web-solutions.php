@@ -11,8 +11,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Business Process Outsourcing</h6>
-                    <h1>Streamlining Operations <br>Driving Business Growth.</h1>
+                    <h6 class="sub-heading">Web Solutions</h6>
+                    <h1>Streamlining Operations For <br>Your Online Presence</h1>
                     <p>We provide reliable business process outsourcing solutions designed to improve efficiency, reduce operational costs,<br> and allow businesses to focus on their core objectives. Our experienced teams handle your processes with accuracy, <br> consistency, and accountability.</p>
                     <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
                 </div>
@@ -118,14 +118,13 @@
     </section>
 
 
-    <section class="deliverables">
+    <!-- <section class="deliverables">
         <div class="container mt-5">
             <div class="section-title text-center">
                 <h2>FULL-SCALE BPO & OPERATIONAL SOLUTIONS</h2>
                 <p>Streamline your operations and reduce overhead costs with tailor-made BPO strategies by <strong>Techifys</strong>. Our dedicated teams take over your time-consuming tasks, allowing you to focus on core innovation and global scaling. From back-office precision to front-end customer delight, we deliver operational excellence that drives measurable ROI.</p>
             </div>
             <div class="row">
-                <!-- Vertical Nav Tabs -->
                 <div class="col-3">
                     <nav class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
@@ -143,7 +142,7 @@
                    </nav>
                 </div>
 
-                <!-- Tab Content -->
+
                 <div class="col-9">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade active" id="v-pills-first" role="tabpanel"
@@ -270,7 +269,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section id="rgt-img">

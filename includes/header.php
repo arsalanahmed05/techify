@@ -16,25 +16,52 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/views/about-us.php">About</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown mega-menu-wrapper">
                             <a class="nav-link dropdown-toggle" href="#" id="servicesLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="servicesLink">
-                                <li><a class="dropdown-item" href="/web-development/">Business Processing
-                                        Outsourcing</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Business Website
-                                        Service</a></li>
-                                <li><a class="dropdown-item" href="/web-designing/">Content Writing</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">E-commerce Automation</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Graphic Designing</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Marketing</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Motion Graphics</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Search Engine Optimization
-                                        (SEO)</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Web Development</a></li>
-                                <li><a class="dropdown-item" href="/web-development/">Web Designing</a></li>
+                            <ul class="dropdown-menu mega-menu-content" aria-labelledby="servicesLink">
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-3 service-block">
+                                                <a href="/web-solutions/"><h4 class="parent-link">Web Solutions</h4></a>
+                                                <ul class="service-child-list">
+                                                    <li><a href="#">Web Development</a></li>
+                                                    <li><a href="/web-designing/">Web Designing</a></li>
+                                                    <li><a href="/app-development/">App Development</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 service-block">
+                                                <a href=""><h4 class="parent-link">Digital Marketing</h4></a>
+                                                <ul class="service-child-list">
+                                                    <li><a href="/seo/">Search Engine Optimization (SEO)</a></li>
+                                                    <li><a href="/content-writing/">Content Writing</a></li>
+                                                    <li><a href="/social-media/">Social Media Marketing</a></li>
+                                                    <li><a href="/ppc/">PPC Marketing</a></li>
+                                                    <li><a href="/email-marketing/">Email Marketing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 service-block">
+                                                <a href="#"><h4 class="parent-link">Creative & Design</h4></a>
+                                                <ul class="service-child-list">
+                                                    <li><a href="/graphic-design/">Graphic Designing</a></li>
+                                                    <li><a href="/animation/">Animation</a></li>
+                                                    <li><a href="/ui-ux/">UI / UX Design</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 service-block">
+                                                <a href="#"><h4 class="parent-link">Business Operations</h4></a>
+                                                <ul class="service-child-list">
+                                                    <li><a href="/customer-support/">Customer Support</a></li>
+                                                    <li><a href="/virtual-assistant/">Virtual Assistant</a></li>
+                                                    <li><a href="/ecommerce-support/">E-commerce Support</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
