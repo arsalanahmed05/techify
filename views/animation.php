@@ -12,8 +12,8 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="text-wrapper text-center">
-                        <h6 class="sub-heading">Content Writing</h6>
-                        <h1>Precision Engineering <br>for the Modern Web</h1>
+                        <h6 class="sub-heading">Animation</h6>
+                        <h1>Animate your brand <br>in unique looks</h1>
                         <p>Beyond simple templates, we build high-performance websites from the ground up to solve your unique business challenges. Our code is clean, our designs are responsive, and our focus is entirely on your brand's growth.
                         </p>
                     </div>

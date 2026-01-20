@@ -1,97 +1,24 @@
 <?php include_once("includes/head.php") ?>
 <?php include_once("includes/header.php") ?>
 
-
 <body>
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
-    <!-- <section id="services-banner">
-        <video autoplay loop muted playsinline id="services-video">
-            <source src="/assets/images/service-banner-bg.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-            <div class="row">
-                <div class="service-banner-slider">
-                    <div class="slide-item">
-                        <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-1.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-wrapper">
-                                    <h6 class="sub-heading">Redefine Success</h6>
-                                    <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
-                                    <p>Seamless technology solutions that enhance and empower your brand for lasting
-                                        success and growth.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-2.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-wrapper">
-                                    <h6 class="sub-heading">Innovate Digitally</h6>
-                                    <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
-                                    <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
-                                        on your brand.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-3.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-wrapper">
-                                    <h6 class="sub-heading">Your Growth Partner</h6>
-                                    <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
-                                    <p>Turn innovative ideas into powerful success stories that drive growth and create
-                                        lasting impact.</p>
-                                    <a href="/contact-us/"><button class="quote-btn bton"> get a quote</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="motion-img">
-                    <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">
-                    <img src="/assets/images/logoalphabets/2.png" alt="" class="img-fluid bn2">
-                    <img src="/assets/images/logoalphabets/3.png" alt="" class="img-fluid bn3">
-                    <img src="/assets/images/logoalphabets/4.png" alt="" class="img-fluid bn4">
-                    <img src="/assets/images/logoalphabets/5.png" alt="" class="img-fluid bn5">
-                    <img src="/assets/images/logoalphabets/6.png" alt="" class="img-fluid bn6">
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
     <section id="home-banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Social media marketing</h6>
-                    <h1>Engaging <ruby>Strategies</ruby> for <br>Social <ruby>Success</ruby></h1>
-                    <p>From content creation to ad campaigns, we help you leverage<br> social media to achieve measurable success.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"> get a
-                            quote</button></a>
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="text-wrapper text-center">
+                        <h6 class="sub-heading">Customer Support</h6>
+                        <h1>Maximum Clicks <br>for Your Brand</h1>
+                        <p>Beyond simple templates, we build high-performance websites from the ground up to solve your unique business challenges. Our code is clean, our designs are responsive, and our focus is entirely on your brand's growth.
+                        </p>
+                    </div>
                 </div>
+                <div class="col-md-3"></div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
                 <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
             </div>
@@ -133,13 +60,11 @@
         </div>
     </section>
 
-
-
     <section id="business-feature">
         <div class="container">
             <div class="section-title text-center mb20">
-                <h6 class="sub-heading">Feature</h6>
-                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+                <h6 class="sub-heading">Performance</h6>
+                <h2>Scalable Technical Solutions<br> for Global Competition</h2>
             </div>
             <div class="row">
                 <div class="col-sm-4">
@@ -147,19 +72,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/responsive.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Responsive <br>Design</h4>
+                                <h4>Source<br> Ownership</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
                             <img src="/assets/images/flexible.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Customizable <br>Templates</h4>
+                                <h4>Speed<br> Optimization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/gear.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Optimized <br>Development</h4>
+                                <h4>Traffic<br> Resilience</h4>
                             </div>
                         </div>
                     </div>
@@ -174,19 +99,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/ecommerce.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>E-Commerce <br>Integration</h4>
+                                <h4>API<br> Connectivity</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
                             <img src="/assets/images/target -ser.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>User Experience <br>Focus</h4>
+                                <h4>Data<br> Visualization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/fast-processing.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Fast Loading <br>Speeds</h4>
+                                <h4>Adaptive<br> Scaling</h4>
                             </div>
                         </div>
                     </div>
@@ -196,131 +121,45 @@
     </section>
 
 
-    <section id="rgt-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h2>Creative Website <br><ruby>Design</ruby></h2>
-                        <p>Our web design services focus on crafting visually stunning and user-centric layouts that captivate your audience. From intuitive navigation to striking visuals, we ensure your website leaves a lasting impression. Whether you’re looking to refresh your current site or build a new one, our designs are tailored to reflect your brand's unique identity and values.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/dashbord-web.png" alt="" class="img-fluid">
-                    </div>
-                </div>
+    <section id="inner-service-bullets">
+        <div class="container-fluid">
+            <div class="section-title text-center mb80">
+                <h2>Explore Your <br>Digital Foundation</h2>
+                <p>We deliver purpose-built web solutions focused on performance, scalability, and real business impact. Every service<br> is crafted to ensure long-term stability, speed, and growth.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="lft-img">
-        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/desinger-work.png" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="service-bullet-parent ">
+                        <h3>custom web<br> design</h3>
+                        <p>We build digital identities from a blank canvas, ensuring your brand isn't restricted by the limitations of pre-made themes. Our design philosophy centers on high-conversion layouts and exclusive visual elements that are hand-crafted to reflect your specific business values. By stripping away unnecessary code bloat found in generic site builders, we deliver a lightweight, high-speed interface that provides total ownership of your brand’s online aesthetic.</p>
+                        <ul>
+                            <li>High-conversion layouts</li>
+                            <li>Exclusive visual elements</li>
+                            <li>Lightweight, high-speed interface</li>
+                        </ul>
+
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h2>Performance-Driven <br><ruby>Design</ruby></h2>
-                        <p>Our web designs are crafted not just to look good but to perform exceptionally. We focus on speed, responsiveness, and usability, ensuring every design element contributes to your business goals. Transform your website into a powerful tool for growth and engagement.</p>
+                <div class="col-sm-4">
+                    <div class="service-bullet-parent ">
+                        <h3>Front-End<br> Development</h3>
+                        <p>We translate complex brand visions into high-performance browser experiences using clean, hand-coded architectures. Our approach ignores heavy, bloated libraries in favor of lightweight frameworks that ensure your site hits peak scores on Google’s Core Web Vitals. We prioritize liquid responsiveness and rapid asset loading, ensuring that your interface remains stable and visually sharp across every screen resolution without sacrificing speed.</p>
+                        <ul>
+                            <li>High-performance browser experiences</li>
+                            <li>Clean, hand-coded architectures</li>
+                            <li>Lightweight frameworks</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="category-plan">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="tab">
-                        <button class="tablinks active" onclick="openCity(event, 'Starter')">Starter Package</button>
-                        <button class="tablinks" onclick="openCity(event, 'Basic')">Basic Package</button>
-                        <button class="tablinks" onclick="openCity(event, 'Premium')">Premium Package</button>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" style="display: block;">
-                        <div class="plan-item">
-                            <div class="plan-title">
-                                <h4>Starter <br>Package</h4>
-
-                            </div>
-                            <ul class="plan-list">
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                            </ul>
-                            <h6>$600/<span>Month</span></h6>
-                            <div class="addplan">
-                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Basic" class="tabcontent">
-                        <div class="plan-item">
-                            <div class="plan-title">
-                                <h4>Basic <br>Package</h4>
-
-                            </div>
-                            <ul class="plan-list">
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                            </ul>
-                            <h6>$600/<span>Month</span></h6>
-                            <div class="addplan">
-                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Premium" class="tabcontent">
-                        <div class="plan-item">
-                            <div class="plan-title">
-                                <h4>Premium <br>Package</h4>
-
-                            </div>
-                            <ul class="plan-list">
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                                <li>Logo Design Package</li>
-                                <li>2 rounds of revisions</li>
-                                <li>Branding color palette creation</li>
-                                <li>Delivery in various file formats</li>
-                            </ul>
-                            <h6>$600/<span>Month</span></h6>
-                            <div class="addplan">
-                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
-                            </div>
-                        </div>
+                <div class="col-sm-4">
+                    <div class="service-bullet-parent ">
+                        <h3>Back-End<br> Development</h3>
+                        <p>We architect the silent engine behind your digital platform, focusing on heavy-duty server logic and data security. Our backend engineering eliminates system bottlenecks by utilizing optimized database schemas and stateless architectures that can handle massive traffic surges without failure. We prioritize raw processing speed and secure API handshakes, ensuring that every request on your website is executed with millisecond precision while keeping your proprietary data under a hardened shield.</p>
+                        <ul>
+                            <li>Heavy-duty server logic</li>
+                            <li>Data security</li>
+                            <li>Optimized database schemas</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -1060,7 +899,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap1.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap1.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
@@ -1072,7 +912,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap2.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap2.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
@@ -1084,7 +925,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap3.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap3.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
@@ -1096,7 +938,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap4.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap4.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
@@ -1108,7 +951,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -1122,7 +966,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap6.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap6.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
@@ -1134,7 +979,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap7.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap7.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
@@ -1146,7 +992,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap8.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap8.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
@@ -1158,7 +1005,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap9.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap9.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
@@ -1170,7 +1018,8 @@
                             <li>
                                 <div class="portfolio-item">
                                     <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
+                                        <video autoplay="" muted="" loop=""
+                                            src="/assets/images/animation/ap5.mp4"></video>
                                     </a>
                                     <div class="hover-effect">
                                         <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
@@ -1189,70 +1038,139 @@
     </section>
 
 
+
     <section id="service-features">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="text-wrapper">
-                        <h6 class="sub-heading">Features</h6>
-                        <h2>Web Development <br><ruby>Solutions Hub</ruby></h2>
-                        <p>We offer a full range of web development features, from custom designs to robust security, ensuring a seamless user experience.</p>
-                    </div>
+                <div class="text-wrapper text-center">
+                    <h6 class="sub-heading">Features</h6>
+                    <h2>Web Solutions Hub</h2>
+                    <p>We offer a full range of web solutions features, from custom<br> designs to robust security,
+                        ensuring a seamless user experience.</p>
                 </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider left">
-                        <div class="slide-item">
-                            <h4>Custom Development</h4>
-                            <p>We build tailored websites and applications that perfectly match your business needs, offering full customization to fit your goals.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Responsive Design</h4>
-                            <p>Our websites are designed to be fully responsive, ensuring they look great and function flawlessly across all devices and screen sizes.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>E-commerce Solutions</h4>
-                            <p>We create seamless e-commerce platforms that offer secure payment integrations, inventory management, and a smooth user experience.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>UX/UI Design</h4>
-                            <p>We focus on creating user-friendly designs with a smooth and intuitive interface to keep your audience engaged and improve conversion rates.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Analytics Tracking</h4>
-                            <p>We integrate analytics tools to help you track your website’s performance, user behavior, and make data-driven decisions for improvements.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>SEO Optimization</h4>
-                            <p>Our web development includes integrated SEO practices, ensuring your website ranks higher in search engines and attracts more traffic.</p>
-                        </div>
+                <div class="service-feature-slider d-flex">
+                    <div class="slide-item">
+                        <h4>Engineered for Growth:<br> Custom Web Solutions</h4>
+                        <p>Generic templates won't set you apart in a global market. At Techifys, we engineer
+                            high-performance digital assets from the ground up, ensuring every line of code serves your
+                            specific business logic. Our focus is on building secure, lightning-fast platforms that
+                            don't just exist but actively drive your growth.</p>
+                        <ul>
+                            <li>
+                                <strong>Bespoke Architecture:</strong> Tailor-made development built to handle your
+                                unique workflow.
+                            </li>
+                            <li>
+                                <strong>Future-Ready Frameworks:</strong> Utilizing modern stacks that scale as your
+                                user base expands.
+                            </li>
+                            <li>
+                                <strong>Secure API Integrations:</strong> Seamlessly connecting your website with
+                                essential third-party business tools.
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider right">
-                        <div class="slide-item">
-                            <h4>API Integrations</h4>
-                            <p>We integrate third-party APIs and services, ensuring your website can easily communicate and sync with external systems for enhanced functionality.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Maintenance Services</h4>
-                            <p>Our team provides ongoing website maintenance to ensure your site remains up-to-date, secure, and runs smoothly at all times.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Web Hosting</h4>
-                            <p>We offer reliable web hosting solutions that ensure your site is fast, secure, and always online with minimal downtime.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Security Features</h4>
-                            <p>We prioritize website security, implementing SSL encryption, firewalls, and other essential features to protect your data and users.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Fast Load Times</h4>
-                            <p>We optimize your website for speed, ensuring faster load times to enhance user experience and improve search engine rankings.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Content Management</h4>
-                            <p>We offer powerful content management systems (CMS) that allow you to easily update and manage your website content without technical expertise.</p>
-                        </div>
+                    <div class="slide-item">
+                        <h4>Seamless Experiences <br>Across Every Screen</h4>
+                        <p>In a mobile-first world, your first impression happens on a handheld screen. We prioritize
+                            intuitive <a href="#">UI/UX design</a> to ensure your brand looks flawless and functions
+                            perfectly on
+                            desktops, tablets, and smartphones alike. By eliminating friction in the user journey, we
+                            turn casual visitors into loyal customers through engaging digital environments.</p>
+                        <ul>
+                            <li>
+                                <strong>Adaptive Layouts:</strong> Fully responsive designs that adjust perfectly to any
+                                screen resolution.
+                            </li>
+                            <li>
+                                <strong>Conversion-Centric UI:</strong> Layouts strategically designed to guide users
+                                toward your call-to-action.
+                            </li>
+                            <li>
+                                <strong>Cross-Browser Precision:</strong> Ensuring a consistent and bug-free experience
+                                on Chrome, Safari, and beyond.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-item">
+                        <h4>Precision-Built<br> Digital Foundations</h4>
+                        <p>At Techifys, we move beyond basic templates to build high-performance ecosystems. By
+                            combining <a href="#">Custom Web Development</a> with flexible CMS solutions, we give your
+                            brand a secure
+                            and scalable home that is easy to manage but impossible to ignore.</p>
+                        <ul>
+                            <li>
+                                <strong>Tailored Web Applications:</strong> High-speed, custom-coded platforms built
+                                specifically for your business logic.
+                            </li>
+                            <li>
+                                <strong>Dynamic Content Control:</strong> User-friendly CMS setups that allow you to
+                                update your site in real-time without technical hurdles.
+                            </li>
+                            <li>
+                                <strong>Security-First Approach:</strong> Advanced protection layers to keep your data
+                                and your users' information safe.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-item">
+                        <h4>Data-Driven Design<br> for Global Sales</h4>
+                        <p>Great design is more than just visuals; it’s a strategy for growth. Our UX/UI Design process
+                            focuses on human behavior, while our E-Commerce solutions ensure a frictionless checkout
+                            experience that maximizes your revenue across all devices.</p>
+                        <ul>
+                            <li>
+                                <stong>Conversion-Optimized Stores:</stong>Seamless shopping journeys designed to turn
+                                browsers into buyers.
+                            </li>
+                            <li>
+                                <stong>Adaptive Interface Design:</stong>Flawless Responsive Design that guarantees your
+                                site looks premium on every screen size.
+                            </li>
+                            <li>
+                                <stong>User-Centric Navigation:</stong>Strategic layouts that guide your visitors
+                                exactly where you want them to go.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-item">
+                        <h4>Insights that Drive Growth</h4>
+                        <p>Numbers tell a story, and we make sure you're reading the right one. Instead of just showing
+                            traffic, we set up performance ecosystems that track user intent and conversion paths. By
+                            understanding how visitors interact with your web solutions, we help you make data-backed
+                            decisions that eliminate guesswork and maximize your marketing budget.</p>
+                        <ul>
+                            <li>
+                                <stong>Behavioral Tracking:</stong> Monitor exactly where users click and why they stay
+                                to refine your sales funnel.
+                            </li>
+                            <li>
+                                <stong>Conversion Optimization:</stong> Integrated tracking to identify and fix
+                                bottlenecks in your customer’s journey.
+                            </li>
+                            <li>
+                                <stong>Real-Time Dashboards:</stong> Access clear, actionable data that shows your
+                                brand's global impact at a glance.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-item">
+                        <h4>Dominate the Search Results</h4>
+                        <p>Ranking on the first page isn't an accident; it’s an engineering feat. We bake SEO into the
+                            foundation of your website’s code, ensuring lightning-fast load times and mobile perfection.
+                            From technical architecture to keyword strategy, we align your site with Google’s latest
+                            standards to attract high-quality traffic that actually converts into business.</p>
+                        <ul>
+                            <li>
+                                <stong>Technical SEO Core:</stong> Clean, schema-ready code that search engines love to crawl and index.
+                            </li>
+                            <li>
+                                <stong>Speed & Core Web Vitals:</stong> Optimized performance that keeps your bounce rate low and your ranking high.
+                            </li>
+                            <li>
+                                <stong>Authority Building:</stong> Strategically structured content designed to establish your agency as a leader in your niche.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

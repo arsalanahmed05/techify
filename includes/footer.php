@@ -18,16 +18,16 @@
                             <a href="/"><i class="fa-solid fa-chevron-right"></i>home</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>About Us</a>
+                            <a href="/about-us/"><i class="fa-solid fa-chevron-right"></i>About Us</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Blogs</a>
+                            <a href="/about-us/"><i class="fa-solid fa-chevron-right"></i>Blogs</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Packages</a>
+                            <a href="/about-us/"><i class="fa-solid fa-chevron-right"></i>Packages</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
+                            <a href="/contact-us/"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -35,31 +35,31 @@
                     <h3>Services</h3>
                     <ul class="footer-menu service">
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
+                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
+                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Graphics
+                            <a href="/graphic-designing/"><i class="fa-solid fa-chevron-right"></i> Graphics
                                 Designing</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Search Engine
+                            <a href="/search-engine-optimization/"><i class="fa-solid fa-chevron-right"></i> Search Engine
                                 Optimization</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Social Media
+                            <a href="/social-media-marketing/"><i class="fa-solid fa-chevron-right"></i> Social Media
                                 Marketing</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
+                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
+                            <a href="/web-development/"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
                         </li>
                         <li>
-                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
+                            <a href="/ppc-marketing/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
                         </li>
                     </ul>
                 </div>

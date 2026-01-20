@@ -1,6 +1,7 @@
 <?php include_once("includes/head.php") ?>
 <?php include_once("includes/header.php") ?>
 
+
 <body>
     <div id="cursor">
         <div class="cursor__circle"></div>
@@ -12,9 +13,11 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="text-wrapper text-center">
-                        <h6 class="sub-heading">Content Writing</h6>
-                        <h1>Precision Engineering <br>for the Modern Web</h1>
-                        <p>Beyond simple templates, we build high-performance websites from the ground up to solve your unique business challenges. Our code is clean, our designs are responsive, and our focus is entirely on your brand's growth.
+                        <h6 class="sub-heading">Elevate Your Online Presence</h6>
+                        <h1>Professional Digital Marketing</h1>
+                        <p>At Techifys, we specialize in crafting digital marketing strategies that drive growth and enhance
+                            user experience. From responsive designs to robust e-commerce platforms, our team is
+                            dedicated to delivering websites that not only look great but also perform exceptionally.
                         </p>
                     </div>
                 </div>
@@ -63,8 +66,8 @@
     <section id="business-feature">
         <div class="container">
             <div class="section-title text-center mb20">
-                <h6 class="sub-heading">Performance</h6>
-                <h2>Scalable Technical Solutions<br> for Global Competition</h2>
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
             </div>
             <div class="row">
                 <div class="col-sm-4">
@@ -72,19 +75,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/responsive.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Source<br> Ownership</h4>
+                                <h4>Frontend <br>Architecture</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
                             <img src="/assets/images/flexible.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Speed<br> Optimization</h4>
+                                <h4>Backend <br>Scalability</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/gear.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Traffic<br> Resilience</h4>
+                                <h4>Cloud <br>Deployment</h4>
                             </div>
                         </div>
                     </div>
@@ -99,19 +102,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/ecommerce.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>API<br> Connectivity</h4>
+                                <h4>Headless <br>CMS</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
                             <img src="/assets/images/target -ser.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Data<br> Visualization</h4>
+                                <h4>Database <br>Optimization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/fast-processing.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Adaptive<br> Scaling</h4>
+                                <h4>Cybersecurity <br>Audits</h4>
                             </div>
                         </div>
                     </div>
@@ -121,45 +124,251 @@
     </section>
 
 
-    <section id="inner-service-bullets">
-        <div class="container-fluid">
-            <div class="section-title text-center mb80">
-                <h2>Explore Your <br>Digital Foundation</h2>
-                <p>We deliver purpose-built web solutions focused on performance, scalability, and real business impact. Every service<br> is crafted to ensure long-term stability, speed, and growth.</p>
+    <!-- <section class="deliverables">
+        <div class="container mt-5">
+            <div class="section-title text-center">
+                <h2>FULL-SCALE BPO & OPERATIONAL SOLUTIONS</h2>
+                <p>Streamline your operations and reduce overhead costs with tailor-made BPO strategies by <strong>Techifys</strong>. Our dedicated teams take over your time-consuming tasks, allowing you to focus on core innovation and global scaling. From back-office precision to front-end customer delight, we deliver operational excellence that drives measurable ROI.</p>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="service-bullet-parent ">
-                        <h3>custom web<br> design</h3>
-                        <p>We build digital identities from a blank canvas, ensuring your brand isn't restricted by the limitations of pre-made themes. Our design philosophy centers on high-conversion layouts and exclusive visual elements that are hand-crafted to reflect your specific business values. By stripping away unnecessary code bloat found in generic site builders, we deliver a lightweight, high-speed interface that provides total ownership of your brand’s online aesthetic.</p>
-                        <ul>
-                            <li>High-conversion layouts</li>
-                            <li>Exclusive visual elements</li>
-                            <li>Lightweight, high-speed interface</li>
-                        </ul>
+                <div class="col-3">
+                    <nav class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-first-tab" data-bs-toggle="pill" href="#v-pills-first"
+                            role="tab" aria-controls="v-pills-first" aria-selected="false" tabindex="-1"><span>Customer Experience<br> Support</span></a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-second"
+                            role="tab" aria-controls="v-pills-second" aria-selected="false" tabindex="-1"><span>Data<br> Management</span></a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-third"
+                            role="tab" aria-controls="v-pills-third" aria-selected="false"
+                            tabindex="-1"><span>Lead<br> Generation</span></a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-forth"
+                            role="tab" aria-controls="v-pills-forth" aria-selected="false" tabindex="-1"><span>Content<br> Moderation</span></a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-fifth"
+                            role="tab" aria-controls="v-pills-fifth" aria-selected="false" tabindex="-1"><span>Virtual<br> Assistant</span></a>
+                   </nav>
+                </div>
 
+
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade active" id="v-pills-first" role="tabpanel"
+                            aria-labelledby="v-pills-first-tab">
+                            <div id="tab-inner-row" class="row">
+                                <div class="col-lg-12">
+                                    <div class="ser-feat-title d-flex">
+                                        <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                                        <h3>Customer Experience Support</h3>
+                                    </div>
+                                    <div class="tab-bottom-content">
+                                        <p>We don’t just answer calls; we build relationships. Our multi-channel approach ensures your customers feel heard and valued 24/7.</p>
+                                        <ul>
+                                            <li><strong>Omnichannel Support:</strong> <p>Seamless integration across Email, Live Chat, and Voice.</p>
+                                            </li>
+                                            <li><strong>Technical Helpdesk:</strong><p>Tier 1 & Tier 2 support for complex troubleshooting.</p></li>
+                                            <li><strong>Customer Retention:</strong><p>Data-driven strategies to reduce churn and boost loyalty.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons wow bounce text-center animated"
+                                        style="visibility: visible; animation-name: bounce;">
+                                        <a href="#" class="openModal">Get Started Today</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-second" role="tabpanel"
+                            aria-labelledby="v-pills-second-tab">
+                            <div id="tab-inner-row" class="row">
+                                <div class="col-lg-12">
+                                    <div class="ser-feat-title d-flex">
+                                        <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                                        <h3>Data Management</h3>
+                                    </div>
+                                    <div class="tab-bottom-content">
+                                        <p>Eliminate administrative bottlenecks. We handle the heavy lifting of data and documentation with 99.9% accuracy.</p>
+                                        <ul>
+                                            <li><strong>Data Processing:</strong><p>High-volume entry, validation, and database management.</p></li>
+                                            <li><strong>Financial Outsourcing:</strong><p>Handling payroll, invoicing, and accounts payable/receivable.</p></li>
+                                            <li><strong>Workflow Automation:</strong><p>Digitizing manual tasks for faster turnaround times.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons wow bounce text-center animated"
+                                        style="visibility: visible; animation-name: bounce;">
+                                        <a href="#" class="openModal">Get Started Today</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-third" role="tabpanel"
+                            aria-labelledby="v-pills-third-tab">
+                            <div id="tab-inner-row" class="row">
+                                <div class="col-lg-12">
+                                    <div class="ser-feat-title d-flex">
+                                        <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                                        <h3>Sales & Lead Generation</h3>
+                                    </div>
+                                    <div class="tab-bottom-content">
+                                        <p>Keep your pipeline full without the overhead of an in-house sales floor. We identify, nurture, and convert high-intent prospects.</p>
+                                        <ul>
+                                            <li><strong>B2B/B2C Outreach:</strong><p>Strategic cold calling and email prospecting.</p></li>
+                                            <li><strong>Appointment Setting:</strong><p>Connecting your closers with qualified decision-makers.</p></li>
+                                            <li><strong>Market Intelligence:</strong><p>Deep-dive research into competitor moves and buyer intent.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons wow bounce text-center animated"
+                                        style="visibility: visible; animation-name: bounce;">
+                                        <a href="#" class="openModal">Get Started Today</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-forth" role="tabpanel"
+                            aria-labelledby="v-pills-forth-tab">
+                            <div id="tab-inner-row" class="row">
+                                <div class="col-lg-12">
+                                    <div class="ser-feat-title d-flex">
+                                        <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                                        <h3>Content Moderation</h3>
+                                    </div>
+                                    <div class="tab-bottom-content">
+                                        <p>Protect your brand’s reputation and grow your digital footprint with experts who understand the "human" side of the internet.</p>
+                                        <ul>
+                                            <li><strong>Brand Management:</strong><p>Managing social media interactions and community growth.</p></li>
+                                            <li><strong>Content Filtering:</strong><p>Real-time moderation to keep your platforms safe and compliant.</p></li>
+                                            <li><strong>Performance Marketing:</strong><p>Growth-focused SEO and PPC management.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons wow bounce text-center animated"
+                                        style="visibility: visible; animation-name: bounce;">
+                                        <a href="#" class="openModal">Get Started Today</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-fifth" role="tabpanel"
+                            aria-labelledby="v-pills-fifth-tab">
+                            <div id="tab-inner-row" class="row">
+                                <div class="col-lg-12">
+                                    <div class="ser-feat-title d-flex">
+                                        <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                                        <h3>Virtual Assistant</h3>
+                                    </div>
+                                    <div class="tab-bottom-content">
+                                        <p>Get executive-level assistance without the full-time employee cost. Perfect for busy founders and fast-moving teams.</p>
+                                        <ul>
+                                            <li><strong>Executive Support:</strong><p>Calendar management, travel logistics, and inbox filtering.</p></li>
+                                            <li><strong>Research & Reporting:</strong><p>Generating quick, actionable briefs for business decisions.</p></li>
+                                            <li><strong>Operational Assistance:</strong><p>Managing daily to-do lists and project tracking.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons wow bounce text-center animated"
+                                        style="visibility: visible; animation-name: bounce;">
+                                        <a href="#" class="openModal">Get Started Today</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="service-bullet-parent ">
-                        <h3>Front-End<br> Development</h3>
-                        <p>We translate complex brand visions into high-performance browser experiences using clean, hand-coded architectures. Our approach ignores heavy, bloated libraries in favor of lightweight frameworks that ensure your site hits peak scores on Google’s Core Web Vitals. We prioritize liquid responsiveness and rapid asset loading, ensuring that your interface remains stable and visually sharp across every screen resolution without sacrificing speed.</p>
-                        <ul>
-                            <li>High-performance browser experiences</li>
-                            <li>Clean, hand-coded architectures</li>
-                            <li>Lightweight frameworks</li>
-                        </ul>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section id="rgt-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                        <h2>Custom Web Development</h2>
+                        <p>Your business is unique, and your website should reflect that. At Techifys, our custom web
+                            development services focus on building tailor-made digital platforms from the ground up. We
+                            don't rely on generic templates; instead, we engineer high-performance, scalable websites
+                            using the latest frameworks. Whether you need a complex corporate portal or a sleek
+                            interactive site, our developers ensure your online presence is fast, secure, and perfectly
+                            aligned with your brand identity.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read More</a>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="service-bullet-parent ">
-                        <h3>Back-End<br> Development</h3>
-                        <p>We architect the silent engine behind your digital platform, focusing on heavy-duty server logic and data security. Our backend engineering eliminates system bottlenecks by utilizing optimized database schemas and stateless architectures that can handle massive traffic surges without failure. We prioritize raw processing speed and secure API handshakes, ensuring that every request on your website is executed with millisecond precision while keeping your proprietary data under a hardened shield.</p>
-                        <ul>
-                            <li>Heavy-duty server logic</li>
-                            <li>Data security</li>
-                            <li>Optimized database schemas</li>
-                        </ul>
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/responsive-vector.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lft-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/secure&scable.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                        <h2>CMS Development</h2>
+                        <p>Managing your content should be effortless. Our CMS development solutions empower you to take
+                            full control of your website without needing technical expertise. We specialize in building
+                            and customizing platforms like WordPress, Joomla, and bespoke Content Management Systems
+                            that are intuitive and user-friendly. From organized media libraries to seamless blogging
+                            tools, we provide the backend architecture that makes updating your site a matter of a few
+                            clicks.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rgt-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                        <h2>E-Commerce Development</h2>
+                        <p>Turn your visitors into loyal customers with a robust online store. Our e-commerce
+                            development team focuses on creating conversion-driven shopping experiences that are secure
+                            and easy to navigate. We integrate advanced payment gateways, inventory management systems,
+                            and mobile-responsive product galleries to ensure a smooth checkout process. Whether it’s
+                            Shopify, WooCommerce, or a custom-built shop, Techifys builds scalable stores designed to
+                            maximize your global sales.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/responsive-vector.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="lft-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/secure&scable.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                        <h2>App Development</h2>
+                        <p>Reach your audience wherever they are with high-impact mobile solutions. Our app development
+                            services cover everything from initial UI/UX wireframing to final deployment on iOS and
+                            Android platforms. We build native and cross-platform mobile applications that offer
+                            seamless performance and engaging user interfaces. By focusing on modern features and smooth
+                            navigation, we help your business stay connected with customers through a powerful,
+                            dedicated mobile presence.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
                     </div>
                 </div>
             </div>
