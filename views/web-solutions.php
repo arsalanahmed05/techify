@@ -1259,34 +1259,127 @@
                 </div>
                 <div class="service-feature-slider d-flex">
                     <div class="slide-item">
-                        <h4>Custom Development</h4>
-                        <p>We build tailored websites and applications that perfectly match your business needs,
-                            offering full customization to fit your goals.</p>
+                        <h4>Engineered for Growth:<br> Custom Web Solutions</h4>
+                        <p>Generic templates won't set you apart in a global market. At Techifys, we engineer
+                            high-performance digital assets from the ground up, ensuring every line of code serves your
+                            specific business logic. Our focus is on building secure, lightning-fast platforms that
+                            don't just exist but actively drive your growth.</p>
+                        <ul>
+                            <li>
+                                <strong>Bespoke Architecture:</strong> Tailor-made development built to handle your
+                                unique workflow.
+                            </li>
+                            <li>
+                                <strong>Future-Ready Frameworks:</strong> Utilizing modern stacks that scale as your
+                                user base expands.
+                            </li>
+                            <li>
+                                <strong>Secure API Integrations:</strong> Seamlessly connecting your website with
+                                essential third-party business tools.
+                            </li>
+                        </ul>
                     </div>
                     <div class="slide-item">
-                        <h4>Responsive Design</h4>
-                        <p>Our websites are designed to be fully responsive, ensuring they look great and function
-                            flawlessly across all devices and screen sizes.</p>
+                        <h4>Seamless Experiences <br>Across Every Screen</h4>
+                        <p>In a mobile-first world, your first impression happens on a handheld screen. We prioritize
+                            intuitive <a href="#">UI/UX design</a> to ensure your brand looks flawless and functions
+                            perfectly on
+                            desktops, tablets, and smartphones alike. By eliminating friction in the user journey, we
+                            turn casual visitors into loyal customers through engaging digital environments.</p>
+                        <ul>
+                            <li>
+                                <strong>Adaptive Layouts:</strong> Fully responsive designs that adjust perfectly to any
+                                screen resolution.
+                            </li>
+                            <li>
+                                <strong>Conversion-Centric UI:</strong> Layouts strategically designed to guide users
+                                toward your call-to-action.
+                            </li>
+                            <li>
+                                <strong>Cross-Browser Precision:</strong> Ensuring a consistent and bug-free experience
+                                on Chrome, Safari, and beyond.
+                            </li>
+                        </ul>
                     </div>
                     <div class="slide-item">
-                        <h4>E-commerce Solutions</h4>
-                        <p>We create seamless e-commerce platforms that offer secure payment integrations, inventory
-                            management, and a smooth user experience.</p>
+                        <h4>Precision-Built<br> Digital Foundations</h4>
+                        <p>At Techifys, we move beyond basic templates to build high-performance ecosystems. By
+                            combining <a href="#">Custom Web Development</a> with flexible CMS solutions, we give your
+                            brand a secure
+                            and scalable home that is easy to manage but impossible to ignore.</p>
+                        <ul>
+                            <li>
+                                <strong>Tailored Web Applications:</strong> High-speed, custom-coded platforms built
+                                specifically for your business logic.
+                            </li>
+                            <li>
+                                <strong>Dynamic Content Control:</strong> User-friendly CMS setups that allow you to
+                                update your site in real-time without technical hurdles.
+                            </li>
+                            <li>
+                                <strong>Security-First Approach:</strong> Advanced protection layers to keep your data
+                                and your users' information safe.
+                            </li>
+                        </ul>
                     </div>
                     <div class="slide-item">
-                        <h4>UX/UI Design</h4>
-                        <p>We focus on creating user-friendly designs with a smooth and intuitive interface to keep
-                            your audience engaged and improve conversion rates.</p>
+                        <h4>Data-Driven Design<br> for Global Sales</h4>
+                        <p>Great design is more than just visuals; it’s a strategy for growth. Our UX/UI Design process
+                            focuses on human behavior, while our E-Commerce solutions ensure a frictionless checkout
+                            experience that maximizes your revenue across all devices.</p>
+                        <ul>
+                            <li>
+                                <stong>Conversion-Optimized Stores:</stong>Seamless shopping journeys designed to turn
+                                browsers into buyers.
+                            </li>
+                            <li>
+                                <stong>Adaptive Interface Design:</stong>Flawless Responsive Design that guarantees your
+                                site looks premium on every screen size.
+                            </li>
+                            <li>
+                                <stong>User-Centric Navigation:</stong>Strategic layouts that guide your visitors
+                                exactly where you want them to go.
+                            </li>
+                        </ul>
                     </div>
                     <div class="slide-item">
-                        <h4>Analytics Tracking</h4>
-                        <p>We integrate analytics tools to help you track your website’s performance, user behavior,
-                            and make data-driven decisions for improvements.</p>
+                        <h4>Insights that Drive Growth</h4>
+                        <p>Numbers tell a story, and we make sure you're reading the right one. Instead of just showing
+                            traffic, we set up performance ecosystems that track user intent and conversion paths. By
+                            understanding how visitors interact with your web solutions, we help you make data-backed
+                            decisions that eliminate guesswork and maximize your marketing budget.</p>
+                        <ul>
+                            <li>
+                                <stong>Behavioral Tracking:</stong> Monitor exactly where users click and why they stay
+                                to refine your sales funnel.
+                            </li>
+                            <li>
+                                <stong>Conversion Optimization:</stong> Integrated tracking to identify and fix
+                                bottlenecks in your customer’s journey.
+                            </li>
+                            <li>
+                                <stong>Real-Time Dashboards:</stong> Access clear, actionable data that shows your
+                                brand's global impact at a glance.
+                            </li>
+                        </ul>
                     </div>
                     <div class="slide-item">
-                        <h4>SEO Optimization</h4>
-                        <p>Our web development includes integrated SEO practices, ensuring your website ranks higher
-                            in search engines and attracts more traffic.</p>
+                        <h4>Dominate the Search Results</h4>
+                        <p>Ranking on the first page isn't an accident; it’s an engineering feat. We bake SEO into the
+                            foundation of your website’s code, ensuring lightning-fast load times and mobile perfection.
+                            From technical architecture to keyword strategy, we align your site with Google’s latest
+                            standards to attract high-quality traffic that actually converts into business.</p>
+                        <ul>
+                            <li>
+                                <stong>Technical SEO Core:</stong> Clean, schema-ready code that search engines love to crawl and index.
+                            </li>
+                            <li>
+                                <stong>Speed & Core Web Vitals:</stong> Optimized performance that keeps your bounce rate low and your ranking high.
+                            </li>
+                            <li>
+                                <stong>Authority Building:</stong> Strategically structured content designed to establish your agency as a leader in your niche.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -21,10 +21,7 @@
                             <a href="#"><i class="fa-solid fa-chevron-right"></i>About Us</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Testimonials</a>
+                            <a href="#"><i class="fa-solid fa-chevron-right"></i>Blogs</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa-solid fa-chevron-right"></i>Packages</a>
@@ -38,31 +35,31 @@
                     <h3>Services</h3>
                     <ul class="footer-menu service">
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Graphics
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Graphics
                                 Designing</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Search Engine
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Search Engine
                                 Optimization</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Social Media
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Social Media
                                 Marketing</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
+                            <a href="/web-solutions/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a>
                         </li>
                     </ul>
                 </div>
@@ -941,12 +938,12 @@ OTENZA.goToTop();
 <script>
 $(document).ready(function () {
   $('.service-feature-slider').slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 6000,
+    speed: 9000,
     cssEase: 'linear',
     arrows: false,
     dots: false,

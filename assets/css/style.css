@@ -3804,23 +3804,35 @@ section.deliverables .row {
 .service-feature-slider .slide-item h4 {
     font-size: 22px !important;
     line-height: 32px !important;
+    color: #111 !important;
+    
 }
-
+.service-feature-slider .slide-item ul {
+    padding-left: 10px !important;
+    min-height: 80px;
+}
+.service-feature-slider .slide-item li::marker {
+    color: #0c8d6b !important;
+}
+.service-feature-slider .slide-item li {
+    color: #111 !important;
+}
 .service-feature-slider .slide-item p {
-    color: #111;
-    padding: 0px 20px;
-    min-height: 120px;
+    color: #111 !important;
+    min-height: 140px;
     font-size: 15px !important;
     line-height: 25px !important;
     transition: 0.5s;
 }
-
+.service-feature-slider .slide-item h4 ruby {
+    color: #1aba90 !important;
+    font-weight: bolder !important;
+}
 .service-feature-slider .slide-item {
-    text-align: center;
+    background: linear-gradient(45deg, #fff, #bdbdbd);
     padding: 20px 20px;
     margin: 10px 10px;
     border-radius: 14px;
-    background: linear-gradient(360deg, #1ccd9f, #013e21);
     color: #111;
     transition: 0.5s;
     position: relative;

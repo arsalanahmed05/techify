@@ -28,36 +28,36 @@
                                             <div class="col-md-3 service-block">
                                                 <a href="/web-solutions/"><h4 class="parent-link">Web Solutions</h4></a>
                                                 <ul class="service-child-list">
-                                                    <li><a href="/custom-web-development/">Custom Web Development</a></li>
-                                                    <li><a href="/cms-development/">CMS Development</a></li>
-                                                    <li><a href="/ecommerce-development/">E-Commerce Development</a></li>
-                                                    <li><a href="/app-development/">App Development</a></li>
+                                                    <li><a href="/web-solutions/">Custom Web Development</a></li>
+                                                    <li><a href="/web-solutions/">CMS Development</a></li>
+                                                    <li><a href="/web-solutions/">E-Commerce Development</a></li>
+                                                    <li><a href="/web-solutions/">App Development</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-3 service-block">
-                                                <a href=""><h4 class="parent-link">Digital Marketing</h4></a>
+                                                <a href="/web-solutions/"><h4 class="parent-link">Digital Marketing</h4></a>
                                                 <ul class="service-child-list">
-                                                    <li><a href="/seo/">Search Engine Optimization (SEO)</a></li>
-                                                    <li><a href="/content-writing/">Content Writing</a></li>
-                                                    <li><a href="/social-media/">Social Media Marketing</a></li>
-                                                    <li><a href="/ppc/">PPC Marketing</a></li>
-                                                    <li><a href="/email-marketing/">Email Marketing</a></li>
+                                                    <li><a href="/web-solutions/">Search Engine Optimization (SEO)</a></li>
+                                                    <li><a href="/web-solutions/">Content Writing</a></li>
+                                                    <li><a href="/web-solutions/">Social Media Marketing</a></li>
+                                                    <li><a href="/web-solutions/">PPC Marketing</a></li>
+                                                    <li><a href="/web-solutions/">Email Marketing</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-3 service-block">
-                                                <a href="#"><h4 class="parent-link">Creative & Design</h4></a>
+                                                <a href="/web-solutions/"><h4 class="parent-link">Creative & Design</h4></a>
                                                 <ul class="service-child-list">
-                                                    <li><a href="/graphic-design/">Graphic Designing</a></li>
-                                                    <li><a href="/animation/">Animation</a></li>
+                                                    <li><a href="/web-solutions/">Graphic Designing</a></li>
+                                                    <li><a href="/web-solutions/">Animation</a></li>
                                                     <li><a href="/web-designing/">Web Designing</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-3 service-block">
-                                                <a href="#"><h4 class="parent-link">Business Operations</h4></a>
+                                                <a href="/web-solutions/"><h4 class="parent-link">Business Operations</h4></a>
                                                 <ul class="service-child-list">
-                                                    <li><a href="/customer-support/">Customer Support</a></li>
-                                                    <li><a href="/virtual-assistant/">Virtual Assistant</a></li>
-                                                    <li><a href="/ecommerce-support/">E-commerce Support</a></li>
+                                                    <li><a href="/web-solutions/">Customer Support</a></li>
+                                                    <li><a href="/web-solutions/">Virtual Assistant</a></li>
+                                                    <li><a href="/web-solutions/">E-commerce Support</a></li>
                                                 </ul>
                                             </div>
                                         </div>
