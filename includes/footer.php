@@ -7,7 +7,6 @@
                 <div class="col-md-12">
                     <div class="text-center">
                         <a href="#"><img src="/assets/images/techifys-logo.png" alt=""></a>
-                        <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
                     </div>
                 </div>
             </div>
@@ -935,105 +934,46 @@ OTENZA.goToTop();
     });
 </script>
 
-<script>
-    $(document).ready(function () {
-        $('.service-feature-slider.left').slick({
-            slidesToShow: 3, // Show 4 slides on desktop
-            slidesToScroll: 1,
-            dots: false,
-            autoplay: true,
-            autoplaySpeed: 0,
-            speed: 4000, // Duration of smoothness for sliding (ms)
-            cssEase: 'linear', // Smooth scrolling effect
-            vertical: true, // Enable vertical scrolling
-            verticalSwiping: true, // Enable vertical swipe
-            centerMode: true, // Centering the slides
-            centerPadding: '0', // No padding for centering
-            arrows: false,
-            draggable: true, // Enable dragging
-            swipe: true, // Enable swipe functionality
-            touchMove: true, // Allow touch movement
-            responsive: [{
-                breakpoint: 1025, // Tablet size
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for tablets
-                }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable centering for small screens
-                }
-            }
-            ]
-        });
-    });
-</script>
+
 
 
 
 <script>
-    $(document).ready(function () {
-        // Bottom to top scrolling for service-feature-slider-right
-        $('.service-feature-slider.right').slick({
-            slidesToShow: 3, // Show 4 slides on desktop
-            slidesToScroll: 1,
-            dots: false,
-            autoplay: true,
-            autoplaySpeed: 0,
-            speed: 4000, // Duration of smoothness for sliding (ms)
-            cssEase: 'linear', // Smooth scrolling effect
-            vertical: true, // Enable vertical scrolling
-            verticalSwiping: true, // Enable vertical swipe
-            centerMode: true, // Centering the slides
-            centerPadding: '0', // No padding for centering
-            arrows: false,
-            draggable: true, // Enable dragging
-            swipe: true, // Enable swipe functionality
-            touchMove: true, // Allow touch movement
-            responsive: [{
-                breakpoint: 1025, // Tablet size
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for tablets
-                }
-            },
-            {
-                breakpoint: 768, // Mobile size
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false, // Disable centering for mobile
-                }
-            },
-            {
-                breakpoint: 480, // Extra small mobile devices
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    centerMode: false, // Disable centering for small screens
-                }
-            }
-            ]
-        });
-
-    });
+$(document).ready(function () {
+  $('.service-feature-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 6000,
+    cssEase: 'linear',
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    draggable: false,
+    swipe: false,
+    touchMove: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
 </script>
+
+
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 

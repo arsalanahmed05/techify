@@ -28,8 +28,9 @@
                                             <div class="col-md-3 service-block">
                                                 <a href="/web-solutions/"><h4 class="parent-link">Web Solutions</h4></a>
                                                 <ul class="service-child-list">
-                                                    <li><a href="#">Web Development</a></li>
-                                                    <li><a href="/web-designing/">Web Designing</a></li>
+                                                    <li><a href="/custom-web-development/">Custom Web Development</a></li>
+                                                    <li><a href="/cms-development/">CMS Development</a></li>
+                                                    <li><a href="/ecommerce-development/">E-Commerce Development</a></li>
                                                     <li><a href="/app-development/">App Development</a></li>
                                                 </ul>
                                             </div>
@@ -48,7 +49,7 @@
                                                 <ul class="service-child-list">
                                                     <li><a href="/graphic-design/">Graphic Designing</a></li>
                                                     <li><a href="/animation/">Animation</a></li>
-                                                    <li><a href="/ui-ux/">UI / UX Design</a></li>
+                                                    <li><a href="/web-designing/">Web Designing</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-3 service-block">

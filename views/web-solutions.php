@@ -10,12 +10,18 @@
     <section id="home-banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Web Solutions</h6>
-                    <h1>Streamlining Operations For <br>Your Online Presence</h1>
-                    <p>We provide reliable business process outsourcing solutions designed to improve efficiency, reduce operational costs,<br> and allow businesses to focus on their core objectives. Our experienced teams handle your processes with accuracy, <br> consistency, and accountability.</p>
-                    <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="text-wrapper text-center">
+                        <h6 class="sub-heading">Elevate Your Online Presence</h6>
+                        <h1>Professional Web Solutions</h1>
+                        <p>At Techifys, we specialize in crafting custom web solutions that drive growth and enhance
+                            user experience. From responsive designs to robust e-commerce platforms, our team is
+                            dedicated to delivering websites that not only look great but also perform exceptionally.
+                        </p>
+                    </div>
                 </div>
+                <div class="col-md-3"></div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
                 <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
             </div>
@@ -69,19 +75,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/responsive.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Customer <br>Support</h4>
+                                <h4>Frontend <br>Architecture</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
                             <img src="/assets/images/flexible.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Data <br>Processing</h4>
+                                <h4>Backend <br>Scalability</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/gear.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Call <br>Handling</h4>
+                                <h4>Cloud <br>Deployment</h4>
                             </div>
                         </div>
                     </div>
@@ -96,19 +102,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/ecommerce.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Back-Office <br>Operations</h4>
+                                <h4>Headless <br>CMS</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
                             <img src="/assets/images/target -ser.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Process <br>Management</h4>
+                                <h4>Database <br>Optimization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/fast-processing.png" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Task <br>Automation</h4>
+                                <h4>Cybersecurity <br>Audits</h4>
                             </div>
                         </div>
                     </div>
@@ -277,12 +283,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for
-                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
-                            corporate website, our designs are tailored to captivate your audience and deliver
-                            measurable results. Every website we build is responsive, fast, and aligned with your
-                            business goals.</p>
+                        <h2>Custom Web Development</h2>
+                        <p>Your business is unique, and your website should reflect that. At Techifys, our custom web
+                            development services focus on building tailor-made digital platforms from the ground up. We
+                            don't rely on generic templates; instead, we engineer high-performance, scalable websites
+                            using the latest frameworks. Whether you need a complex corporate portal or a sleek
+                            interactive site, our developers ensure your online presence is fast, secure, and perfectly
+                            aligned with your brand identity.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -304,11 +312,14 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Scalable & Secure <br><ruby>Development</ruby></h2>
-                        <p>We focus on building scalable, secure, and high-performing websites that grow with your
-                            business. Leveraging the latest technologies and coding standards, our web development
-                            services ensure seamless performance, robust security, and easy maintenance. Let us
-                            transform your vision into a digital reality.</p>
+                        <h2>CMS Development</h2>
+                        <p>Managing your content should be effortless. Our CMS development solutions empower you to take
+                            full control of your website without needing technical expertise. We specialize in building
+                            and customizing platforms like WordPress, Joomla, and bespoke Content Management Systems
+                            that are intuitive and user-friendly. From organized media libraries to seamless blogging
+                            tools, we provide the backend architecture that makes updating your site a matter of a few
+                            clicks.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
                     </div>
                 </div>
             </div>
@@ -320,17 +331,44 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for
-                            performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a
-                            corporate website, our designs are tailored to captivate your audience and deliver
-                            measurable results. Every website we build is responsive, fast, and aligned with your
-                            business goals.</p>
+                        <h2>E-Commerce Development</h2>
+                        <p>Turn your visitors into loyal customers with a robust online store. Our e-commerce
+                            development team focuses on creating conversion-driven shopping experiences that are secure
+                            and easy to navigate. We integrate advanced payment gateways, inventory management systems,
+                            and mobile-responsive product galleries to ensure a smooth checkout process. Whether it’s
+                            Shopify, WooCommerce, or a custom-built shop, Techifys builds scalable stores designed to
+                            maximize your global sales.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
                         <img src="/assets/images/responsive-vector.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="lft-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/secure&scable.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                        <h2>App Development</h2>
+                        <p>Reach your audience wherever they are with high-impact mobile solutions. Our app development
+                            services cover everything from initial UI/UX wireframing to final deployment on iOS and
+                            Android platforms. We build native and cross-platform mobile applications that offer
+                            seamless performance and engaging user interfaces. By focusing on modern features and smooth
+                            navigation, we help your business stay connected with customers through a powerful,
+                            dedicated mobile presence.</p>
+                        <a href="/web-solutions/" class="tcf-quote-button">Read more</a>
                     </div>
                 </div>
             </div>
@@ -1213,80 +1251,42 @@
     <section id="service-features">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="text-wrapper">
-                        <h6 class="sub-heading">Features</h6>
-                        <h2>Web Development <br><ruby>Solutions Hub</ruby></h2>
-                        <p>We offer a full range of web development features, from custom designs to robust security,
-                            ensuring a seamless user experience.</p>
-                    </div>
+                <div class="text-wrapper text-center">
+                    <h6 class="sub-heading">Features</h6>
+                    <h2>Web Solutions Hub</h2>
+                    <p>We offer a full range of web solutions features, from custom<br> designs to robust security,
+                        ensuring a seamless user experience.</p>
                 </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider left">
-                        <div class="slide-item">
-                            <h4>Custom Development</h4>
-                            <p>We build tailored websites and applications that perfectly match your business needs,
-                                offering full customization to fit your goals.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Responsive Design</h4>
-                            <p>Our websites are designed to be fully responsive, ensuring they look great and function
-                                flawlessly across all devices and screen sizes.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>E-commerce Solutions</h4>
-                            <p>We create seamless e-commerce platforms that offer secure payment integrations, inventory
-                                management, and a smooth user experience.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>UX/UI Design</h4>
-                            <p>We focus on creating user-friendly designs with a smooth and intuitive interface to keep
-                                your audience engaged and improve conversion rates.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Analytics Tracking</h4>
-                            <p>We integrate analytics tools to help you track your website’s performance, user behavior,
-                                and make data-driven decisions for improvements.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>SEO Optimization</h4>
-                            <p>Our web development includes integrated SEO practices, ensuring your website ranks higher
-                                in search engines and attracts more traffic.</p>
-                        </div>
+                <div class="service-feature-slider d-flex">
+                    <div class="slide-item">
+                        <h4>Custom Development</h4>
+                        <p>We build tailored websites and applications that perfectly match your business needs,
+                            offering full customization to fit your goals.</p>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="service-feature-slider right">
-                        <div class="slide-item">
-                            <h4>API Integrations</h4>
-                            <p>We integrate third-party APIs and services, ensuring your website can easily communicate
-                                and sync with external systems for enhanced functionality.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Maintenance Services</h4>
-                            <p>Our team provides ongoing website maintenance to ensure your site remains up-to-date,
-                                secure, and runs smoothly at all times.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Web Hosting</h4>
-                            <p>We offer reliable web hosting solutions that ensure your site is fast, secure, and always
-                                online with minimal downtime.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Security Features</h4>
-                            <p>We prioritize website security, implementing SSL encryption, firewalls, and other
-                                essential features to protect your data and users.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Fast Load Times</h4>
-                            <p>We optimize your website for speed, ensuring faster load times to enhance user experience
-                                and improve search engine rankings.</p>
-                        </div>
-                        <div class="slide-item">
-                            <h4>Content Management</h4>
-                            <p>We offer powerful content management systems (CMS) that allow you to easily update and
-                                manage your website content without technical expertise.</p>
-                        </div>
+                    <div class="slide-item">
+                        <h4>Responsive Design</h4>
+                        <p>Our websites are designed to be fully responsive, ensuring they look great and function
+                            flawlessly across all devices and screen sizes.</p>
+                    </div>
+                    <div class="slide-item">
+                        <h4>E-commerce Solutions</h4>
+                        <p>We create seamless e-commerce platforms that offer secure payment integrations, inventory
+                            management, and a smooth user experience.</p>
+                    </div>
+                    <div class="slide-item">
+                        <h4>UX/UI Design</h4>
+                        <p>We focus on creating user-friendly designs with a smooth and intuitive interface to keep
+                            your audience engaged and improve conversion rates.</p>
+                    </div>
+                    <div class="slide-item">
+                        <h4>Analytics Tracking</h4>
+                        <p>We integrate analytics tools to help you track your website’s performance, user behavior,
+                            and make data-driven decisions for improvements.</p>
+                    </div>
+                    <div class="slide-item">
+                        <h4>SEO Optimization</h4>
+                        <p>Our web development includes integrated SEO practices, ensuring your website ranks higher
+                            in search engines and attracts more traffic.</p>
                     </div>
                 </div>
             </div>

@@ -11,22 +11,21 @@
 
 
     <section id="services-banner">
-        <div class="container">
+        <div class="container"> 
             <div class="service-banner-slider">
                 <div class="slide-item">
                     <div id="slide-item-row" class="row">
                         <div class="col-lg-12">
                             <div class="text-wrapper text-center">
-                                <h6 class="sub-heading">Developed Business Websites</h6>
-                                <h1>Grow your <br><ruby>digital presence</ruby></h1>
-                                <p>Seamless technology solutions that enhance and empower your<br> brand for lasting
-                                    success and growth.</p>
-                                <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
+                                <h6 class="sub-heading">Scalable Solutions for Global Brands</h6>
+                                <h1>Empowering Brands Through <br>Limitless Digital Innovation.</h1>
+                                <p>From high-performance web development to global marketing strategies, Techifys Design Agency crafts<br> bespoke solutions that scale your business in the digital era.</p>
+                                 <a id="tcf-open-btn" class="tcf-quote-button">Get a Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+    
             </div>
             <div class="motion-img">
                 <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">
@@ -39,41 +38,7 @@
         </div>
     </section>
 
-
-    <section id="trusted-sections">
-        <div class="container-fluid">
-            <div class="section-title text-center">
-                <h2>Trusted By</h2>
-            </div>
-            <div class="row">
-                <div class="trusted-slider">
-                    <div class="slide-item">
-                        <img src="/assets/images/wordpress-logo.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/squarespace.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/wix.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/shopify.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/walmart.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/figma.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/social.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section id="support-partners" style="position: relative !important;">
+    <section id="support-partners" style="position: relative !important;">
         <div class="container-fluid">
             <div class="row">
                 <div class="partner-slider top d-flex">
@@ -138,7 +103,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <section id="process-workflow">
@@ -240,9 +205,9 @@
                         <div class="col-md-3">
                             <div class="milestone">
                                 <ruby>
-                                    <div class="count" data-count="+40"><span>+</span>0</div>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Projects<br> Completed</h4>
+                                <h4>Project<br> Completed</h4>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -253,7 +218,7 @@
                         <div class="col-md-3">
                             <div class="milestone text-end">
                                 <ruby>
-                                    <div class="count" data-count="+40"><span>+</span>0</div>
+                                    <div class="count" data-count="+650"><span>+</span>0</div>
                                 </ruby>
                                 <h4>Client <br>Satisfaction</h4>
                             </div>
@@ -264,17 +229,17 @@
                         <div class="col-md-3">
                             <div class="milestone text-center">
                                 <ruby>
-                                    <div class="count" data-count="+25"><span>+</span>0</div>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Happy <br>Clients</h4>
+                                <h4>Project<br> Completed</h4>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="milestone text-center">
                                 <ruby>
-                                    <div class="count" data-count="+5"><span>+</span>0</div>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
                                 </ruby>
-                                <h4>Creative <br>Experts</h4>
+                                <h4>Project<br> Completed</h4>
                             </div>
                         </div>
                         <div class="col-sm-3"></div>
@@ -309,8 +274,8 @@
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
                             improve customer engagement.</p>
-                        <a id="tcf-open-btn" class="tcf-quote-buttontcf-quote-button">Get a Quote</a>
-
+                        <a href="#"><button class="quote-btn bton"> View
+                                Packages</button></a>
                     </div>
 
                 </div>
@@ -2168,14 +2133,7 @@
     <?php include_once("includes/footer.php") ?>
 
 
-    <!-- <div class="floatbutton">
-        <div class="btns_wrap">
-            <a href="javascript:;" class="chat_wrap chat"> <span>Chat With
-                    Us</span></a>
-            <a href="tel:+11234568790" class="call_wrap"> <span>+1
-                    (234)-456-7890</span></a>
-        </div>
-    </div> -->
+   
 
 
 
@@ -2183,11 +2141,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script>
-        $(function() {
+        $(function () {
             var e = "";
 
             // Filtering functionality
-            $(".fil-cat").click(function() {
+            $(".fil-cat").click(function () {
                 $(".portfolio_list ul li").removeClass("active");
                 $(this).addClass("active");
 
@@ -2196,7 +2154,7 @@
 
                 $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $("." + e).fadeIn().addClass("scale-anm");
                     $("#portfolio").fadeTo(800, 1);
                 }, 300);
